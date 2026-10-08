@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "status": "FROZEN_BEFORE_VALIDATION",
+  "candidate": "v2f-driver-top3-identity-v2",
+  "fingerprint": "13276bb0ec3e8e8a4b153721938ee90b7d0c3caf97436918b44096c5b38ec1b8",
+  "supersedes": {
+    "candidate": "v2f-driver-top3",
+    "fingerprint": "2ce49e4daeb88483c3d040bbce958506e08424ce294f0e6789c0783b141f3d3d",
+    "validationStatus": "NOT_EVALUATED"
+  },
+  "development": {
+    "races": 84,
+    "top1": 22,
+    "top2": 36,
+    "top3": 47,
+    "top5": 62,
+    "rankSum": 314,
+    "averageWinnerRank": 3.738095238095238,
+    "raceComparisonVsV2A": {
+      "improved": 12,
+      "equal": 65,
+      "worse": 7
+    },
+    "meetingTop3VsV2A": {
+      "better": 2,
+      "equal": 10,
+      "worse": 0
+    }
+  },
+  "frozenDesign": {
+    "baseWeight": 0.63,
+    "speedWeight": 0.27,
+    "driverTop3Weight": 0.1,
+    "priorStrength": 10.0,
+    "minimumOtherHorseValidFinishes": 3,
+    "sameHorseRowsExcluded": true,
+    "driverIdentity": "canonical full driver name",
+    "formRowDriverToken": "diagnostic only"
+  },
+  "validationOutcomesConsumed": false
+}

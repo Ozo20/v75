@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": "V2G_TEMPORAL_RECENCY",
+  "decision": "NOT_PROMOTED",
+  "championRemains": "candidate-v2a-speed",
+  "challenger": "candidate-v2g-temporal-recency",
+  "fixedHalfLifeDays": 32.0,
+  "evaluation": {
+    "meetings": 36,
+    "races": 252,
+    "v2a": {
+      "races": 252,
+      "top1": 64,
+      "top2": 114,
+      "top3": 143,
+      "top5": 194,
+      "averageWinnerRank": 3.7023809523809526
+    },
+    "v2g": {
+      "races": 252,
+      "top1": 61,
+      "top2": 105,
+      "top3": 145,
+      "top5": 189,
+      "averageWinnerRank": 3.7738095238095237
+    },
+    "pairedWinnerRank": {
+      "v2gBetter": 66,
+      "equal": 119,
+      "v2gWorse": 67
+    }
+  },
+  "interpretation": {
+    "top3ImprovedBy": 2,
+    "top1ImprovedBy": -3,
+    "top2ImprovedBy": -9,
+    "top5ImprovedBy": -5,
+    "averageWinnerRankDelta": 0.07142857142857117
+  },
+  "guardrails": {
+    "doNotRetuneHalfLifeOnThisDataset": true,
+    "datasetConsumed": true,
+    "cannotPromoteFromThisEvaluation": true,
+    "v2aRemainsFrozenChampion": true
+  },
+  "reason": "Temporal calendar-day decay produced no paired winner-rank advantage and worsened Top1, Top2, Top5 and average winner rank despite a marginal Top3 gain."
+}

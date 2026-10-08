@@ -1,0 +1,605 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": "feature-v2c-horse-driver",
+  "scope": "development-only",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+  ],
+  "identityContract": {
+    "current": "normalized driver.name",
+    "history": "history[].driver",
+    "normalization": "trim whitespace + collapse whitespace + casefold",
+    "driverIdUsed": false,
+    "reason": "six verified raw-program driver ID mismatches"
+  },
+  "featureDesign": {
+    "continuity": {
+      "sameDriverLatestWeight": 0.5,
+      "pairShareWeight": 0.5
+    },
+    "pairEffect": {
+      "minimumPairStarts": 2,
+      "definition": "overallMeanFinish - pairMeanFinish",
+      "shrinkage": "pairCount / (pairCount + 2)",
+      "missingPolicy": "neutral field-relative 0.5"
+    }
+  },
+  "featureStats": {
+    "entries": 918,
+    "sameDriverLatest": 536,
+    "pairAtLeast1": 726,
+    "pairAtLeast2": 611,
+    "pairAtLeast3": 532,
+    "pairEffectAvailable": 608
+  },
+  "variants": {
+    "v2a-speed": {
+      "base": 0.7,
+      "speed": 0.3,
+      "continuity": 0.0,
+      "pairEffect": 0.0
+    },
+    "v2c-continuity": {
+      "base": 0.63,
+      "speed": 0.27,
+      "continuity": 0.1,
+      "pairEffect": 0.0
+    },
+    "v2c-pair-effect": {
+      "base": 0.63,
+      "speed": 0.27,
+      "continuity": 0.0,
+      "pairEffect": 0.1
+    },
+    "v2c-combined": {
+      "base": 0.63,
+      "speed": 0.27,
+      "continuity": 0.05,
+      "pairEffect": 0.05
+    }
+  },
+  "results": {
+    "v2a-speed": {
+      "races": 84,
+      "top1": 20,
+      "top2": 33,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.761904761904762
+    },
+    "v2c-continuity": {
+      "races": 84,
+      "top1": 23,
+      "top2": 34,
+      "top3": 49,
+      "top5": 65,
+      "averageWinnerRank": 3.738095238095238
+    },
+    "v2c-pair-effect": {
+      "races": 84,
+      "top1": 20,
+      "top2": 35,
+      "top3": 44,
+      "top5": 63,
+      "averageWinnerRank": 3.75
+    },
+    "v2c-combined": {
+      "races": 84,
+      "top1": 21,
+      "top2": 34,
+      "top3": 48,
+      "top5": 64,
+      "averageWinnerRank": 3.761904761904762
+    }
+  },
+  "raceComparisonsVsV2A": {
+    "v2c-continuity": {
+      "equal": 58,
+      "improved": 16,
+      "worse": 10
+    },
+    "v2c-pair-effect": {
+      "equal": 64,
+      "improved": 11,
+      "worse": 9
+    },
+    "v2c-combined": {
+      "equal": 64,
+      "improved": 11,
+      "worse": 9
+    }
+  },
+  "meetingTop3ComparisonsVsV2A": {
+    "v2c-continuity": {
+      "equal": 8,
+      "better": 4
+    },
+    "v2c-pair-effect": {
+      "equal": 9,
+      "better": 1,
+      "worse": 2
+    },
+    "v2c-combined": {
+      "equal": 9,
+      "better": 3
+    }
+  },
+  "perMeeting": [
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 5,
+          "top3": 6,
+          "top5": 7,
+          "averageWinnerRank": 2.4285714285714284
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 3,
+          "top2": 6,
+          "top3": 6,
+          "top5": 7,
+          "averageWinnerRank": 2
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 1,
+          "top2": 6,
+          "top3": 6,
+          "top5": 7,
+          "averageWinnerRank": 2.2857142857142856
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 2,
+          "top2": 6,
+          "top3": 6,
+          "top5": 7,
+          "averageWinnerRank": 2.142857142857143
+        }
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "raceDayName": "Bjerke",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.7142857142857144
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.857142857142857
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.5714285714285716
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.7142857142857144
+        }
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 2,
+          "top5": 4,
+          "averageWinnerRank": 4.571428571428571
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 4.428571428571429
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 4.714285714285714
+        }
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "raceDayName": "Forus",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.7142857142857144
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.7142857142857144
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.857142857142857
+        }
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "raceDayName": "Jarlsberg",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 5,
+          "averageWinnerRank": 3.857142857142857
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 3,
+          "top2": 3,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 3.857142857142857
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 4.285714285714286
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 4.142857142857143
+        }
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 4,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 4,
+          "top5": 4,
+          "averageWinnerRank": 5
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 1,
+          "top2": 3,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 4,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        }
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "raceDayName": "Sørlandet",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.7142857142857144
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.7142857142857144
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.7142857142857144
+        }
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "raceDayName": "Biri",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 7,
+          "averageWinnerRank": 3.2857142857142856
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 4,
+          "top5": 7,
+          "averageWinnerRank": 3
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 7,
+          "averageWinnerRank": 3.142857142857143
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 4,
+          "top5": 7,
+          "averageWinnerRank": 3
+        }
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "raceDayName": "Momarken",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 4.857142857142857
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 5
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        }
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "raceDayName": "Bergen",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 5,
+          "top2": 5,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 5,
+          "top2": 5,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 5,
+          "top2": 5,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 5,
+          "top2": 5,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.857142857142857
+        }
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 0,
+          "top3": 1,
+          "top5": 3,
+          "averageWinnerRank": 5.285714285714286
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 0,
+          "top2": 0,
+          "top3": 2,
+          "top5": 5,
+          "averageWinnerRank": 5.285714285714286
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 0,
+          "top2": 0,
+          "top3": 1,
+          "top5": 3,
+          "averageWinnerRank": 5.285714285714286
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 0,
+          "top2": 0,
+          "top3": 1,
+          "top5": 4,
+          "averageWinnerRank": 5.428571428571429
+        }
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "raceDayName": "Jarlsberg",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 3,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.5714285714285716
+        },
+        "v2c-continuity": {
+          "races": 7,
+          "top1": 1,
+          "top2": 3,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 3.2857142857142856
+        },
+        "v2c-pair-effect": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 6,
+          "averageWinnerRank": 3.4285714285714284
+        },
+        "v2c-combined": {
+          "races": 7,
+          "top1": 1,
+          "top2": 3,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 3.2857142857142856
+        }
+      }
+    }
+  ],
+  "guardrails": {
+    "developmentOnly": true,
+    "validationUsed": false,
+    "oldHoldoutUsed": false,
+    "freshSystemSetUsed": false,
+    "marketUsed": false,
+    "annualStatisticsUsed": false,
+    "championModified": false
+  }
+}

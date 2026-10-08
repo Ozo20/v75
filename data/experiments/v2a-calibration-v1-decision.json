@@ -1,0 +1,26 @@
+{
+  "model": "candidate-v2a-speed",
+  "calibration": "softmax-single-beta",
+  "beta": 2.872,
+  "status": "PROVISIONAL_CALIBRATION",
+  "rankingChanged": false,
+  "evidence": {
+    "developmentLogLoss": 2.0950,
+    "developmentUniformLogLoss": 2.3698,
+    "robustnessLogLoss": 2.0130,
+    "robustnessUniformLogLoss": 2.3487,
+    "developmentBrier": 0.8524,
+    "developmentUniformBrier": 0.9042,
+    "robustnessBrier": 0.8324,
+    "robustnessUniformBrier": 0.9024
+  },
+  "knownCalibrationShape": {
+    "top1": "slightly overconfident",
+    "top3": "underconfident on independent robustness",
+    "top5": "underconfident on independent robustness"
+  },
+  "policy": {
+    "doNotRetuneBetaFromRobustness": true,
+    "nextUse": "system coverage diagnostics"
+  }
+}

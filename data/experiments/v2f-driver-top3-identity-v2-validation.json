@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": "v2f-driver-top3-identity-v2-validation",
+  "scope": "locked-validation",
+  "developmentDates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+  ],
+  "validationDates": [
+    "2026-08-29",
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-19"
+  ],
+  "results": {
+    "v2a-speed": {
+      "races": 28,
+      "top1": 9,
+      "top2": 16,
+      "top3": 18,
+      "top5": 24,
+      "averageWinnerRank": 2.9642857142857144
+    },
+    "v2f-driver-top3": {
+      "races": 28,
+      "top1": 10,
+      "top2": 16,
+      "top3": 18,
+      "top5": 24,
+      "averageWinnerRank": 3
+    }
+  },
+  "raceComparisonVsV2A": {
+    "improved": 3,
+    "equal": 22,
+    "worse": 3
+  },
+  "meetingTop3ComparisonVsV2A": {
+    "better": 0,
+    "equal": 4,
+    "worse": 0
+  },
+  "corpusSummary": [
+    {
+      "date": "2026-08-29",
+      "dedupedStarts": 4037,
+      "globalValid": 3052,
+      "globalTop3Rate": 0.5760157273918742
+    },
+    {
+      "date": "2026-09-05",
+      "dedupedStarts": 4316,
+      "globalValid": 3273,
+      "globalTop3Rate": 0.5756186984417965
+    },
+    {
+      "date": "2026-09-12",
+      "dedupedStarts": 4645,
+      "globalValid": 3540,
+      "globalTop3Rate": 0.5768361581920904
+    },
+    {
+      "date": "2026-09-19",
+      "dedupedStarts": 4892,
+      "globalValid": 3721,
+      "globalTop3Rate": 0.5735017468422468
+    }
+  ],
+  "perMeeting": [
+    {
+      "date": "2026-08-29",
+      "raceDayName": "Klosterskogen",
+      "v2a": {
+        "races": 7,
+        "top1": 2,
+        "top2": 3,
+        "top3": 5,
+        "top5": 6,
+        "averageWinnerRank": 3
+      },
+      "v2f": {
+        "races": 7,
+        "top1": 2,
+        "top2": 3,
+        "top3": 5,
+        "top5": 6,
+        "averageWinnerRank": 3.142857142857143
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "raceDayName": "Bergen",
+      "v2a": {
+        "races": 7,
+        "top1": 2,
+        "top2": 4,
+        "top3": 4,
+        "top5": 6,
+        "averageWinnerRank": 3.142857142857143
+      },
+      "v2f": {
+        "races": 7,
+        "top1": 2,
+        "top2": 4,
+        "top3": 4,
+        "top5": 6,
+        "averageWinnerRank": 3.2857142857142856
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "raceDayName": "Bjerke",
+      "v2a": {
+        "races": 7,
+        "top1": 3,
+        "top2": 5,
+        "top3": 5,
+        "top5": 6,
+        "averageWinnerRank": 2.7142857142857144
+      },
+      "v2f": {
+        "races": 7,
+        "top1": 3,
+        "top2": 5,
+        "top3": 5,
+        "top5": 6,
+        "averageWinnerRank": 2.5714285714285716
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "raceDayName": "Forus",
+      "v2a": {
+        "races": 7,
+        "top1": 2,
+        "top2": 4,
+        "top3": 4,
+        "top5": 6,
+        "averageWinnerRank": 3
+      },
+      "v2f": {
+        "races": 7,
+        "top1": 3,
+        "top2": 4,
+        "top3": 4,
+        "top5": 6,
+        "averageWinnerRank": 3
+      }
+    }
+  ],
+  "guardrails": {
+    "candidateFrozenBeforeValidation": true,
+    "weightsFrozenBeforeValidation": true,
+    "sameHorseRowsExcluded": true,
+    "preRaceSnapshotsOnlyForFeatures": true,
+    "historyStrictlyBeforeTarget": true,
+    "validationOutcomesLoadedOnlyAfterScoring": true,
+    "marketUsed": false,
+    "annualStatisticsUsed": false,
+    "developmentRetunedAfterValidation": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0",
+  "scope": "development-only-read-only",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+  ],
+  "entries": 918,
+  "historyRows": 4579,
+  "currentIdentity": {
+    "horseRegistrationCoverage": 1.0,
+    "driverIdCoverage": 1.0,
+    "driverNameCoverage": 1.0,
+    "uniqueDriverIds": 151,
+    "uniqueDriverNames": 152
+  },
+  "identityConsistency": {
+    "idsWithMultipleNames": 6,
+    "namesWithMultipleIds": 3,
+    "uniqueNameToIdMappings": 149
+  },
+  "historicalIdentity": {
+    "driverNameCoverage": 1.0,
+    "rowsMappedToStableCurrentId": 3762,
+    "mappedCoverage": 0.8215767634854771,
+    "uniqueHistoricalNames": 300
+  },
+  "horseDriverContinuity": {
+    "sameDriverLatest": 477,
+    "sameDriverLatestRate": 0.5196078431372549,
+    "atLeast1": 726,
+    "atLeast1Rate": 0.7908496732026143,
+    "atLeast2": 611,
+    "atLeast2Rate": 0.6655773420479303,
+    "atLeast3": 532,
+    "atLeast3Rate": 0.579520697167756,
+    "repeatDistribution": {
+      "1": 115,
+      "4": 185,
+      "5": 244,
+      "3": 103,
+      "0": 192,
+      "2": 79
+    }
+  },
+  "guardrails": {
+    "outcomesRead": false,
+    "marketRead": false,
+    "modelChanged": false
+  }
+}

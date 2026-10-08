@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "entries": 918,
+  "entriesWithHistory": 918,
+  "shoes": {
+    "previousPresent": 764,
+    "latestHistoryPresent": 765,
+    "comparable": 764,
+    "match": 760,
+    "mismatch": 4,
+    "transitions": {
+      "Both->None": 54,
+      "Both->Both": 350,
+      "Hind->Both": 26,
+      "None->None": 122,
+      "Hind->None": 15,
+      "Hind->Hind": 70,
+      "Fore->Fore": 12,
+      "Both->Hind": 23,
+      "Both->Fore": 27,
+      "None->Both": 32,
+      "Fore->None": 2,
+      "None->Fore": 4,
+      "Fore->Both": 14,
+      "None->Hind": 13
+    }
+  },
+  "sulky": {
+    "previousPresent": 918,
+    "latestHistoryPresent": 747,
+    "comparable": 747,
+    "match": 745,
+    "mismatch": 2,
+    "noSulkyDiagnostic": {
+      "total": 171,
+      "latestSulkyMissing": 170,
+      "latestMonteTrue": 16,
+      "latestSulky=StandardSulky": 1
+    },
+    "transitions": {
+      "StandardSulky->StandardSulky": 412,
+      "AmericanSulky->StandardSulky": 60,
+      "NoSulky->StandardSulky": 115,
+      "AmericanSulky->AmericanSulky": 193,
+      "NoSulky->AmericanSulky": 55,
+      "StandardSulky->AmericanSulky": 82,
+      "NoSulky->NoSulky": 1
+    }
+  },
+  "guardrails": {
+    "developmentOnly": true,
+    "outcomesRead": false,
+    "marketRead": false,
+    "validationUsed": false,
+    "modelChanged": false
+  }
+}

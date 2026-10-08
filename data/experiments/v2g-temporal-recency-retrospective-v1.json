@@ -1,0 +1,1807 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": "v2g-temporal-recency-retrospective-v1",
+  "status": "RETROSPECTIVE_DIAGNOSTIC_ONLY",
+  "model": "candidate-v2g-temporal-recency",
+  "halfLifeDays": 32.0,
+  "halfLifeSelection": "2 x 16-day median historical inter-start gap; fixed before outcome scoring",
+  "weights": {
+    "baseline": 0.7,
+    "speed": 0.3
+  },
+  "v2a": {
+    "races": 252,
+    "top1": 64,
+    "top2": 114,
+    "top3": 143,
+    "top5": 194,
+    "averageWinnerRank": 3.7023809523809526
+  },
+  "v2g": {
+    "races": 252,
+    "top1": 61,
+    "top2": 105,
+    "top3": 145,
+    "top5": 189,
+    "averageWinnerRank": 3.7738095238095237
+  },
+  "pairedWinnerRank": {
+    "v2gBetter": 66,
+    "equal": 119,
+    "v2gWorse": 67
+  },
+  "races": [
+    {
+      "date": "2026-01-13",
+      "leg": 1,
+      "winnerStartNumber": 6,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-01-13",
+      "leg": 2,
+      "winnerStartNumber": 1,
+      "v2aRank": 6,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-01-13",
+      "leg": 3,
+      "winnerStartNumber": 3,
+      "v2aRank": 3,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-01-13",
+      "leg": 4,
+      "winnerStartNumber": 4,
+      "v2aRank": 15,
+      "v2gRank": 14
+    },
+    {
+      "date": "2026-01-13",
+      "leg": 5,
+      "winnerStartNumber": 2,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-01-13",
+      "leg": 6,
+      "winnerStartNumber": 2,
+      "v2aRank": 2,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-01-13",
+      "leg": 7,
+      "winnerStartNumber": 2,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-01-20",
+      "leg": 1,
+      "winnerStartNumber": 5,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-01-20",
+      "leg": 2,
+      "winnerStartNumber": 5,
+      "v2aRank": 6,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-01-20",
+      "leg": 3,
+      "winnerStartNumber": 1,
+      "v2aRank": 6,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-01-20",
+      "leg": 4,
+      "winnerStartNumber": 4,
+      "v2aRank": 5,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-01-20",
+      "leg": 5,
+      "winnerStartNumber": 9,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-01-20",
+      "leg": 6,
+      "winnerStartNumber": 6,
+      "v2aRank": 4,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-01-20",
+      "leg": 7,
+      "winnerStartNumber": 11,
+      "v2aRank": 1,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-01-27",
+      "leg": 1,
+      "winnerStartNumber": 5,
+      "v2aRank": 8,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-01-27",
+      "leg": 2,
+      "winnerStartNumber": 3,
+      "v2aRank": 9,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-01-27",
+      "leg": 3,
+      "winnerStartNumber": 3,
+      "v2aRank": 2,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-01-27",
+      "leg": 4,
+      "winnerStartNumber": 6,
+      "v2aRank": 8,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-01-27",
+      "leg": 5,
+      "winnerStartNumber": 2,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-01-27",
+      "leg": 6,
+      "winnerStartNumber": 2,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-01-27",
+      "leg": 7,
+      "winnerStartNumber": 12,
+      "v2aRank": 5,
+      "v2gRank": 9
+    },
+    {
+      "date": "2026-02-03",
+      "leg": 1,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-02-03",
+      "leg": 2,
+      "winnerStartNumber": 6,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-02-03",
+      "leg": 3,
+      "winnerStartNumber": 6,
+      "v2aRank": 4,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-02-03",
+      "leg": 4,
+      "winnerStartNumber": 1,
+      "v2aRank": 4,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-02-03",
+      "leg": 5,
+      "winnerStartNumber": 9,
+      "v2aRank": 5,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-02-03",
+      "leg": 6,
+      "winnerStartNumber": 1,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-02-03",
+      "leg": 7,
+      "winnerStartNumber": 8,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-02-10",
+      "leg": 1,
+      "winnerStartNumber": 1,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-02-10",
+      "leg": 2,
+      "winnerStartNumber": 2,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-02-10",
+      "leg": 3,
+      "winnerStartNumber": 1,
+      "v2aRank": 6,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-02-10",
+      "leg": 4,
+      "winnerStartNumber": 2,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-02-10",
+      "leg": 5,
+      "winnerStartNumber": 3,
+      "v2aRank": 5,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-02-10",
+      "leg": 6,
+      "winnerStartNumber": 1,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-02-10",
+      "leg": 7,
+      "winnerStartNumber": 8,
+      "v2aRank": 4,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-02-17",
+      "leg": 1,
+      "winnerStartNumber": 3,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-02-17",
+      "leg": 2,
+      "winnerStartNumber": 13,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-02-17",
+      "leg": 3,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-02-17",
+      "leg": 4,
+      "winnerStartNumber": 9,
+      "v2aRank": 5,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-02-17",
+      "leg": 5,
+      "winnerStartNumber": 4,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-02-17",
+      "leg": 6,
+      "winnerStartNumber": 6,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-02-17",
+      "leg": 7,
+      "winnerStartNumber": 2,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-02-24",
+      "leg": 1,
+      "winnerStartNumber": 6,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-02-24",
+      "leg": 2,
+      "winnerStartNumber": 8,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-02-24",
+      "leg": 3,
+      "winnerStartNumber": 10,
+      "v2aRank": 7,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-02-24",
+      "leg": 4,
+      "winnerStartNumber": 2,
+      "v2aRank": 7,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-02-24",
+      "leg": 5,
+      "winnerStartNumber": 6,
+      "v2aRank": 4,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-02-24",
+      "leg": 6,
+      "winnerStartNumber": 9,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-02-24",
+      "leg": 7,
+      "winnerStartNumber": 7,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-03-03",
+      "leg": 1,
+      "winnerStartNumber": 3,
+      "v2aRank": 8,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-03-03",
+      "leg": 2,
+      "winnerStartNumber": 7,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-03-03",
+      "leg": 3,
+      "winnerStartNumber": 3,
+      "v2aRank": 6,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-03-03",
+      "leg": 4,
+      "winnerStartNumber": 4,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-03-03",
+      "leg": 5,
+      "winnerStartNumber": 7,
+      "v2aRank": 5,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-03-03",
+      "leg": 6,
+      "winnerStartNumber": 7,
+      "v2aRank": 6,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-03-03",
+      "leg": 7,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-03-10",
+      "leg": 1,
+      "winnerStartNumber": 3,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-03-10",
+      "leg": 2,
+      "winnerStartNumber": 2,
+      "v2aRank": 8,
+      "v2gRank": 10
+    },
+    {
+      "date": "2026-03-10",
+      "leg": 3,
+      "winnerStartNumber": 5,
+      "v2aRank": 10,
+      "v2gRank": 10
+    },
+    {
+      "date": "2026-03-10",
+      "leg": 4,
+      "winnerStartNumber": 1,
+      "v2aRank": 5,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-03-10",
+      "leg": 5,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-03-10",
+      "leg": 6,
+      "winnerStartNumber": 1,
+      "v2aRank": 9,
+      "v2gRank": 9
+    },
+    {
+      "date": "2026-03-10",
+      "leg": 7,
+      "winnerStartNumber": 6,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-03-17",
+      "leg": 1,
+      "winnerStartNumber": 2,
+      "v2aRank": 5,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-03-17",
+      "leg": 2,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-03-17",
+      "leg": 3,
+      "winnerStartNumber": 7,
+      "v2aRank": 4,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-03-17",
+      "leg": 4,
+      "winnerStartNumber": 1,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-03-17",
+      "leg": 5,
+      "winnerStartNumber": 6,
+      "v2aRank": 5,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-03-17",
+      "leg": 6,
+      "winnerStartNumber": 9,
+      "v2aRank": 2,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-03-17",
+      "leg": 7,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-03-24",
+      "leg": 1,
+      "winnerStartNumber": 1,
+      "v2aRank": 3,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-03-24",
+      "leg": 2,
+      "winnerStartNumber": 3,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-03-24",
+      "leg": 3,
+      "winnerStartNumber": 4,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-03-24",
+      "leg": 4,
+      "winnerStartNumber": 2,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-03-24",
+      "leg": 5,
+      "winnerStartNumber": 6,
+      "v2aRank": 6,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-03-24",
+      "leg": 6,
+      "winnerStartNumber": 3,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-03-24",
+      "leg": 7,
+      "winnerStartNumber": 6,
+      "v2aRank": 4,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-03-31",
+      "leg": 1,
+      "winnerStartNumber": 5,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-03-31",
+      "leg": 2,
+      "winnerStartNumber": 10,
+      "v2aRank": 5,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-03-31",
+      "leg": 3,
+      "winnerStartNumber": 5,
+      "v2aRank": 4,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-03-31",
+      "leg": 4,
+      "winnerStartNumber": 11,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-03-31",
+      "leg": 5,
+      "winnerStartNumber": 4,
+      "v2aRank": 5,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-03-31",
+      "leg": 6,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-03-31",
+      "leg": 7,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-04-07",
+      "leg": 1,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-07",
+      "leg": 2,
+      "winnerStartNumber": 5,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-04-07",
+      "leg": 3,
+      "winnerStartNumber": 5,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-04-07",
+      "leg": 4,
+      "winnerStartNumber": 12,
+      "v2aRank": 3,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-04-07",
+      "leg": 5,
+      "winnerStartNumber": 6,
+      "v2aRank": 4,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-04-07",
+      "leg": 6,
+      "winnerStartNumber": 10,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-07",
+      "leg": 7,
+      "winnerStartNumber": 2,
+      "v2aRank": 6,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-04-14",
+      "leg": 1,
+      "winnerStartNumber": 10,
+      "v2aRank": 5,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-04-14",
+      "leg": 2,
+      "winnerStartNumber": 12,
+      "v2aRank": 2,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-14",
+      "leg": 3,
+      "winnerStartNumber": 9,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-04-14",
+      "leg": 4,
+      "winnerStartNumber": 5,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-14",
+      "leg": 5,
+      "winnerStartNumber": 5,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-04-14",
+      "leg": 6,
+      "winnerStartNumber": 5,
+      "v2aRank": 2,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-04-14",
+      "leg": 7,
+      "winnerStartNumber": 8,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-04-21",
+      "leg": 1,
+      "winnerStartNumber": 4,
+      "v2aRank": 4,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-04-21",
+      "leg": 2,
+      "winnerStartNumber": 9,
+      "v2aRank": 3,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-21",
+      "leg": 3,
+      "winnerStartNumber": 3,
+      "v2aRank": 5,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-04-21",
+      "leg": 4,
+      "winnerStartNumber": 5,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-04-21",
+      "leg": 5,
+      "winnerStartNumber": 1,
+      "v2aRank": 3,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-04-21",
+      "leg": 6,
+      "winnerStartNumber": 4,
+      "v2aRank": 7,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-04-21",
+      "leg": 7,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-28",
+      "leg": 1,
+      "winnerStartNumber": 6,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-28",
+      "leg": 2,
+      "winnerStartNumber": 1,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-04-28",
+      "leg": 3,
+      "winnerStartNumber": 1,
+      "v2aRank": 4,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-04-28",
+      "leg": 4,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-28",
+      "leg": 5,
+      "winnerStartNumber": 2,
+      "v2aRank": 2,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-04-28",
+      "leg": 6,
+      "winnerStartNumber": 3,
+      "v2aRank": 3,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-04-28",
+      "leg": 7,
+      "winnerStartNumber": 1,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-05",
+      "leg": 1,
+      "winnerStartNumber": 3,
+      "v2aRank": 5,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-05-05",
+      "leg": 2,
+      "winnerStartNumber": 6,
+      "v2aRank": 2,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-05-05",
+      "leg": 3,
+      "winnerStartNumber": 11,
+      "v2aRank": 6,
+      "v2gRank": 10
+    },
+    {
+      "date": "2026-05-05",
+      "leg": 4,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-05",
+      "leg": 5,
+      "winnerStartNumber": 8,
+      "v2aRank": 4,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-05-05",
+      "leg": 6,
+      "winnerStartNumber": 10,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-05",
+      "leg": 7,
+      "winnerStartNumber": 10,
+      "v2aRank": 8,
+      "v2gRank": 9
+    },
+    {
+      "date": "2026-05-12",
+      "leg": 1,
+      "winnerStartNumber": 5,
+      "v2aRank": 3,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-05-12",
+      "leg": 2,
+      "winnerStartNumber": 5,
+      "v2aRank": 8,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-05-12",
+      "leg": 3,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-12",
+      "leg": 4,
+      "winnerStartNumber": 1,
+      "v2aRank": 3,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-12",
+      "leg": 5,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-12",
+      "leg": 6,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-12",
+      "leg": 7,
+      "winnerStartNumber": 8,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-19",
+      "leg": 1,
+      "winnerStartNumber": 9,
+      "v2aRank": 5,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-05-19",
+      "leg": 2,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-05-19",
+      "leg": 3,
+      "winnerStartNumber": 8,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-05-19",
+      "leg": 4,
+      "winnerStartNumber": 8,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-19",
+      "leg": 5,
+      "winnerStartNumber": 3,
+      "v2aRank": 5,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-05-19",
+      "leg": 6,
+      "winnerStartNumber": 11,
+      "v2aRank": 1,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-05-19",
+      "leg": 7,
+      "winnerStartNumber": 12,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-05-26",
+      "leg": 1,
+      "winnerStartNumber": 6,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-05-26",
+      "leg": 2,
+      "winnerStartNumber": 3,
+      "v2aRank": 7,
+      "v2gRank": 11
+    },
+    {
+      "date": "2026-05-26",
+      "leg": 3,
+      "winnerStartNumber": 8,
+      "v2aRank": 6,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-05-26",
+      "leg": 4,
+      "winnerStartNumber": 11,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-26",
+      "leg": 5,
+      "winnerStartNumber": 1,
+      "v2aRank": 2,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-05-26",
+      "leg": 6,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-05-26",
+      "leg": 7,
+      "winnerStartNumber": 8,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-06-02",
+      "leg": 1,
+      "winnerStartNumber": 7,
+      "v2aRank": 2,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-06-02",
+      "leg": 2,
+      "winnerStartNumber": 4,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-06-02",
+      "leg": 3,
+      "winnerStartNumber": 4,
+      "v2aRank": 3,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-06-02",
+      "leg": 4,
+      "winnerStartNumber": 2,
+      "v2aRank": 3,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-06-02",
+      "leg": 5,
+      "winnerStartNumber": 6,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-06-02",
+      "leg": 6,
+      "winnerStartNumber": 3,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-06-02",
+      "leg": 7,
+      "winnerStartNumber": 9,
+      "v2aRank": 4,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-06-09",
+      "leg": 1,
+      "winnerStartNumber": 5,
+      "v2aRank": 8,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-06-09",
+      "leg": 2,
+      "winnerStartNumber": 4,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-06-09",
+      "leg": 3,
+      "winnerStartNumber": 3,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-06-09",
+      "leg": 4,
+      "winnerStartNumber": 1,
+      "v2aRank": 9,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-06-09",
+      "leg": 5,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-06-09",
+      "leg": 6,
+      "winnerStartNumber": 6,
+      "v2aRank": 5,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-06-09",
+      "leg": 7,
+      "winnerStartNumber": 1,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-06-23",
+      "leg": 1,
+      "winnerStartNumber": 7,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-06-23",
+      "leg": 2,
+      "winnerStartNumber": 5,
+      "v2aRank": 5,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-06-23",
+      "leg": 3,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-06-23",
+      "leg": 4,
+      "winnerStartNumber": 2,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-06-23",
+      "leg": 5,
+      "winnerStartNumber": 10,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-06-23",
+      "leg": 6,
+      "winnerStartNumber": 9,
+      "v2aRank": 8,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-06-23",
+      "leg": 7,
+      "winnerStartNumber": 3,
+      "v2aRank": 4,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-06-30",
+      "leg": 1,
+      "winnerStartNumber": 6,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-06-30",
+      "leg": 2,
+      "winnerStartNumber": 1,
+      "v2aRank": 4,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-06-30",
+      "leg": 3,
+      "winnerStartNumber": 5,
+      "v2aRank": 12,
+      "v2gRank": 11
+    },
+    {
+      "date": "2026-06-30",
+      "leg": 4,
+      "winnerStartNumber": 3,
+      "v2aRank": 6,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-06-30",
+      "leg": 5,
+      "winnerStartNumber": 11,
+      "v2aRank": 2,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-06-30",
+      "leg": 6,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-06-30",
+      "leg": 7,
+      "winnerStartNumber": 2,
+      "v2aRank": 11,
+      "v2gRank": 11
+    },
+    {
+      "date": "2026-07-07",
+      "leg": 1,
+      "winnerStartNumber": 4,
+      "v2aRank": 4,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-07-07",
+      "leg": 2,
+      "winnerStartNumber": 4,
+      "v2aRank": 1,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-07-07",
+      "leg": 3,
+      "winnerStartNumber": 7,
+      "v2aRank": 9,
+      "v2gRank": 9
+    },
+    {
+      "date": "2026-07-07",
+      "leg": 4,
+      "winnerStartNumber": 8,
+      "v2aRank": 9,
+      "v2gRank": 11
+    },
+    {
+      "date": "2026-07-07",
+      "leg": 5,
+      "winnerStartNumber": 3,
+      "v2aRank": 3,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-07-07",
+      "leg": 6,
+      "winnerStartNumber": 4,
+      "v2aRank": 6,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-07-07",
+      "leg": 7,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-07-14",
+      "leg": 1,
+      "winnerStartNumber": 3,
+      "v2aRank": 3,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-07-14",
+      "leg": 2,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-07-14",
+      "leg": 3,
+      "winnerStartNumber": 6,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-07-14",
+      "leg": 4,
+      "winnerStartNumber": 6,
+      "v2aRank": 10,
+      "v2gRank": 10
+    },
+    {
+      "date": "2026-07-14",
+      "leg": 5,
+      "winnerStartNumber": 4,
+      "v2aRank": 2,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-07-14",
+      "leg": 6,
+      "winnerStartNumber": 11,
+      "v2aRank": 3,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-07-14",
+      "leg": 7,
+      "winnerStartNumber": 1,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-07-21",
+      "leg": 1,
+      "winnerStartNumber": 2,
+      "v2aRank": 2,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-07-21",
+      "leg": 2,
+      "winnerStartNumber": 6,
+      "v2aRank": 8,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-07-21",
+      "leg": 3,
+      "winnerStartNumber": 10,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-07-21",
+      "leg": 4,
+      "winnerStartNumber": 8,
+      "v2aRank": 4,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-07-21",
+      "leg": 5,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-07-21",
+      "leg": 6,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-07-21",
+      "leg": 7,
+      "winnerStartNumber": 2,
+      "v2aRank": 9,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-08-04",
+      "leg": 1,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-08-04",
+      "leg": 2,
+      "winnerStartNumber": 5,
+      "v2aRank": 3,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-08-04",
+      "leg": 3,
+      "winnerStartNumber": 5,
+      "v2aRank": 11,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-08-04",
+      "leg": 4,
+      "winnerStartNumber": 13,
+      "v2aRank": 1,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-08-04",
+      "leg": 5,
+      "winnerStartNumber": 4,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-08-04",
+      "leg": 6,
+      "winnerStartNumber": 11,
+      "v2aRank": 5,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-08-04",
+      "leg": 7,
+      "winnerStartNumber": 10,
+      "v2aRank": 6,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-08-11",
+      "leg": 1,
+      "winnerStartNumber": 10,
+      "v2aRank": 2,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-08-11",
+      "leg": 2,
+      "winnerStartNumber": 6,
+      "v2aRank": 7,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-08-11",
+      "leg": 3,
+      "winnerStartNumber": 9,
+      "v2aRank": 5,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-08-11",
+      "leg": 4,
+      "winnerStartNumber": 1,
+      "v2aRank": 3,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-08-11",
+      "leg": 5,
+      "winnerStartNumber": 7,
+      "v2aRank": 3,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-08-11",
+      "leg": 6,
+      "winnerStartNumber": 5,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-08-11",
+      "leg": 7,
+      "winnerStartNumber": 4,
+      "v2aRank": 4,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-08-18",
+      "leg": 1,
+      "winnerStartNumber": 8,
+      "v2aRank": 7,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-08-18",
+      "leg": 2,
+      "winnerStartNumber": 7,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-08-18",
+      "leg": 3,
+      "winnerStartNumber": 1,
+      "v2aRank": 1,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-08-18",
+      "leg": 4,
+      "winnerStartNumber": 8,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-08-18",
+      "leg": 5,
+      "winnerStartNumber": 5,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-08-18",
+      "leg": 6,
+      "winnerStartNumber": 7,
+      "v2aRank": 10,
+      "v2gRank": 10
+    },
+    {
+      "date": "2026-08-18",
+      "leg": 7,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-08-25",
+      "leg": 1,
+      "winnerStartNumber": 2,
+      "v2aRank": 6,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-08-25",
+      "leg": 2,
+      "winnerStartNumber": 6,
+      "v2aRank": 7,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-08-25",
+      "leg": 3,
+      "winnerStartNumber": 8,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-08-25",
+      "leg": 4,
+      "winnerStartNumber": 10,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-08-25",
+      "leg": 5,
+      "winnerStartNumber": 6,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-08-25",
+      "leg": 6,
+      "winnerStartNumber": 4,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-08-25",
+      "leg": 7,
+      "winnerStartNumber": 3,
+      "v2aRank": 6,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-09-01",
+      "leg": 1,
+      "winnerStartNumber": 11,
+      "v2aRank": 11,
+      "v2gRank": 9
+    },
+    {
+      "date": "2026-09-01",
+      "leg": 2,
+      "winnerStartNumber": 6,
+      "v2aRank": 5,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-09-01",
+      "leg": 3,
+      "winnerStartNumber": 1,
+      "v2aRank": 2,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-09-01",
+      "leg": 4,
+      "winnerStartNumber": 10,
+      "v2aRank": 7,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-09-01",
+      "leg": 5,
+      "winnerStartNumber": 1,
+      "v2aRank": 9,
+      "v2gRank": 8
+    },
+    {
+      "date": "2026-09-01",
+      "leg": 6,
+      "winnerStartNumber": 11,
+      "v2aRank": 5,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-09-01",
+      "leg": 7,
+      "winnerStartNumber": 5,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-09-08",
+      "leg": 1,
+      "winnerStartNumber": 8,
+      "v2aRank": 3,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-09-08",
+      "leg": 2,
+      "winnerStartNumber": 8,
+      "v2aRank": 8,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-09-08",
+      "leg": 3,
+      "winnerStartNumber": 6,
+      "v2aRank": 10,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-09-08",
+      "leg": 4,
+      "winnerStartNumber": 3,
+      "v2aRank": 8,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-09-08",
+      "leg": 5,
+      "winnerStartNumber": 6,
+      "v2aRank": 9,
+      "v2gRank": 9
+    },
+    {
+      "date": "2026-09-08",
+      "leg": 6,
+      "winnerStartNumber": 8,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-09-08",
+      "leg": 7,
+      "winnerStartNumber": 9,
+      "v2aRank": 9,
+      "v2gRank": 9
+    },
+    {
+      "date": "2026-09-15",
+      "leg": 1,
+      "winnerStartNumber": 6,
+      "v2aRank": 4,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-09-15",
+      "leg": 2,
+      "winnerStartNumber": 3,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-09-15",
+      "leg": 3,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-09-15",
+      "leg": 4,
+      "winnerStartNumber": 9,
+      "v2aRank": 7,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-09-15",
+      "leg": 5,
+      "winnerStartNumber": 7,
+      "v2aRank": 2,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-09-15",
+      "leg": 6,
+      "winnerStartNumber": 12,
+      "v2aRank": 3,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-09-15",
+      "leg": 7,
+      "winnerStartNumber": 4,
+      "v2aRank": 3,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-09-22",
+      "leg": 1,
+      "winnerStartNumber": 1,
+      "v2aRank": 4,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-09-22",
+      "leg": 2,
+      "winnerStartNumber": 12,
+      "v2aRank": 2,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-09-22",
+      "leg": 3,
+      "winnerStartNumber": 2,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-09-22",
+      "leg": 4,
+      "winnerStartNumber": 11,
+      "v2aRank": 8,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-09-22",
+      "leg": 5,
+      "winnerStartNumber": 4,
+      "v2aRank": 7,
+      "v2gRank": 5
+    },
+    {
+      "date": "2026-09-22",
+      "leg": 6,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-09-22",
+      "leg": 7,
+      "winnerStartNumber": 6,
+      "v2aRank": 6,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-09-29",
+      "leg": 1,
+      "winnerStartNumber": 1,
+      "v2aRank": 7,
+      "v2gRank": 7
+    },
+    {
+      "date": "2026-09-29",
+      "leg": 2,
+      "winnerStartNumber": 7,
+      "v2aRank": 2,
+      "v2gRank": 2
+    },
+    {
+      "date": "2026-09-29",
+      "leg": 3,
+      "winnerStartNumber": 7,
+      "v2aRank": 1,
+      "v2gRank": 1
+    },
+    {
+      "date": "2026-09-29",
+      "leg": 4,
+      "winnerStartNumber": 2,
+      "v2aRank": 6,
+      "v2gRank": 4
+    },
+    {
+      "date": "2026-09-29",
+      "leg": 5,
+      "winnerStartNumber": 5,
+      "v2aRank": 2,
+      "v2gRank": 3
+    },
+    {
+      "date": "2026-09-29",
+      "leg": 6,
+      "winnerStartNumber": 12,
+      "v2aRank": 3,
+      "v2gRank": 6
+    },
+    {
+      "date": "2026-09-29",
+      "leg": 7,
+      "winnerStartNumber": 6,
+      "v2aRank": 4,
+      "v2gRank": 3
+    }
+  ],
+  "guardrails": {
+    "v2aUnchanged": true,
+    "halfLifeOutcomeTuned": false,
+    "marketUsed": false,
+    "outcomesUsedAsModelInput": false,
+    "datasetAlreadyConsumed": true,
+    "eligibleForAutomaticPromotion": false
+  }
+}

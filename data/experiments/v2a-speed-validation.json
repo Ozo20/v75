@@ -1,0 +1,25 @@
+{
+  "scope": "locked-validation",
+  "dates": [
+    "2026-08-29",
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-19"
+  ],
+  "baseline": {
+    "top1": 8,
+    "top2": 13,
+    "top3": 16,
+    "top5": 22,
+    "averageWinnerRank": 3.5357142857142856,
+    "races": 28
+  },
+  "candidate": {
+    "top1": 9,
+    "top2": 16,
+    "top3": 18,
+    "top5": 24,
+    "averageWinnerRank": 2.9642857142857144,
+    "races": 28
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "candidate": "v2b-context",
+  "status": "NOT_PROMOTED",
+  "currentChampion": "baseline-safe-v1",
+  "comparisonCandidate": "v2a-speed",
+  "developmentResult": {
+    "safeV1": {
+      "top3": 42,
+      "top5": 60,
+      "averageWinnerRank": 4.23
+    },
+    "v2aSpeed": {
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.76
+    },
+    "v2bContext": {
+      "top3": 46,
+      "top5": 63,
+      "averageWinnerRank": 3.82
+    }
+  },
+  "reason": "Context speed improved Top-2 and Top-3 slightly versus V2A, but did not improve Top-5 or average winner rank. Result is mixed.",
+  "policy": {
+    "doNotTuneContextThresholdsOnExistingDevelopment": true,
+    "priorValidationAndHoldoutRemainSpent": true
+  }
+}

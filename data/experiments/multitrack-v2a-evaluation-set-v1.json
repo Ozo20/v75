@@ -1,0 +1,883 @@
+{
+  "schemaVersion": "1.0",
+  "evaluationSet": "MULTITRACK_V2A_RETROSPECTIVE_V1",
+  "status": "FROZEN_UNTOUCHED_RETROSPECTIVE_EVALUATION",
+  "horseModel": "candidate-v2a-speed",
+  "horseModelSha256": "464306a193db1499edce2255806219b12ab0687ff547935ba2cd29741e31c674",
+  "meetingCount": 36,
+  "maximumRaceCount": 252,
+  "meetings": [
+    {
+      "date": "2026-01-13",
+      "raceDayKey": "JA_NR_2026-01-13",
+      "raceDayName": "Jarlsberg",
+      "poolKey": "JA_NR_2026-01-13#V75#4",
+      "raceKeys": [
+        "JA_NR_2026-01-13#4",
+        "S2_NR_2026-01-13#7",
+        "JA_NR_2026-01-13#5",
+        "S2_NR_2026-01-13#8",
+        "JA_NR_2026-01-13#6",
+        "S2_NR_2026-01-13#9",
+        "JA_NR_2026-01-13#7"
+      ],
+      "raceNumbers": [
+        4,
+        7,
+        5,
+        8,
+        6,
+        9,
+        7
+      ]
+    },
+    {
+      "date": "2026-01-20",
+      "raceDayKey": "BJ_NR_2026-01-20",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-01-20#V75#6",
+      "raceKeys": [
+        "BJ_NR_2026-01-20#6",
+        "S2_NR_2026-01-20#7",
+        "BJ_NR_2026-01-20#7",
+        "S2_NR_2026-01-20#8",
+        "BJ_NR_2026-01-20#8",
+        "S2_NR_2026-01-20#9",
+        "BJ_NR_2026-01-20#9"
+      ],
+      "raceNumbers": [
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "date": "2026-01-27",
+      "raceDayKey": "BJ_NR_2026-01-27",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-01-27#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-01-27#5",
+        "S2_NR_2026-01-27#7",
+        "BJ_NR_2026-01-27#6",
+        "S2_NR_2026-01-27#8",
+        "BJ_NR_2026-01-27#7",
+        "S2_NR_2026-01-27#9",
+        "BJ_NR_2026-01-27#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "raceDayKey": "BJ_NR_2026-02-03",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-02-03#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-02-03#5",
+        "S2_NR_2026-02-03#7",
+        "BJ_NR_2026-02-03#6",
+        "S2_NR_2026-02-03#8",
+        "BJ_NR_2026-02-03#7",
+        "S2_NR_2026-02-03#9",
+        "BJ_NR_2026-02-03#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-02-10",
+      "raceDayKey": "JA_NR_2026-02-10",
+      "raceDayName": "Jarlsberg",
+      "poolKey": "JA_NR_2026-02-10#V75#4",
+      "raceKeys": [
+        "JA_NR_2026-02-10#4",
+        "S2_NR_2026-02-10#7",
+        "JA_NR_2026-02-10#5",
+        "S2_NR_2026-02-10#8",
+        "JA_NR_2026-02-10#6",
+        "S2_NR_2026-02-10#9",
+        "JA_NR_2026-02-10#7"
+      ],
+      "raceNumbers": [
+        4,
+        7,
+        5,
+        8,
+        6,
+        9,
+        7
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "raceDayKey": "FO_NR_2026-02-17",
+      "raceDayName": "Forus",
+      "poolKey": "FO_NR_2026-02-17#V75#7",
+      "raceKeys": [
+        "FO_NR_2026-02-17#7",
+        "S2_NR_2026-02-17#7",
+        "FO_NR_2026-02-17#8",
+        "S2_NR_2026-02-17#8",
+        "FO_NR_2026-02-17#9",
+        "S2_NR_2026-02-17#9",
+        "FO_NR_2026-02-17#10"
+      ],
+      "raceNumbers": [
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-02-24",
+      "raceDayKey": "BJ_NR_2026-02-24",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-02-24#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-02-24#5",
+        "S2_NR_2026-02-24#7",
+        "BJ_NR_2026-02-24#6",
+        "S2_NR_2026-02-24#8",
+        "BJ_NR_2026-02-24#7",
+        "S2_NR_2026-02-24#9",
+        "BJ_NR_2026-02-24#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "raceDayKey": "JA_NR_2026-03-03",
+      "raceDayName": "Jarlsberg",
+      "poolKey": "JA_NR_2026-03-03#V75#5",
+      "raceKeys": [
+        "JA_NR_2026-03-03#5",
+        "S2_NR_2026-03-03#7",
+        "JA_NR_2026-03-03#6",
+        "S2_NR_2026-03-03#8",
+        "JA_NR_2026-03-03#7",
+        "S2_NR_2026-03-03#9",
+        "JA_NR_2026-03-03#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "raceDayKey": "OR_NR_2026-03-10",
+      "raceDayName": "Varig Orkla",
+      "poolKey": "OR_NR_2026-03-10#V75#7",
+      "raceKeys": [
+        "OR_NR_2026-03-10#7",
+        "S2_NR_2026-03-10#7",
+        "OR_NR_2026-03-10#8",
+        "S2_NR_2026-03-10#8",
+        "OR_NR_2026-03-10#9",
+        "S2_NR_2026-03-10#9",
+        "OR_NR_2026-03-10#10"
+      ],
+      "raceNumbers": [
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "raceDayKey": "BJ_NR_2026-03-17",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-03-17#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-03-17#5",
+        "S2_NR_2026-03-17#7",
+        "BJ_NR_2026-03-17#6",
+        "S2_NR_2026-03-17#8",
+        "BJ_NR_2026-03-17#7",
+        "S2_NR_2026-03-17#9",
+        "BJ_NR_2026-03-17#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "raceDayKey": "BJ_NR_2026-03-24",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-03-24#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-03-24#5",
+        "S2_NR_2026-03-24#7",
+        "BJ_NR_2026-03-24#6",
+        "S2_NR_2026-03-24#8",
+        "BJ_NR_2026-03-24#7",
+        "S2_NR_2026-03-24#9",
+        "BJ_NR_2026-03-24#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "raceDayKey": "BJ_NR_2026-03-31",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-03-31#V75#4",
+      "raceKeys": [
+        "BJ_NR_2026-03-31#4",
+        "S2_NR_2026-03-31#7",
+        "BJ_NR_2026-03-31#5",
+        "S2_NR_2026-03-31#8",
+        "BJ_NR_2026-03-31#6",
+        "S2_NR_2026-03-31#9",
+        "BJ_NR_2026-03-31#7"
+      ],
+      "raceNumbers": [
+        4,
+        7,
+        5,
+        8,
+        6,
+        9,
+        7
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "raceDayKey": "BJ_NR_2026-04-07",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-04-07#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-04-07#5",
+        "S2_NR_2026-04-07#7",
+        "BJ_NR_2026-04-07#6",
+        "S2_NR_2026-04-07#8",
+        "BJ_NR_2026-04-07#7",
+        "S2_NR_2026-04-07#9",
+        "BJ_NR_2026-04-07#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "raceDayKey": "OR_NR_2026-04-14",
+      "raceDayName": "Varig Orkla",
+      "poolKey": "OR_NR_2026-04-14#V75#7",
+      "raceKeys": [
+        "OR_NR_2026-04-14#7",
+        "S2_NR_2026-04-14#7",
+        "OR_NR_2026-04-14#8",
+        "S2_NR_2026-04-14#8",
+        "OR_NR_2026-04-14#9",
+        "S2_NR_2026-04-14#9",
+        "OR_NR_2026-04-14#10"
+      ],
+      "raceNumbers": [
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "raceDayKey": "BJ_NR_2026-04-21",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-04-21#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-04-21#5",
+        "S2_NR_2026-04-21#7",
+        "BJ_NR_2026-04-21#6",
+        "S2_NR_2026-04-21#8",
+        "BJ_NR_2026-04-21#7",
+        "S2_NR_2026-04-21#9",
+        "BJ_NR_2026-04-21#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "raceDayKey": "BJ_NR_2026-04-28",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-04-28#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-04-28#5",
+        "S2_NR_2026-04-28#7",
+        "BJ_NR_2026-04-28#6",
+        "S2_NR_2026-04-28#8",
+        "BJ_NR_2026-04-28#7",
+        "S2_NR_2026-04-28#9",
+        "BJ_NR_2026-04-28#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "raceDayKey": "OR_NR_2026-05-05",
+      "raceDayName": "Varig Orkla",
+      "poolKey": "OR_NR_2026-05-05#V75#6",
+      "raceKeys": [
+        "OR_NR_2026-05-05#6",
+        "S3_NR_2026-05-05#7",
+        "OR_NR_2026-05-05#7",
+        "S3_NR_2026-05-05#8",
+        "OR_NR_2026-05-05#8",
+        "S3_NR_2026-05-05#9",
+        "OR_NR_2026-05-05#9"
+      ],
+      "raceNumbers": [
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "date": "2026-05-12",
+      "raceDayKey": "BJ_NR_2026-05-12",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-05-12#V75#6",
+      "raceKeys": [
+        "BJ_NR_2026-05-12#6",
+        "S2_NR_2026-05-12#7",
+        "BJ_NR_2026-05-12#7",
+        "S2_NR_2026-05-12#8",
+        "BJ_NR_2026-05-12#8",
+        "S2_NR_2026-05-12#9",
+        "BJ_NR_2026-05-12#9"
+      ],
+      "raceNumbers": [
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "date": "2026-05-19",
+      "raceDayKey": "BJ_NR_2026-05-19",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-05-19#V75#7",
+      "raceKeys": [
+        "BJ_NR_2026-05-19#7",
+        "S2_NR_2026-05-19#7",
+        "BJ_NR_2026-05-19#8",
+        "S2_NR_2026-05-19#8",
+        "BJ_NR_2026-05-19#9",
+        "S2_NR_2026-05-19#9",
+        "BJ_NR_2026-05-19#10"
+      ],
+      "raceNumbers": [
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-05-26",
+      "raceDayKey": "BJ_NR_2026-05-26",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-05-26#V75#6",
+      "raceKeys": [
+        "BJ_NR_2026-05-26#6",
+        "S2_NR_2026-05-26#7",
+        "BJ_NR_2026-05-26#7",
+        "S2_NR_2026-05-26#8",
+        "BJ_NR_2026-05-26#8",
+        "S2_NR_2026-05-26#9",
+        "BJ_NR_2026-05-26#9"
+      ],
+      "raceNumbers": [
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "date": "2026-06-02",
+      "raceDayKey": "BJ_NR_2026-06-02",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-06-02#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-06-02#5",
+        "S2_NR_2026-06-02#7",
+        "BJ_NR_2026-06-02#6",
+        "S2_NR_2026-06-02#8",
+        "BJ_NR_2026-06-02#7",
+        "S2_NR_2026-06-02#9",
+        "BJ_NR_2026-06-02#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "raceDayKey": "OR_NR_2026-06-09",
+      "raceDayName": "Varig Orkla",
+      "poolKey": "OR_NR_2026-06-09#V75#7",
+      "raceKeys": [
+        "OR_NR_2026-06-09#7",
+        "S2_NR_2026-06-09#7",
+        "OR_NR_2026-06-09#8",
+        "S2_NR_2026-06-09#8",
+        "OR_NR_2026-06-09#9",
+        "S2_NR_2026-06-09#9",
+        "OR_NR_2026-06-09#10"
+      ],
+      "raceNumbers": [
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "raceDayKey": "JA_NR_2026-06-23",
+      "raceDayName": "Jarlsberg",
+      "poolKey": "JA_NR_2026-06-23#V75#4",
+      "raceKeys": [
+        "JA_NR_2026-06-23#4",
+        "S2_NR_2026-06-23#7",
+        "JA_NR_2026-06-23#5",
+        "S2_NR_2026-06-23#8",
+        "JA_NR_2026-06-23#6",
+        "S2_NR_2026-06-23#9",
+        "JA_NR_2026-06-23#7"
+      ],
+      "raceNumbers": [
+        4,
+        7,
+        5,
+        8,
+        6,
+        9,
+        7
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "raceDayKey": "OR_NR_2026-06-30",
+      "raceDayName": "Varig Orkla",
+      "poolKey": "OR_NR_2026-06-30#V75#8",
+      "raceKeys": [
+        "OR_NR_2026-06-30#8",
+        "S2_NR_2026-06-30#7",
+        "OR_NR_2026-06-30#9",
+        "S2_NR_2026-06-30#8",
+        "OR_NR_2026-06-30#10",
+        "S2_NR_2026-06-30#9",
+        "OR_NR_2026-06-30#11"
+      ],
+      "raceNumbers": [
+        8,
+        7,
+        9,
+        8,
+        10,
+        9,
+        11
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "raceDayKey": "FO_NR_2026-07-07",
+      "raceDayName": "Forus",
+      "poolKey": "FO_NR_2026-07-07#V75#7",
+      "raceKeys": [
+        "FO_NR_2026-07-07#7",
+        "S3_NR_2026-07-07#7",
+        "FO_NR_2026-07-07#8",
+        "S3_NR_2026-07-07#8",
+        "FO_NR_2026-07-07#9",
+        "S3_NR_2026-07-07#9",
+        "FO_NR_2026-07-07#10"
+      ],
+      "raceNumbers": [
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "raceDayKey": "BI_NR_2026-07-14",
+      "raceDayName": "Biri",
+      "poolKey": "BI_NR_2026-07-14#V75#5",
+      "raceKeys": [
+        "BI_NR_2026-07-14#5",
+        "S2_NR_2026-07-14#7",
+        "BI_NR_2026-07-14#6",
+        "S2_NR_2026-07-14#8",
+        "BI_NR_2026-07-14#7",
+        "S2_NR_2026-07-14#9",
+        "BI_NR_2026-07-14#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "raceDayKey": "JA_NR_2026-07-21",
+      "raceDayName": "Jarlsberg",
+      "poolKey": "JA_NR_2026-07-21#V75#4",
+      "raceKeys": [
+        "JA_NR_2026-07-21#4",
+        "S2_NR_2026-07-21#7",
+        "JA_NR_2026-07-21#5",
+        "S2_NR_2026-07-21#8",
+        "JA_NR_2026-07-21#6",
+        "S2_NR_2026-07-21#9",
+        "JA_NR_2026-07-21#7"
+      ],
+      "raceNumbers": [
+        4,
+        7,
+        5,
+        8,
+        6,
+        9,
+        7
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "raceDayKey": "BI_NR_2026-08-04",
+      "raceDayName": "Biri",
+      "poolKey": "BI_NR_2026-08-04#V75#6",
+      "raceKeys": [
+        "BI_NR_2026-08-04#6",
+        "S2_NR_2026-08-04#8",
+        "BI_NR_2026-08-04#7",
+        "S2_NR_2026-08-04#9",
+        "BI_NR_2026-08-04#8",
+        "S2_NR_2026-08-04#10",
+        "BI_NR_2026-08-04#9"
+      ],
+      "raceNumbers": [
+        6,
+        8,
+        7,
+        9,
+        8,
+        10,
+        9
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "raceDayKey": "BJ_NR_2026-08-11",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-08-11#V75#6",
+      "raceKeys": [
+        "BJ_NR_2026-08-11#6",
+        "S2_NR_2026-08-11#7",
+        "BJ_NR_2026-08-11#7",
+        "S2_NR_2026-08-11#8",
+        "BJ_NR_2026-08-11#8",
+        "S2_NR_2026-08-11#9",
+        "BJ_NR_2026-08-11#9"
+      ],
+      "raceNumbers": [
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "raceDayKey": "BJ_NR_2026-08-18",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-08-18#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-08-18#5",
+        "S2_NR_2026-08-18#7",
+        "BJ_NR_2026-08-18#6",
+        "S2_NR_2026-08-18#8",
+        "BJ_NR_2026-08-18#7",
+        "S2_NR_2026-08-18#9",
+        "BJ_NR_2026-08-18#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "raceDayKey": "ST_NR_2026-08-25",
+      "raceDayName": "Sørlandet",
+      "poolKey": "ST_NR_2026-08-25#V75#4",
+      "raceKeys": [
+        "ST_NR_2026-08-25#4",
+        "S2_NR_2026-08-25#9",
+        "ST_NR_2026-08-25#5",
+        "S2_NR_2026-08-25#10",
+        "ST_NR_2026-08-25#6",
+        "S2_NR_2026-08-25#11",
+        "ST_NR_2026-08-25#7"
+      ],
+      "raceNumbers": [
+        4,
+        9,
+        5,
+        10,
+        6,
+        11,
+        7
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "raceDayKey": "BJ_NR_2026-09-01",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-09-01#V75#6",
+      "raceKeys": [
+        "BJ_NR_2026-09-01#6",
+        "S2_NR_2026-09-01#7",
+        "BJ_NR_2026-09-01#7",
+        "S2_NR_2026-09-01#8",
+        "BJ_NR_2026-09-01#8",
+        "S2_NR_2026-09-01#9",
+        "BJ_NR_2026-09-01#9"
+      ],
+      "raceNumbers": [
+        6,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "raceDayKey": "BJ_NR_2026-09-08",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-09-08#V75#3",
+      "raceKeys": [
+        "BJ_NR_2026-09-08#3",
+        "S2_NR_2026-09-08#7",
+        "BJ_NR_2026-09-08#4",
+        "S2_NR_2026-09-08#8",
+        "BJ_NR_2026-09-08#5",
+        "S2_NR_2026-09-08#9",
+        "BJ_NR_2026-09-08#6"
+      ],
+      "raceNumbers": [
+        3,
+        7,
+        4,
+        8,
+        5,
+        9,
+        6
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "raceDayKey": "JA_NR_2026-09-15",
+      "raceDayName": "Jarlsberg",
+      "poolKey": "JA_NR_2026-09-15#V75#5",
+      "raceKeys": [
+        "JA_NR_2026-09-15#5",
+        "S2_NR_2026-09-15#7",
+        "JA_NR_2026-09-15#6",
+        "S2_NR_2026-09-15#8",
+        "JA_NR_2026-09-15#7",
+        "S2_NR_2026-09-15#9",
+        "JA_NR_2026-09-15#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "raceDayKey": "BJ_NR_2026-09-22",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-09-22#V75#4",
+      "raceKeys": [
+        "BJ_NR_2026-09-22#4",
+        "S2_NR_2026-09-22#7",
+        "BJ_NR_2026-09-22#5",
+        "S2_NR_2026-09-22#8",
+        "BJ_NR_2026-09-22#6",
+        "S2_NR_2026-09-22#9",
+        "BJ_NR_2026-09-22#7"
+      ],
+      "raceNumbers": [
+        4,
+        7,
+        5,
+        8,
+        6,
+        9,
+        7
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "raceDayKey": "BJ_NR_2026-09-29",
+      "raceDayName": "Bjerke",
+      "poolKey": "BJ_NR_2026-09-29#V75#5",
+      "raceKeys": [
+        "BJ_NR_2026-09-29#5",
+        "S2_NR_2026-09-29#7",
+        "BJ_NR_2026-09-29#6",
+        "S2_NR_2026-09-29#8",
+        "BJ_NR_2026-09-29#7",
+        "S2_NR_2026-09-29#9",
+        "BJ_NR_2026-09-29#8"
+      ],
+      "raceNumbers": [
+        5,
+        7,
+        6,
+        8,
+        7,
+        9,
+        8
+      ]
+    }
+  ],
+  "guardrails": {
+    "modelFrozenBeforeScoring": true,
+    "allMeetingsFrozenBeforeScoring": true,
+    "partialResultsMayNotBeUsedForRetuning": true,
+    "completeSetMustBeScoredBeforeModelDecision": true,
+    "resultsAvailabilityPreviouslyProbed": true,
+    "winnerOutcomesUsedForModelSelectionBeforeFreeze": false
+  }
+}

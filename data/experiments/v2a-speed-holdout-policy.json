@@ -1,0 +1,24 @@
+{
+  "candidate": "candidate-v2a-speed",
+  "candidateWeights": {
+    "safeBaseline": 0.70,
+    "speed": 0.30
+  },
+  "holdoutDates": [
+    "2026-09-26",
+    "2026-10-03"
+  ],
+  "primaryCriteria": {
+    "top3Hits": "candidate >= baseline",
+    "averageWinnerRank": "candidate <= baseline"
+  },
+  "secondaryCriterion": {
+    "top5Hits": "candidate >= baseline"
+  },
+  "interpretation": {
+    "PASS": "both primary criteria satisfied",
+    "STRONG_PASS": "both primary criteria and secondary criterion satisfied",
+    "MIXED": "one or more primary criteria not satisfied"
+  },
+  "rule": "Do not change candidate weights after viewing holdout."
+}

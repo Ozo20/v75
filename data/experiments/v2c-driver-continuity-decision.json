@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "candidate": "v2c-driver-continuity",
+  "fingerprint": "3a616aa168115912f7b784142ca75b5213980e27d5c2e302cab98594401720b1",
+  "baselineChampion": "v2a-speed",
+  "status": "NOT_PROMOTED",
+  "decision": "Driver continuity improved development results but did not generalize on locked validation.",
+  "development": {
+    "v2a-speed": {
+      "races": 84,
+      "top1": 20,
+      "top2": 33,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.761904761904762
+    },
+    "v2c-continuity": {
+      "races": 84,
+      "top1": 23,
+      "top2": 34,
+      "top3": 49,
+      "top5": 65,
+      "averageWinnerRank": 3.738095238095238
+    },
+    "v2c-pair-effect": {
+      "races": 84,
+      "top1": 20,
+      "top2": 35,
+      "top3": 44,
+      "top5": 63,
+      "averageWinnerRank": 3.75
+    },
+    "v2c-combined": {
+      "races": 84,
+      "top1": 21,
+      "top2": 34,
+      "top3": 48,
+      "top5": 64,
+      "averageWinnerRank": 3.761904761904762
+    }
+  },
+  "validation": {
+    "v2a-speed": {
+      "races": 28,
+      "top1": 9,
+      "top2": 16,
+      "top3": 18,
+      "top5": 24,
+      "averageWinnerRank": 2.9642857142857144
+    },
+    "v2c-continuity": {
+      "races": 28,
+      "top1": 9,
+      "top2": 16,
+      "top3": 17,
+      "top5": 24,
+      "averageWinnerRank": 3
+    }
+  },
+  "validationRaceComparison": {
+    "improved": 2,
+    "equal": 23,
+    "worse": 3
+  },
+  "validationMeetingTop3Comparison": {
+    "better": 0,
+    "equal": 3,
+    "worse": 1
+  },
+  "interpretation": {
+    "developmentSignalObserved": true,
+    "validationConfirmed": false,
+    "retuneFromValidation": false,
+    "futureRevisitAllowed": true,
+    "championRemains": "v2a-speed"
+  }
+}

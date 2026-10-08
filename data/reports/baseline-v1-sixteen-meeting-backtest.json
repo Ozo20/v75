@@ -1,0 +1,317 @@
+{
+  "schemaVersion": "1.0",
+  "model": "baseline-v1",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22",
+    "2026-08-29",
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-19"
+  ],
+  "meetings": [
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "legs": 7,
+      "model": {
+        "top1": 2,
+        "top2": 2,
+        "top3": 3,
+        "averageWinnerRank": 3.5714285714285716
+      },
+      "market": {
+        "available": 7,
+        "top1": 3,
+        "top2": 5,
+        "top3": 6
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "raceDayName": "Bjerke",
+      "legs": 7,
+      "model": {
+        "top1": 4,
+        "top2": 5,
+        "top3": 5,
+        "averageWinnerRank": 2.142857142857143
+      },
+      "market": {
+        "available": 7,
+        "top1": 4,
+        "top2": 6,
+        "top3": 6
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "legs": 7,
+      "model": {
+        "top1": 4,
+        "top2": 6,
+        "top3": 6,
+        "averageWinnerRank": 3
+      },
+      "market": {
+        "available": 7,
+        "top1": 2,
+        "top2": 2,
+        "top3": 5
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "raceDayName": "Forus",
+      "legs": 7,
+      "model": {
+        "top1": 4,
+        "top2": 6,
+        "top3": 6,
+        "averageWinnerRank": 1.7142857142857142
+      },
+      "market": {
+        "available": 7,
+        "top1": 4,
+        "top2": 6,
+        "top3": 6
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "raceDayName": "Jarlsberg",
+      "legs": 7,
+      "model": {
+        "top1": 2,
+        "top2": 3,
+        "top3": 4,
+        "averageWinnerRank": 3.142857142857143
+      },
+      "market": {
+        "available": 7,
+        "top1": 3,
+        "top2": 3,
+        "top3": 4
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "legs": 7,
+      "model": {
+        "top1": 1,
+        "top2": 4,
+        "top3": 4,
+        "averageWinnerRank": 4.571428571428571
+      },
+      "market": {
+        "available": 7,
+        "top1": 3,
+        "top2": 4,
+        "top3": 4
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "raceDayName": "Sørlandet",
+      "legs": 7,
+      "model": {
+        "top1": 2,
+        "top2": 3,
+        "top3": 6,
+        "averageWinnerRank": 3
+      },
+      "market": {
+        "available": 7,
+        "top1": 2,
+        "top2": 6,
+        "top3": 6
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "raceDayName": "Biri",
+      "legs": 7,
+      "model": {
+        "top1": 1,
+        "top2": 4,
+        "top3": 4,
+        "averageWinnerRank": 4
+      },
+      "market": {
+        "available": 7,
+        "top1": 4,
+        "top2": 6,
+        "top3": 6
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "raceDayName": "Momarken",
+      "legs": 7,
+      "model": {
+        "top1": 2,
+        "top2": 3,
+        "top3": 5,
+        "averageWinnerRank": 3.2857142857142856
+      },
+      "market": {
+        "available": 7,
+        "top1": 3,
+        "top2": 5,
+        "top3": 5
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "raceDayName": "Bergen",
+      "legs": 7,
+      "model": {
+        "top1": 3,
+        "top2": 5,
+        "top3": 6,
+        "averageWinnerRank": 2.7142857142857144
+      },
+      "market": {
+        "available": 7,
+        "top1": 1,
+        "top2": 4,
+        "top3": 6
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "legs": 7,
+      "model": {
+        "top1": 0,
+        "top2": 1,
+        "top3": 3,
+        "averageWinnerRank": 4
+      },
+      "market": {
+        "available": 7,
+        "top1": 2,
+        "top2": 5,
+        "top3": 5
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "raceDayName": "Jarlsberg",
+      "legs": 7,
+      "model": {
+        "top1": 3,
+        "top2": 4,
+        "top3": 4,
+        "averageWinnerRank": 2.857142857142857
+      },
+      "market": {
+        "available": 7,
+        "top1": 1,
+        "top2": 3,
+        "top3": 5
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "raceDayName": "Klosterskogen",
+      "legs": 7,
+      "model": {
+        "top1": 2,
+        "top2": 4,
+        "top3": 5,
+        "averageWinnerRank": 2.857142857142857
+      },
+      "market": {
+        "available": 7,
+        "top1": 5,
+        "top2": 6,
+        "top3": 6
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "raceDayName": "Bergen",
+      "legs": 7,
+      "model": {
+        "top1": 3,
+        "top2": 5,
+        "top3": 6,
+        "averageWinnerRank": 2.2857142857142856
+      },
+      "market": {
+        "available": 7,
+        "top1": 2,
+        "top2": 4,
+        "top3": 5
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "raceDayName": "Bjerke",
+      "legs": 7,
+      "model": {
+        "top1": 3,
+        "top2": 3,
+        "top3": 3,
+        "averageWinnerRank": 4.285714285714286
+      },
+      "market": {
+        "available": 7,
+        "top1": 5,
+        "top2": 6,
+        "top3": 7
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "raceDayName": "Forus",
+      "legs": 7,
+      "model": {
+        "top1": 2,
+        "top2": 5,
+        "top3": 6,
+        "averageWinnerRank": 2.142857142857143
+      },
+      "market": {
+        "available": 7,
+        "top1": 3,
+        "top2": 6,
+        "top3": 7
+      }
+    }
+  ],
+  "aggregate": {
+    "meetings": 16,
+    "legs": 112,
+    "model": {
+      "top1Hits": 38,
+      "top2Hits": 63,
+      "top3Hits": 76,
+      "top1Rate": 0.3392857142857143,
+      "top2Rate": 0.5625,
+      "top3Rate": 0.6785714285714286,
+      "averageWinnerRank": 3.0982142857142856
+    },
+    "market": {
+      "available": 112,
+      "top1Hits": 47,
+      "top2Hits": 77,
+      "top3Hits": 89,
+      "averageWinnerRank": 2.3125
+    },
+    "randomTop3ExpectedHits": 32.11756576756578
+  }
+}

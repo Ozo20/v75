@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "model": "baseline-safe-v1",
+  "meetings": 12,
+  "legs": 84,
+  "modelMetrics": {
+    "top1Hits": 18,
+    "top2Hits": 31,
+    "top3Hits": 42,
+    "top1Rate": 0.21428571428571427,
+    "top2Rate": 0.36904761904761907,
+    "top3Rate": 0.5,
+    "averageWinnerRank": 4.226190476190476
+  },
+  "marketMetrics": {
+    "available": 84,
+    "top1Hits": 32,
+    "top2Hits": 55,
+    "top3Hits": 64,
+    "averageWinnerRank": 2.4047619047619047
+  },
+  "randomTop3ExpectedHits": 24.145163170163176
+}

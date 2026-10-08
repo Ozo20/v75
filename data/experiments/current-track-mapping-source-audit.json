@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+  ],
+  "guardrails": {
+    "outcomesRead": false,
+    "marketRead": false,
+    "validationUsed": false,
+    "modelChanged": false
+  }
+}

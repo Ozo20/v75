@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "totals": {
+    "entries": 918,
+    "normalizedProgramIdMatch": 918,
+    "normalizedProgramNameMatch": 918,
+    "uniqueStartsMatch": 918,
+    "programStartsIdMatch": 912,
+    "programStartsNameMatch": 918,
+    "programStartsIdMismatch": 6
+  },
+  "ambiguousIdToName": {
+    "normalized": {
+      "8111": [
+        "per vetle kals",
+        "åsbjørn tengsareid"
+      ],
+      "42598": [
+        "tom erik solberg",
+        "vidar hop"
+      ],
+      "29265": [
+        "lars anvar kolle",
+        "vidar hop"
+      ],
+      "30057946": [
+        "henrik kihle",
+        "vidar hop"
+      ],
+      "5501": [
+        "marielle g. stigen",
+        "per johansen"
+      ],
+      "30040437": [
+        "mari pallin mjøen",
+        "ragnhild bjørnbeth"
+      ]
+    },
+    "rawProgram": {
+      "8111": [
+        "per vetle kals",
+        "åsbjørn tengsareid"
+      ],
+      "42598": [
+        "tom erik solberg",
+        "vidar hop"
+      ],
+      "29265": [
+        "lars anvar kolle",
+        "vidar hop"
+      ],
+      "30057946": [
+        "henrik kihle",
+        "vidar hop"
+      ],
+      "5501": [
+        "marielle g. stigen",
+        "per johansen"
+      ],
+      "30040437": [
+        "mari pallin mjøen",
+        "ragnhild bjørnbeth"
+      ]
+    },
+    "rawStarts": {}
+  },
+  "examples": {
+    "programStartsMismatch": [
+      {
+        "date": "2026-06-16",
+        "leg": 5,
+        "horse": "Horg Faxen",
+        "horseId": "578001020160413",
+        "program": {
+          "id": "8111",
+          "name": "per vetle kals"
+        },
+        "starts": {
+          "id": "30031175",
+          "name": "per vetle kals"
+        }
+      },
+      {
+        "date": "2026-06-20",
+        "leg": 3,
+        "horse": "Cobol Infinity (S)",
+        "horseId": "75200211S202023",
+        "program": {
+          "id": "42598",
+          "name": "vidar hop"
+        },
+        "starts": {
+          "id": "119",
+          "name": "vidar hop"
+        }
+      },
+      {
+        "date": "2026-06-20",
+        "leg": 4,
+        "horse": "Tordenskjold",
+        "horseId": "578001020190137",
+        "program": {
+          "id": "29265",
+          "name": "vidar hop"
+        },
+        "starts": {
+          "id": "119",
+          "name": "vidar hop"
+        }
+      },
+      {
+        "date": "2026-06-20",
+        "leg": 6,
+        "horse": "Custom Chrono (S)",
+        "horseId": "75200211S213693",
+        "program": {
+          "id": "30057946",
+          "name": "vidar hop"
+        },
+        "starts": {
+          "id": "119",
+          "name": "vidar hop"
+        }
+      },
+      {
+        "date": "2026-07-25",
+        "leg": 5,
+        "horse": "Hage Ravn",
+        "horseId": "578001020180165",
+        "program": {
+          "id": "5501",
+          "name": "marielle g. stigen"
+        },
+        "starts": {
+          "id": "30063838",
+          "name": "marielle g. stigen"
+        }
+      },
+      {
+        "date": "2026-08-15",
+        "leg": 3,
+        "horse": "Tynset Aksel",
+        "horseId": "578001020190181",
+        "program": {
+          "id": "30040437",
+          "name": "ragnhild bjørnbeth"
+        },
+        "starts": {
+          "id": "6340",
+          "name": "ragnhild bjørnbeth"
+        }
+      }
+    ],
+    "normalizedProgramMismatch": [],
+    "programMatchProblem": []
+  },
+  "guardrails": {
+    "matchedByHorseRegistrationNumber": true,
+    "outcomesRead": false,
+    "marketRead": false,
+    "modelChanged": false
+  }
+}

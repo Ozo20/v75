@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "decision": "PROMOTE_V2A_SPEED",
+  "currentChampion": "candidate-v2a-speed",
+  "previousChampion": "baseline-safe-v1",
+  "candidateFingerprint": "464306a193db1499edce2255806219b12ab0687ff547935ba2cd29741e31c674",
+  "weights": {
+    "safeBaseline": 0.7,
+    "speed": 0.3
+  },
+  "evidence": {
+    "development": {
+      "status": "V2A improved ranking metrics"
+    },
+    "validation": {
+      "status": "V2A improved all reported metrics"
+    },
+    "trueHoldout": {
+      "status": "MIXED",
+      "note": "Original predeclared holdout verdict remains unchanged"
+    },
+    "independentRobustness": {
+      "status": "STRONG_V2A_SUPPORT",
+      "races": 70,
+      "safeTop3": 41,
+      "v2aTop3": 47,
+      "safeTop5": 54,
+      "v2aTop5": 58
+    }
+  },
+  "descriptiveAggregate": {
+    "warning": "Combined 196-race metrics are descriptive, not one independent holdout test.",
+    "safeV1": {
+      "races": 196,
+      "top1": 47,
+      "top1Rate": 0.23979591836734693,
+      "top2": 83,
+      "top2Rate": 0.42346938775510207,
+      "top3": 108,
+      "top3Rate": 0.5510204081632653,
+      "top5": 147,
+      "top5Rate": 0.75,
+      "averageWinnerRank": 3.923469387755102
+    },
+    "v2aSpeed": {
+      "races": 196,
+      "top1": 53,
+      "top1Rate": 0.27040816326530615,
+      "top2": 92,
+      "top2Rate": 0.46938775510204084,
+      "top3": 118,
+      "top3Rate": 0.6020408163265306,
+      "top5": 156,
+      "top5Rate": 0.7959183673469388,
+      "averageWinnerRank": 3.520408163265306
+    }
+  },
+  "policy": {
+    "doNotRetuneV2AWeightsFromSpentDatasets": true,
+    "v2bContextStatus": "NOT_PROMOTED",
+    "nextCapability": "win-probability calibration"
+  }
+}

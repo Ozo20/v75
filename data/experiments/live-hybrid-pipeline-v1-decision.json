@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": "live-hybrid-pipeline-v1",
+  "decisionDate": "2026-10-07",
+  "decision": "FROZEN_FOR_PROSPECTIVE_USE",
+  "pipeline": {
+    "name": "live-v75-hybrid-v1",
+    "status": "FROZEN",
+    "selector": "CONSERVATIVE_ONE_SWAP_V1"
+  },
+  "frozenComponents": {
+    "candidateV2aSpeed": {
+      "path": "src/v75/candidate_v2a_speed.py",
+      "sha256": "464306a193db1499edce2255806219b12ab0687ff547935ba2cd29741e31c674"
+    },
+    "liveTicketBuilder": {
+      "path": "scripts/build_live_v75_ticket_v1.py",
+      "sha256": "7030ee6068297da58d24571428aadd1f4cca76b45bfc39f5873d44aab11b82d7"
+    },
+    "optimizer": {
+      "path": "src/v75/system_optimizer_v1.py",
+      "sha256": "3b01e0ff1699381aab2537ca11a56339403fa08cbe186cd17474b19b3d3c9439"
+    },
+    "liveRunner": {
+      "path": "scripts/run_live_v75.py",
+      "sha256": "e6e154f276689055a1ab4f2aab9ecbc205574fccd42caf66ad9e0f30760e1890"
+    },
+    "hybridInput": {
+      "path": "scripts/build_hybrid_input_v1.py",
+      "sha256": "06c8b05b8f92e075fd775c73d1599b400d417c11446a6a484abffd37a304efcc"
+    },
+    "stalltipsClassifier": {
+      "path": "scripts/apply_stalltips_to_hybrid_v1.py",
+      "sha256": "be6c86efd681f693d0541eacc053abf5e3006583a3d40b976b39b60c0470f338"
+    },
+    "hybridSelector": {
+      "path": "scripts/build_hybrid_ticket_v1.py",
+      "sha256": "b3e1f8b01056c05ef62c2b0a3bf1bd58406cf40b3c1fe89f0a2bb7c8ca19b364"
+    },
+    "selectorDecision": {
+      "path": "data/experiments/hybrid-selector-v1-decision.json",
+      "sha256": "36a8a8c8ec6f21dd458c36fec6d3acf50058bfedd8e96e19c1e8341444307bbd"
+    },
+    "hybridLiveWrapper": {
+      "path": "scripts/run_live_v75_hybrid_v1.py",
+      "sha256": "35c6d368b200774fc356ebe433da66a71addc0f9ec14e2e71bb33c738ab4ea1e"
+    },
+    "hybridFinalizer": {
+      "path": "scripts/finalize_live_v75_hybrid_v1.py",
+      "sha256": "a61662004f6826713f48805a0db4f870e7af8e0efadbfb32fe3880459a642fd0"
+    }
+  },
+  "validatedFlow": [
+    "LIVE_PREPARE",
+    "V2A_PREDICTIONS",
+    "V2A_MAX_P7_TICKET",
+    "AWAITING_STALLTIPS",
+    "STALLTIPS_CAPTURE",
+    "CLASSIFICATION",
+    "HYBRID_SELECTOR_V1",
+    "FINALIZED"
+  ],
+  "validation": {
+    "prepareSmoke": {
+      "status": "PASS",
+      "stalltipsFabricated": false,
+      "classifierApplied": false,
+      "selectorApplied": false
+    },
+    "finalizeSmoke": {
+      "status": "PASS",
+      "allFinalArtifactsCreated": true,
+      "artifactHashesVerified": true,
+      "outcomesUsed": false,
+      "selectorRetuned": false,
+      "modelRows": 800,
+      "modelCostNok": 400.0,
+      "hybridRows": 800,
+      "hybridCostNok": 400.0,
+      "syntheticStalltipsRows": 128,
+      "syntheticStalltipsCostNok": 64.0,
+      "syntheticRunUsedAsPerformanceEvidence": false
+    }
+  },
+  "prospectiveProtocol": {
+    "prepareBeforeFirstStart": true,
+    "recordActualStalltips": true,
+    "finalizeBeforeFirstStart": true,
+    "firstStartTimeSource": "normalized/pre-race.json pool.startTime",
+    "archiveOriginalV2aTicket": true,
+    "archiveOriginalStalltipsTicket": true,
+    "archiveHybridTicket": true,
+    "archiveHashes": true,
+    "doNotRetuneFromSingleMeeting": true
+  },
+  "comparisonPolicy": {
+    "primaryComparison": [
+      "V2A_MAX_P7",
+      "STALLTIPS",
+      "HYBRID_SELECTOR_V1"
+    ],
+    "recordActualTicketCost": true,
+    "sameBudgetRequiredForStrictEqualBudgetClaim": true,
+    "ifCostsDiffer": "Report the cost difference explicitly and do not describe raw winner coverage as a strict equal-budget comparison."
+  },
+  "guardrails": {
+    "historicalWinnerTuning": false,
+    "syntheticSmokeIsPerformanceEvidence": false,
+    "hybridProbabilityFabricated": false,
+    "automaticBankerSwap": false,
+    "overwriteFinalArtifacts": false
+  },
+  "nextEvidence": "PROSPECTIVE_V75_MEETINGS"
+}

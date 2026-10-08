@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "candidateFamily": "v2f-cross-horse-driver-strength",
+  "candidate": "v2f-driver-top3-identity-v2",
+  "fingerprint": "13276bb0ec3e8e8a4b153721938ee90b7d0c3caf97436918b44096c5b38ec1b8",
+  "status": "NOT_PROMOTED",
+  "championRemains": "v2a-speed",
+  "development": {
+    "v2a": {
+      "races": 84,
+      "top1": 20,
+      "top2": 33,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.761904761904762
+    },
+    "v2f": {
+      "races": 84,
+      "top1": 22,
+      "top2": 36,
+      "top3": 47,
+      "top5": 62,
+      "averageWinnerRank": 3.738095238095238
+    },
+    "raceComparisonVsV2A": {
+      "equal": 65,
+      "improved": 12,
+      "worse": 7
+    },
+    "meetingTop3ComparisonVsV2A": {
+      "equal": 10,
+      "better": 2
+    }
+  },
+  "validation": {
+    "v2a": {
+      "races": 28,
+      "top1": 9,
+      "top2": 16,
+      "top3": 18,
+      "top5": 24,
+      "averageWinnerRank": 2.9642857142857144
+    },
+    "v2f": {
+      "races": 28,
+      "top1": 10,
+      "top2": 16,
+      "top3": 18,
+      "top5": 24,
+      "averageWinnerRank": 3
+    },
+    "raceComparisonVsV2A": {
+      "improved": 3,
+      "equal": 22,
+      "worse": 3
+    },
+    "meetingTop3ComparisonVsV2A": {
+      "better": 0,
+      "equal": 4,
+      "worse": 0
+    }
+  },
+  "decisionRationale": "Development showed a promising broad improvement, but locked validation did not confirm a sufficiently broad advantage. V2F improved Top1 by one winner, while Top2, Top3 and Top5 were unchanged; average winner rank was slightly worse and race-by-race movement was balanced.",
+  "validationConsumed": true,
+  "retuneOnValidation": false,
+  "candidateMayBeRevisitedWithNewIndependentData": true,
+  "driverIdentityContractRetained": true,
+  "champion": {
+    "name": "v2a-speed",
+    "fingerprint": "464306a193db1499edce2255806219b12ab0687ff547935ba2cd29741e31c674"
+  }
+}

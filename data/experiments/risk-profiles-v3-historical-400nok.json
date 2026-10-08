@@ -1,0 +1,871 @@
+{
+  "schemaVersion": "3.0",
+  "evaluation": "historical-risk-profile-diagnostic",
+  "horseModel": "candidate-v2a-speed",
+  "budgetNok": 400.0,
+  "rowPriceNok": 0.5,
+  "minBankerProbability": 0.35,
+  "dates": [
+    "2026-01-06",
+    "2026-01-10",
+    "2026-01-17",
+    "2026-01-24",
+    "2026-01-31",
+    "2026-02-07",
+    "2026-02-14",
+    "2026-02-21",
+    "2026-02-28",
+    "2026-03-07",
+    "2026-03-21"
+  ],
+  "summary": {
+    "MAX_P7": {
+      "meetings": 11,
+      "meanCoveredWinners": 3.909090909090909,
+      "fivePlusMeetings": 5,
+      "sixPlusMeetings": 2,
+      "sevenMeetings": 0,
+      "meanBankers": 1.5454545454545454,
+      "meanWeakBankers": 0.5454545454545454,
+      "meanEstimatedP5": 0.3887611008289144,
+      "meanEstimatedP6": 0.13472903809130318,
+      "meanEstimatedP7": 0.021016785468134132,
+      "meanActualCostNok": 391.6363636363636
+    },
+    "NO_WEAK_BANKER": {
+      "meetings": 11,
+      "meanCoveredWinners": 4.090909090909091,
+      "fivePlusMeetings": 5,
+      "sixPlusMeetings": 2,
+      "sevenMeetings": 0,
+      "meanBankers": 1,
+      "meanWeakBankers": 0,
+      "meanEstimatedP5": 0.3705663675855251,
+      "meanEstimatedP6": 0.12854070253260935,
+      "meanEstimatedP7": 0.020324122974730154,
+      "meanActualCostNok": 389.09090909090907
+    },
+    "NO_BANKER": {
+      "meetings": 11,
+      "meanCoveredWinners": 3.8181818181818183,
+      "fivePlusMeetings": 4,
+      "sixPlusMeetings": 2,
+      "sevenMeetings": 0,
+      "meanBankers": 0,
+      "meanWeakBankers": 0,
+      "meanEstimatedP5": 0.3364757861476699,
+      "meanEstimatedP6": 0.11142708636793491,
+      "meanEstimatedP7": 0.01688052475338271,
+      "meanActualCostNok": 389.8181818181818
+    }
+  },
+  "pairwiseActualCoverage": {
+    "MAX_EQUAL_NO_WEAK": 9,
+    "MAX_BETTER_THAN_NO_BANKER": 3,
+    "MAX_EQUAL_NO_BANKER": 6,
+    "NO_WEAK_BETTER_THAN_MAX": 2,
+    "NO_BANKER_BETTER_THAN_MAX": 2
+  },
+  "meetings": [
+    {
+      "date": "2026-01-06",
+      "raceDayName": "Varig Orkla",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.4906931894892784,
+          "estimatedP6Plus": 0.19410572973251178,
+          "estimatedP7": 0.034746066455019355,
+          "ks": [
+            2,
+            4,
+            4,
+            1,
+            8,
+            1,
+            3
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.4906931894892784,
+          "estimatedP6Plus": 0.19410572973251178,
+          "estimatedP7": 0.034746066455019355,
+          "ks": [
+            2,
+            4,
+            4,
+            1,
+            8,
+            1,
+            3
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 2,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.4055223634375421,
+          "estimatedP6Plus": 0.14845254787625328,
+          "estimatedP7": 0.025068414224441005,
+          "ks": [
+            2,
+            2,
+            4,
+            2,
+            4,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "raceDayName": "Forus",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 6,
+          "has5Plus": true,
+          "has6Plus": true,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 1,
+          "estimatedP5Plus": 0.3161982680279821,
+          "estimatedP6Plus": 0.09696731352647725,
+          "estimatedP7": 0.01302469220598506,
+          "ks": [
+            1,
+            4,
+            2,
+            5,
+            1,
+            4,
+            5
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 6,
+          "has5Plus": true,
+          "has6Plus": true,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.29264359193033873,
+          "estimatedP6Plus": 0.08890515758476877,
+          "estimatedP7": 0.012164471045985833,
+          "ks": [
+            1,
+            4,
+            2,
+            5,
+            2,
+            2,
+            5
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 6,
+          "has5Plus": true,
+          "has6Plus": true,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.2757396537706156,
+          "estimatedP6Plus": 0.07893593095616167,
+          "estimatedP7": 0.00991517991198004,
+          "ks": [
+            2,
+            5,
+            2,
+            2,
+            2,
+            2,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "raceDayName": "Bjerke",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 2,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 2,
+          "estimatedP5Plus": 0.36080056548751577,
+          "estimatedP6Plus": 0.10757311816843751,
+          "estimatedP7": 0.01345822753125284,
+          "ks": [
+            1,
+            2,
+            5,
+            10,
+            2,
+            4,
+            1
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.281179383472299,
+          "estimatedP6Plus": 0.08176063617488968,
+          "estimatedP7": 0.01052097942619388,
+          "ks": [
+            2,
+            2,
+            4,
+            2,
+            2,
+            4,
+            3
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.281179383472299,
+          "estimatedP6Plus": 0.08176063617488968,
+          "estimatedP7": 0.01052097942619388,
+          "ks": [
+            2,
+            2,
+            4,
+            2,
+            2,
+            4,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "raceDayName": "Varig Orkla",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 2,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 1,
+          "estimatedP5Plus": 0.4086605337535146,
+          "estimatedP6Plus": 0.13706036558850693,
+          "estimatedP7": 0.019610091240807058,
+          "ks": [
+            4,
+            5,
+            5,
+            1,
+            1,
+            2,
+            4
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 2,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.37760545799319994,
+          "estimatedP6Plus": 0.12347825308694534,
+          "estimatedP7": 0.01758751120125246,
+          "ks": [
+            4,
+            5,
+            5,
+            2,
+            1,
+            2,
+            2
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 2,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.3208316424451431,
+          "estimatedP6Plus": 0.09996874488305656,
+          "estimatedP7": 0.013926190441056243,
+          "ks": [
+            4,
+            4,
+            3,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "raceDayName": "Jarlsberg",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 720,
+          "actualCostNok": 360.0,
+          "coveredWinners": 6,
+          "has5Plus": true,
+          "has6Plus": true,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.3717488567059765,
+          "estimatedP6Plus": 0.1274434548789965,
+          "estimatedP7": 0.019813735670336854,
+          "ks": [
+            3,
+            1,
+            5,
+            2,
+            3,
+            4,
+            2
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 720,
+          "actualCostNok": 360.0,
+          "coveredWinners": 6,
+          "has5Plus": true,
+          "has6Plus": true,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.3717488567059765,
+          "estimatedP6Plus": 0.1274434548789965,
+          "estimatedP7": 0.019813735670336854,
+          "ks": [
+            3,
+            1,
+            5,
+            2,
+            3,
+            4,
+            2
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 6,
+          "has5Plus": true,
+          "has6Plus": true,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.3246881330867435,
+          "estimatedP6Plus": 0.10578035915459341,
+          "estimatedP7": 0.015769056088607902,
+          "ks": [
+            3,
+            2,
+            4,
+            2,
+            2,
+            4,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "raceDayName": "Bjerke",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 5,
+          "has5Plus": true,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.3382786532854533,
+          "estimatedP6Plus": 0.10751219401827954,
+          "estimatedP7": 0.015170934895521196,
+          "ks": [
+            2,
+            5,
+            2,
+            4,
+            2,
+            5,
+            1
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 5,
+          "has5Plus": true,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.3382786532854533,
+          "estimatedP6Plus": 0.10751219401827954,
+          "estimatedP7": 0.015170934895521196,
+          "ks": [
+            2,
+            5,
+            2,
+            4,
+            2,
+            5,
+            1
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 4,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.3090822216519559,
+          "estimatedP6Plus": 0.09638134108835111,
+          "estimatedP7": 0.01352398680043383,
+          "ks": [
+            2,
+            2,
+            4,
+            3,
+            2,
+            4,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "raceDayName": "Sørlandet",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 5,
+          "has5Plus": true,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.4617129319387991,
+          "estimatedP6Plus": 0.18110637316484157,
+          "estimatedP7": 0.03286846702281536,
+          "ks": [
+            2,
+            5,
+            5,
+            4,
+            2,
+            1,
+            2
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 5,
+          "has5Plus": true,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.4617129319387991,
+          "estimatedP6Plus": 0.18110637316484157,
+          "estimatedP7": 0.03286846702281536,
+          "ks": [
+            2,
+            5,
+            5,
+            4,
+            2,
+            1,
+            2
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 5,
+          "has5Plus": true,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.43095122256913454,
+          "estimatedP6Plus": 0.16239559562066821,
+          "estimatedP7": 0.02820008990764766,
+          "ks": [
+            2,
+            5,
+            5,
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "raceDayName": "Bergen",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 5,
+          "has5Plus": true,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.4215226877738855,
+          "estimatedP6Plus": 0.15265064550223867,
+          "estimatedP7": 0.024948857733299832,
+          "ks": [
+            1,
+            1,
+            2,
+            4,
+            5,
+            5,
+            4
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 5,
+          "has5Plus": true,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.4215226877738855,
+          "estimatedP6Plus": 0.15265064550223867,
+          "estimatedP7": 0.024948857733299832,
+          "ks": [
+            1,
+            1,
+            2,
+            4,
+            5,
+            5,
+            4
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 5,
+          "has5Plus": true,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.40066264482378156,
+          "estimatedP6Plus": 0.13872975721364383,
+          "estimatedP7": 0.02138564382618216,
+          "ks": [
+            2,
+            2,
+            2,
+            2,
+            5,
+            5,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-02-28",
+      "raceDayName": "Bjerke",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 792,
+          "actualCostNok": 396.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 1,
+          "estimatedP5Plus": 0.20869355922878455,
+          "estimatedP6Plus": 0.050903221895095954,
+          "estimatedP7": 0.005261150466660004,
+          "ks": [
+            2,
+            3,
+            3,
+            2,
+            11,
+            2,
+            1
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 4,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.1828984464743701,
+          "estimatedP6Plus": 0.044652766901701856,
+          "estimatedP7": 0.004832773602154059,
+          "ks": [
+            2,
+            3,
+            2,
+            2,
+            8,
+            2,
+            2
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 4,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.1828984464743701,
+          "estimatedP6Plus": 0.044652766901701856,
+          "estimatedP7": 0.004832773602154059,
+          "ks": [
+            2,
+            3,
+            2,
+            2,
+            8,
+            2,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-03-07",
+      "raceDayName": "Forus",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.5014336652531682,
+          "estimatedP6Plus": 0.19316260967529852,
+          "estimatedP7": 0.03293814389833842,
+          "ks": [
+            4,
+            3,
+            8,
+            2,
+            1,
+            1,
+            4
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 2,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.5014336652531682,
+          "estimatedP6Plus": 0.19316260967529852,
+          "estimatedP7": 0.03293814389833842,
+          "ks": [
+            4,
+            3,
+            8,
+            2,
+            1,
+            1,
+            4
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 800,
+          "actualCostNok": 400.0,
+          "coveredWinners": 2,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.4131647567687763,
+          "estimatedP6Plus": 0.14947036303973388,
+          "estimatedP7": 0.024570046287398575,
+          "ks": [
+            2,
+            2,
+            5,
+            2,
+            2,
+            2,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "raceDayName": "Momarken",
+      "profiles": {
+        "MAX_P7": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 1,
+          "weakBankers": 1,
+          "estimatedP5Plus": 0.3966291981737002,
+          "estimatedP6Plus": 0.13353439285365087,
+          "estimatedP7": 0.019344273029439474,
+          "ks": [
+            2,
+            3,
+            2,
+            4,
+            1,
+            4,
+            4
+          ]
+        },
+        "NO_WEAK_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.35651317912400704,
+          "estimatedP6Plus": 0.11916990713823059,
+          "estimatedP7": 0.017973411771114455,
+          "ks": [
+            2,
+            3,
+            2,
+            4,
+            2,
+            2,
+            4
+          ]
+        },
+        "NO_BANKER": {
+          "actualRows": 768,
+          "actualCostNok": 384.0,
+          "coveredWinners": 3,
+          "has5Plus": false,
+          "has6Plus": false,
+          "has7": false,
+          "bankers": 0,
+          "weakBankers": 0,
+          "estimatedP5Plus": 0.35651317912400704,
+          "estimatedP6Plus": 0.11916990713823059,
+          "estimatedP7": 0.017973411771114455,
+          "ks": [
+            2,
+            3,
+            2,
+            4,
+            2,
+            2,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "guardrails": {
+    "retrospectiveOnly": true,
+    "thresholdFixedBeforeEvaluation": true,
+    "thresholdTunedOnOutcomes": false,
+    "horseModelModified": false,
+    "optimizerModified": false,
+    "marketUsed": false
+  }
+}

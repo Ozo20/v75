@@ -1,0 +1,1406 @@
+{
+  "schemaVersion": "1.0",
+  "evaluation": "fresh-system-evaluation-v1",
+  "horseModel": "candidate-v2a-speed",
+  "beta": 2.872,
+  "optimizer": "maximize-product-probability-mass",
+  "dates": [
+    "2026-01-06",
+    "2026-01-10",
+    "2026-01-17",
+    "2026-01-24",
+    "2026-01-31",
+    "2026-02-07",
+    "2026-02-14",
+    "2026-02-21",
+    "2026-02-28",
+    "2026-03-07",
+    "2026-03-21"
+  ],
+  "results": {
+    "64": {
+      "budgetRows": 64,
+      "meetings": 11,
+      "full7Hits": 0,
+      "full7Rate": 0.0,
+      "legsCovered": 35,
+      "totalLegs": 77,
+      "legCoverage": 0.45454545454545453,
+      "meanActualRows": 63.63636363636363,
+      "meanEstimatedAll7Coverage": 0.004402976377723056,
+      "meanRandomAll7Coverage": 5.6468408753558555e-06
+    },
+    "128": {
+      "budgetRows": 128,
+      "meetings": 11,
+      "full7Hits": 0,
+      "full7Rate": 0.0,
+      "legsCovered": 36,
+      "totalLegs": 77,
+      "legCoverage": 0.4675324675324675,
+      "meanActualRows": 126.18181818181819,
+      "meanEstimatedAll7Coverage": 0.006909573111933109,
+      "meanRandomAll7Coverage": 1.1203690496712958e-05
+    },
+    "256": {
+      "budgetRows": 256,
+      "meetings": 11,
+      "full7Hits": 0,
+      "full7Rate": 0.0,
+      "legsCovered": 38,
+      "totalLegs": 77,
+      "legCoverage": 0.4935064935064935,
+      "meanActualRows": 252.54545454545453,
+      "meanEstimatedAll7Coverage": 0.010681782560942195,
+      "meanRandomAll7Coverage": 2.239681440802003e-05
+    },
+    "512": {
+      "budgetRows": 512,
+      "meetings": 11,
+      "full7Hits": 0,
+      "full7Rate": 0.0,
+      "legsCovered": 42,
+      "totalLegs": 77,
+      "legCoverage": 0.5454545454545454,
+      "meanActualRows": 500.72727272727275,
+      "meanEstimatedAll7Coverage": 0.016204728427983907,
+      "meanRandomAll7Coverage": 4.44426320397514e-05
+    },
+    "1024": {
+      "budgetRows": 1024,
+      "meetings": 11,
+      "full7Hits": 0,
+      "full7Rate": 0.0,
+      "legsCovered": 44,
+      "totalLegs": 77,
+      "legCoverage": 0.5714285714285714,
+      "meanActualRows": 1008.7272727272727,
+      "meanEstimatedAll7Coverage": 0.02429894081221163,
+      "meanRandomAll7Coverage": 8.939752505352423e-05
+    },
+    "2048": {
+      "budgetRows": 2048,
+      "meetings": 11,
+      "full7Hits": 0,
+      "full7Rate": 0.0,
+      "legsCovered": 46,
+      "totalLegs": 77,
+      "legCoverage": 0.5974025974025974,
+      "meanActualRows": 1996.3636363636363,
+      "meanEstimatedAll7Coverage": 0.035760960787818014,
+      "meanRandomAll7Coverage": 0.00017699105043177409
+    },
+    "4096": {
+      "budgetRows": 4096,
+      "meetings": 11,
+      "full7Hits": 0,
+      "full7Rate": 0.0,
+      "legsCovered": 49,
+      "totalLegs": 77,
+      "legCoverage": 0.6363636363636364,
+      "meanActualRows": 4021.909090909091,
+      "meanEstimatedAll7Coverage": 0.05149741036554746,
+      "meanRandomAll7Coverage": 0.00035659904690604245
+    }
+  },
+  "perMeeting": [
+    {
+      "date": "2026-01-06",
+      "raceDayName": "Varig Orkla",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            2,
+            1,
+            4,
+            1,
+            8,
+            1,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.006941103062780438,
+          "randomAll7Coverage": 1.2626262626262626e-05
+        },
+        "128": {
+          "actualRows": 126,
+          "ks": [
+            2,
+            1,
+            3,
+            1,
+            7,
+            1,
+            3
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.011222305937091347,
+          "randomAll7Coverage": 2.4857954545454543e-05
+        },
+        "256": {
+          "actualRows": 252,
+          "ks": [
+            2,
+            2,
+            3,
+            1,
+            7,
+            1,
+            3
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.01780718439295991,
+          "randomAll7Coverage": 4.9715909090909086e-05
+        },
+        "512": {
+          "actualRows": 504,
+          "ks": [
+            3,
+            2,
+            4,
+            1,
+            7,
+            1,
+            3
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.027205961008923685,
+          "randomAll7Coverage": 9.943181818181817e-05
+        },
+        "1024": {
+          "actualRows": 1008,
+          "ks": [
+            3,
+            4,
+            4,
+            1,
+            7,
+            1,
+            3
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.04049408518772108,
+          "randomAll7Coverage": 0.00019886363636363634
+        },
+        "2048": {
+          "actualRows": 2016,
+          "ks": [
+            3,
+            4,
+            7,
+            1,
+            8,
+            1,
+            3
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.059492861753766904,
+          "randomAll7Coverage": 0.0003977272727272728
+        },
+        "4096": {
+          "actualRows": 4032,
+          "ks": [
+            3,
+            4,
+            7,
+            2,
+            8,
+            1,
+            3
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.08528072254487741,
+          "randomAll7Coverage": 0.0007954545454545456
+        }
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "raceDayName": "Forus",
+      "budgets": {
+        "64": {
+          "actualRows": 60,
+          "ks": [
+            1,
+            4,
+            1,
+            1,
+            1,
+            3,
+            5
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0021919675588053574,
+          "randomAll7Coverage": 4.372731645458917e-06
+        },
+        "128": {
+          "actualRows": 128,
+          "ks": [
+            1,
+            4,
+            1,
+            4,
+            1,
+            2,
+            4
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.003581043390666857,
+          "randomAll7Coverage": 9.328494176979026e-06
+        },
+        "256": {
+          "actualRows": 240,
+          "ks": [
+            1,
+            4,
+            1,
+            4,
+            1,
+            3,
+            5
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.005914226013875799,
+          "randomAll7Coverage": 1.749092658183567e-05
+        },
+        "512": {
+          "actualRows": 500,
+          "ks": [
+            1,
+            5,
+            1,
+            5,
+            1,
+            4,
+            5
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.009523029887120383,
+          "randomAll7Coverage": 3.643943037882431e-05
+        },
+        "1024": {
+          "actualRows": 1000,
+          "ks": [
+            1,
+            5,
+            2,
+            5,
+            1,
+            4,
+            5
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.014963688978874259,
+          "randomAll7Coverage": 7.287886075764862e-05
+        },
+        "2048": {
+          "actualRows": 2000,
+          "ks": [
+            1,
+            5,
+            2,
+            5,
+            2,
+            4,
+            5
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.023026539246663272,
+          "randomAll7Coverage": 0.00014575772151529724
+        },
+        "4096": {
+          "actualRows": 4032,
+          "ks": [
+            1,
+            7,
+            2,
+            6,
+            2,
+            4,
+            6
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.03395450732748419,
+          "randomAll7Coverage": 0.00029384756657483926
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "raceDayName": "Bjerke",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            1,
+            2,
+            1,
+            4,
+            2,
+            4,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.003112739023194832,
+          "randomAll7Coverage": 3.091830456385093e-06
+        },
+        "128": {
+          "actualRows": 128,
+          "ks": [
+            1,
+            2,
+            1,
+            8,
+            2,
+            4,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.004788929075608861,
+          "randomAll7Coverage": 6.183660912770186e-06
+        },
+        "256": {
+          "actualRows": 256,
+          "ks": [
+            1,
+            2,
+            1,
+            8,
+            4,
+            4,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.007105983688594385,
+          "randomAll7Coverage": 1.2367321825540372e-05
+        },
+        "512": {
+          "actualRows": 512,
+          "ks": [
+            1,
+            2,
+            4,
+            8,
+            2,
+            4,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.010521963151240644,
+          "randomAll7Coverage": 2.4734643651080745e-05
+        },
+        "1024": {
+          "actualRows": 1024,
+          "ks": [
+            1,
+            2,
+            4,
+            8,
+            4,
+            4,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.015612864033740403,
+          "randomAll7Coverage": 4.946928730216149e-05
+        },
+        "2048": {
+          "actualRows": 2000,
+          "ks": [
+            1,
+            2,
+            5,
+            10,
+            5,
+            4,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.022367602644598524,
+          "randomAll7Coverage": 9.66197017620342e-05
+        },
+        "4096": {
+          "actualRows": 4096,
+          "ks": [
+            1,
+            2,
+            4,
+            8,
+            4,
+            4,
+            4
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.032396505588453,
+          "randomAll7Coverage": 0.00019787714920864596
+        }
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "raceDayName": "Varig Orkla",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            4,
+            4,
+            1,
+            1,
+            1,
+            2,
+            2
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0030636015624280477,
+          "randomAll7Coverage": 3.8441596883155315e-06
+        },
+        "128": {
+          "actualRows": 128,
+          "ks": [
+            4,
+            4,
+            2,
+            1,
+            1,
+            2,
+            2
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.005280519854572835,
+          "randomAll7Coverage": 7.688319376631063e-06
+        },
+        "256": {
+          "actualRows": 256,
+          "ks": [
+            4,
+            4,
+            4,
+            1,
+            1,
+            2,
+            2
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.008726110042111936,
+          "randomAll7Coverage": 1.5376638753262126e-05
+        },
+        "512": {
+          "actualRows": 480,
+          "ks": [
+            4,
+            5,
+            4,
+            1,
+            1,
+            2,
+            3
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.014404106779095675,
+          "randomAll7Coverage": 2.8831197662366498e-05
+        },
+        "1024": {
+          "actualRows": 1000,
+          "ks": [
+            4,
+            5,
+            5,
+            1,
+            1,
+            2,
+            5
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0220600147444441,
+          "randomAll7Coverage": 6.00649951299302e-05
+        },
+        "2048": {
+          "actualRows": 2000,
+          "ks": [
+            4,
+            5,
+            5,
+            2,
+            1,
+            2,
+            5
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.032069002245687164,
+          "randomAll7Coverage": 0.0001201299902598604
+        },
+        "4096": {
+          "actualRows": 3920,
+          "ks": [
+            4,
+            5,
+            7,
+            2,
+            1,
+            2,
+            7
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.04615180997285846,
+          "randomAll7Coverage": 0.00023545478090932637
+        }
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "raceDayName": "Jarlsberg",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            2,
+            1,
+            1,
+            2,
+            2,
+            4,
+            2
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0038448626520051748,
+          "randomAll7Coverage": 5.486968449931412e-06
+        },
+        "128": {
+          "actualRows": 120,
+          "ks": [
+            3,
+            1,
+            1,
+            2,
+            2,
+            5,
+            2
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.006105315071445533,
+          "randomAll7Coverage": 1.0288065843621402e-05
+        },
+        "256": {
+          "actualRows": 252,
+          "ks": [
+            3,
+            1,
+            1,
+            2,
+            3,
+            7,
+            2
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.009743251668690429,
+          "randomAll7Coverage": 2.1604938271604944e-05
+        },
+        "512": {
+          "actualRows": 480,
+          "ks": [
+            3,
+            1,
+            5,
+            2,
+            2,
+            4,
+            2
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.015100077762627501,
+          "randomAll7Coverage": 4.11522633744856e-05
+        },
+        "1024": {
+          "actualRows": 1008,
+          "ks": [
+            3,
+            1,
+            7,
+            2,
+            3,
+            4,
+            2
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.024146955641202974,
+          "randomAll7Coverage": 8.641975308641974e-05
+        },
+        "2048": {
+          "actualRows": 1944,
+          "ks": [
+            3,
+            1,
+            6,
+            2,
+            3,
+            6,
+            3
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.03652745034353402,
+          "randomAll7Coverage": 0.00016666666666666663
+        },
+        "4096": {
+          "actualRows": 3969,
+          "ks": [
+            3,
+            1,
+            7,
+            3,
+            3,
+            7,
+            3
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.052743010395561896,
+          "randomAll7Coverage": 0.0003402777777777777
+        }
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "raceDayName": "Bjerke",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            2,
+            2,
+            2,
+            4,
+            2,
+            1,
+            1
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0031972263694921197,
+          "randomAll7Coverage": 3.643943037882431e-06
+        },
+        "128": {
+          "actualRows": 120,
+          "ks": [
+            2,
+            1,
+            2,
+            3,
+            2,
+            5,
+            1
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.004910247669503187,
+          "randomAll7Coverage": 6.83239319602956e-06
+        },
+        "256": {
+          "actualRows": 252,
+          "ks": [
+            2,
+            1,
+            3,
+            3,
+            2,
+            7,
+            1
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.007870780922698743,
+          "randomAll7Coverage": 1.4348025711662075e-05
+        },
+        "512": {
+          "actualRows": 504,
+          "ks": [
+            2,
+            2,
+            3,
+            3,
+            2,
+            7,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.01205582835640218,
+          "randomAll7Coverage": 2.869605142332415e-05
+        },
+        "1024": {
+          "actualRows": 1008,
+          "ks": [
+            2,
+            6,
+            2,
+            3,
+            2,
+            7,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.018581739818701117,
+          "randomAll7Coverage": 5.739210284664829e-05
+        },
+        "2048": {
+          "actualRows": 2016,
+          "ks": [
+            2,
+            6,
+            4,
+            3,
+            2,
+            7,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.028355357738761047,
+          "randomAll7Coverage": 0.00011478420569329657
+        },
+        "4096": {
+          "actualRows": 4032,
+          "ks": [
+            4,
+            6,
+            4,
+            3,
+            2,
+            7,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.04099743967233207,
+          "randomAll7Coverage": 0.00022956841138659315
+        }
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "raceDayName": "Sørlandet",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            2,
+            2,
+            4,
+            2,
+            2,
+            1,
+            1
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.007296989740796213,
+          "randomAll7Coverage": 7.027604430201832e-06
+        },
+        "128": {
+          "actualRows": 128,
+          "ks": [
+            2,
+            2,
+            4,
+            4,
+            2,
+            1,
+            1
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.011257758665337365,
+          "randomAll7Coverage": 1.4055208860403665e-05
+        },
+        "256": {
+          "actualRows": 256,
+          "ks": [
+            2,
+            4,
+            4,
+            4,
+            2,
+            1,
+            1
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.016758229919198942,
+          "randomAll7Coverage": 2.811041772080733e-05
+        },
+        "512": {
+          "actualRows": 504,
+          "ks": [
+            2,
+            7,
+            6,
+            3,
+            2,
+            1,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.024736181075270296,
+          "randomAll7Coverage": 5.534238488783942e-05
+        },
+        "1024": {
+          "actualRows": 1008,
+          "ks": [
+            2,
+            7,
+            6,
+            3,
+            2,
+            1,
+            2
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.036231217771005825,
+          "randomAll7Coverage": 0.00011068476977567884
+        },
+        "2048": {
+          "actualRows": 2016,
+          "ks": [
+            2,
+            7,
+            6,
+            4,
+            3,
+            1,
+            2
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.05306424975438173,
+          "randomAll7Coverage": 0.00022136953955135768
+        },
+        "4096": {
+          "actualRows": 4032,
+          "ks": [
+            2,
+            12,
+            7,
+            4,
+            3,
+            1,
+            2
+          ],
+          "legsCovered": 6,
+          "full7": false,
+          "estimatedAll7Coverage": 0.07481626227749394,
+          "randomAll7Coverage": 0.00044273907910271536
+        }
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "raceDayName": "Bergen",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            1,
+            1,
+            2,
+            2,
+            4,
+            4,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0060589436621519095,
+          "randomAll7Coverage": 7.0636434272797925e-06
+        },
+        "128": {
+          "actualRows": 128,
+          "ks": [
+            1,
+            1,
+            2,
+            4,
+            4,
+            4,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.008916705474648685,
+          "randomAll7Coverage": 1.4127286854559585e-05
+        },
+        "256": {
+          "actualRows": 250,
+          "ks": [
+            1,
+            1,
+            2,
+            5,
+            5,
+            5,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.013161696169603236,
+          "randomAll7Coverage": 2.7592357137811684e-05
+        },
+        "512": {
+          "actualRows": 504,
+          "ks": [
+            1,
+            1,
+            2,
+            7,
+            6,
+            6,
+            1
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.01926921755453024,
+          "randomAll7Coverage": 5.562619198982835e-05
+        },
+        "1024": {
+          "actualRows": 1000,
+          "ks": [
+            1,
+            1,
+            2,
+            5,
+            5,
+            5,
+            4
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.02814034975626341,
+          "randomAll7Coverage": 0.00011036942855124674
+        },
+        "2048": {
+          "actualRows": 2016,
+          "ks": [
+            1,
+            1,
+            2,
+            7,
+            6,
+            6,
+            4
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.04119852901378421,
+          "randomAll7Coverage": 0.0002225047679593134
+        },
+        "4096": {
+          "actualRows": 4032,
+          "ks": [
+            2,
+            1,
+            2,
+            7,
+            6,
+            6,
+            4
+          ],
+          "legsCovered": 5,
+          "full7": false,
+          "estimatedAll7Coverage": 0.059420062087531006,
+          "randomAll7Coverage": 0.0004450095359186268
+        }
+      }
+    },
+    {
+      "date": "2026-02-28",
+      "raceDayName": "Bjerke",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            1,
+            4,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0008011951692639455,
+          "randomAll7Coverage": 1.184001184001184e-06
+        },
+        "128": {
+          "actualRows": 126,
+          "ks": [
+            1,
+            3,
+            3,
+            2,
+            7,
+            1,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0013638058598326144,
+          "randomAll7Coverage": 2.331002331002331e-06
+        },
+        "256": {
+          "actualRows": 252,
+          "ks": [
+            1,
+            3,
+            3,
+            2,
+            7,
+            2,
+            1
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.002388547553353304,
+          "randomAll7Coverage": 4.662004662004662e-06
+        },
+        "512": {
+          "actualRows": 504,
+          "ks": [
+            2,
+            3,
+            3,
+            2,
+            7,
+            2,
+            1
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.0039099046995337075,
+          "randomAll7Coverage": 9.324009324009324e-06
+        },
+        "1024": {
+          "actualRows": 1008,
+          "ks": [
+            2,
+            3,
+            3,
+            2,
+            14,
+            2,
+            1
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.006108702525679581,
+          "randomAll7Coverage": 1.8648018648018647e-05
+        },
+        "2048": {
+          "actualRows": 2016,
+          "ks": [
+            2,
+            3,
+            3,
+            2,
+            14,
+            2,
+            2
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.009423347887142587,
+          "randomAll7Coverage": 3.7296037296037295e-05
+        },
+        "4096": {
+          "actualRows": 4032,
+          "ks": [
+            2,
+            6,
+            3,
+            2,
+            14,
+            2,
+            2
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.014273280661731341,
+          "randomAll7Coverage": 7.459207459207459e-05
+        }
+      }
+    },
+    {
+      "date": "2026-03-07",
+      "raceDayName": "Forus",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            2,
+            1,
+            4,
+            2,
+            1,
+            1,
+            4
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.007700244835480837,
+          "randomAll7Coverage": 7.215007215007216e-06
+        },
+        "128": {
+          "actualRows": 128,
+          "ks": [
+            2,
+            2,
+            4,
+            2,
+            1,
+            1,
+            4
+          ],
+          "legsCovered": 2,
+          "full7": false,
+          "estimatedAll7Coverage": 0.012198282553135336,
+          "randomAll7Coverage": 1.4430014430014432e-05
+        },
+        "256": {
+          "actualRows": 256,
+          "ks": [
+            4,
+            2,
+            4,
+            2,
+            1,
+            1,
+            4
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.017903959375130275,
+          "randomAll7Coverage": 2.8860028860028863e-05
+        },
+        "512": {
+          "actualRows": 504,
+          "ks": [
+            3,
+            3,
+            7,
+            2,
+            1,
+            1,
+            4
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.026369073849798343,
+          "randomAll7Coverage": 5.681818181818181e-05
+        },
+        "1024": {
+          "actualRows": 1008,
+          "ks": [
+            4,
+            3,
+            7,
+            2,
+            1,
+            1,
+            6
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.03846717383245391,
+          "randomAll7Coverage": 0.00011363636363636364
+        },
+        "2048": {
+          "actualRows": 2016,
+          "ks": [
+            4,
+            3,
+            6,
+            7,
+            1,
+            1,
+            4
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.05509953019175083,
+          "randomAll7Coverage": 0.00022727272727272727
+        },
+        "4096": {
+          "actualRows": 4032,
+          "ks": [
+            4,
+            3,
+            8,
+            7,
+            1,
+            1,
+            6
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.07811663541521285,
+          "randomAll7Coverage": 0.0004545454545454546
+        }
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "raceDayName": "Momarken",
+      "budgets": {
+        "64": {
+          "actualRows": 64,
+          "ks": [
+            2,
+            2,
+            2,
+            4,
+            1,
+            2,
+            1
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.004223866518554742,
+          "randomAll7Coverage": 6.559097468188377e-06
+        },
+        "128": {
+          "actualRows": 128,
+          "ks": [
+            2,
+            2,
+            2,
+            4,
+            1,
+            2,
+            2
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.006380390679421576,
+          "randomAll7Coverage": 1.3118194936376754e-05
+        },
+        "256": {
+          "actualRows": 256,
+          "ks": [
+            2,
+            2,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.010119638424147178,
+          "randomAll7Coverage": 2.6236389872753508e-05
+        },
+        "512": {
+          "actualRows": 512,
+          "ks": [
+            2,
+            2,
+            2,
+            4,
+            1,
+            4,
+            4
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.015156668583280304,
+          "randomAll7Coverage": 5.2472779745507015e-05
+        },
+        "1024": {
+          "actualRows": 1024,
+          "ks": [
+            4,
+            2,
+            2,
+            4,
+            1,
+            4,
+            4
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.022481556644241268,
+          "randomAll7Coverage": 0.00010494555949101403
+        },
+        "2048": {
+          "actualRows": 1920,
+          "ks": [
+            5,
+            3,
+            2,
+            4,
+            1,
+            4,
+            4
+          ],
+          "legsCovered": 3,
+          "full7": false,
+          "estimatedAll7Coverage": 0.032746097845927885,
+          "randomAll7Coverage": 0.0001967729240456513
+        },
+        "4096": {
+          "actualRows": 4032,
+          "ks": [
+            6,
+            3,
+            2,
+            4,
+            1,
+            4,
+            7
+          ],
+          "legsCovered": 4,
+          "full7": false,
+          "estimatedAll7Coverage": 0.04832127807748588,
+          "randomAll7Coverage": 0.00041322314049586776
+        }
+      }
+    }
+  ]
+}

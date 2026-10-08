@@ -1,0 +1,40 @@
+# Python environments
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs and archives
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Operational / downloaded V75 datasets
+data/raw/
+data/normalized/
+data/live/
+data/discovery/
+data/holdout-logs/
+data/system-evaluation-logs/
+data/robustness/
+
+# Local temporary output
+tmp/
+temp/

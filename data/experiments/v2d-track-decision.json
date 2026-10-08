@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "candidateFamily": "v2d-horse-track",
+  "status": "NOT_PROMOTED",
+  "championRemains": "v2a-speed",
+  "reason": "No track variant produced a sufficiently broad development improvement to justify consuming the locked validation set.",
+  "developmentResults": {
+    "v2a-speed": {
+      "races": 84,
+      "top1": 20,
+      "top2": 33,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.761904761904762
+    },
+    "v2d-track-experience": {
+      "races": 84,
+      "top1": 19,
+      "top2": 33,
+      "top3": 45,
+      "top5": 66,
+      "averageWinnerRank": 3.8214285714285716
+    },
+    "v2d-track-speed": {
+      "races": 84,
+      "top1": 18,
+      "top2": 35,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.8095238095238093
+    },
+    "v2d-track-combined": {
+      "races": 84,
+      "top1": 18,
+      "top2": 34,
+      "top3": 46,
+      "top5": 64,
+      "averageWinnerRank": 3.7976190476190474
+    }
+  },
+  "raceComparisonsVsV2A": {
+    "v2d-track-experience": {
+      "equal": 70,
+      "improved": 6,
+      "worse": 8
+    },
+    "v2d-track-speed": {
+      "equal": 72,
+      "worse": 8,
+      "improved": 4
+    },
+    "v2d-track-combined": {
+      "equal": 74,
+      "improved": 4,
+      "worse": 6
+    }
+  },
+  "meetingTop3ComparisonsVsV2A": {
+    "v2d-track-experience": {
+      "equal": 10,
+      "worse": 1,
+      "better": 1
+    },
+    "v2d-track-speed": {
+      "worse": 1,
+      "equal": 10,
+      "better": 1
+    },
+    "v2d-track-combined": {
+      "equal": 11,
+      "better": 1
+    }
+  },
+  "interpretation": {
+    "trackIdentityContractRetained": true,
+    "trackFeaturePromoted": false,
+    "validationConsumed": false,
+    "retuneDevelopment": false
+  }
+}

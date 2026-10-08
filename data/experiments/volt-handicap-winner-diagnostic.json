@@ -1,0 +1,463 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-outcome-diagnostic",
+  "voltRaces": 22,
+  "v2aTop1Correct": 4,
+  "starterCountsByExtraDistance": {
+    "0": 116,
+    "20": 101,
+    "40": 45,
+    "60": 9
+  },
+  "winnerCountsByExtraDistance": {
+    "40": 4,
+    "0": 10,
+    "20": 6,
+    "60": 2
+  },
+  "v2aTopPickCountsByExtraDistance": {
+    "40": 4,
+    "0": 8,
+    "20": 8,
+    "60": 2
+  },
+  "v2aCorrectCountsByExtraDistance": {
+    "40": 2,
+    "60": 1,
+    "0": 1
+  },
+  "relativeWinnerBand": {
+    "BACK": 9,
+    "FRONT": 10,
+    "MIDDLE": 3
+  },
+  "relativeV2aTopBand": {
+    "BACK": 11,
+    "FRONT": 8,
+    "MIDDLE": 3
+  },
+  "v2aMissDirection": {
+    "SAME_HANDICAP_BAND": 9,
+    "WINNER_CLOSER_TO_FRONT": 6,
+    "WINNER_FARTHER_BACK": 3
+  },
+  "races": [
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "winnerStartNumber": 14,
+      "winnerHorse": "Voje Lotta",
+      "winnerExtraDistance": 40,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 14,
+      "v2aTopHorse": "Voje Lotta",
+      "v2aTopExtraDistance": 40,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": true
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 4,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 3,
+      "winnerHorse": "Aske Balder",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 11,
+      "v2aTopHorse": "Trolljerven",
+      "v2aTopExtraDistance": 0,
+      "v2aTopRelativeBand": "FRONT",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 7,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 4,
+      "winnerHorse": "Nore'n",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 11,
+      "v2aTopHorse": "Millthalia",
+      "v2aTopExtraDistance": 20,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-06-16",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 8,
+      "winnerHorse": "Hvalstad Il",
+      "winnerExtraDistance": 20,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 6,
+      "v2aTopHorse": "Valle Il",
+      "v2aTopExtraDistance": 20,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "leg": 1,
+      "bands": [
+        20,
+        40,
+        60
+      ],
+      "winnerStartNumber": 8,
+      "winnerHorse": "Alm Vinni",
+      "winnerExtraDistance": 60,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 8,
+      "v2aTopHorse": "Alm Vinni",
+      "v2aTopExtraDistance": 60,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": true
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "leg": 3,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "winnerStartNumber": 7,
+      "winnerHorse": "Nikita B.R.",
+      "winnerExtraDistance": 20,
+      "winnerRelativeBand": "MIDDLE",
+      "v2aTopStartNumber": 6,
+      "v2aTopHorse": "Chanto Victoria",
+      "v2aTopExtraDistance": 20,
+      "v2aTopRelativeBand": "MIDDLE",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "leg": 4,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 9,
+      "winnerHorse": "Tordenskjold",
+      "winnerExtraDistance": 20,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 7,
+      "v2aTopHorse": "Fyri (S)",
+      "v2aTopExtraDistance": 20,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "leg": 6,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "winnerStartNumber": 7,
+      "winnerHorse": "Jonte Godiva* (S)",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 8,
+      "v2aTopHorse": "Bozeman",
+      "v2aTopExtraDistance": 0,
+      "v2aTopRelativeBand": "FRONT",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "leg": 1,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "winnerStartNumber": 5,
+      "winnerHorse": "Tangen Tore*",
+      "winnerExtraDistance": 20,
+      "winnerRelativeBand": "MIDDLE",
+      "v2aTopStartNumber": 9,
+      "v2aTopHorse": "Edens Odin",
+      "v2aTopExtraDistance": 40,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "leg": 3,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "winnerStartNumber": 14,
+      "winnerHorse": "Våler Lill",
+      "winnerExtraDistance": 40,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 14,
+      "v2aTopHorse": "Våler Lill",
+      "v2aTopExtraDistance": 40,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": true
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "leg": 7,
+      "bands": [
+        0,
+        20,
+        40,
+        60
+      ],
+      "winnerStartNumber": 1,
+      "winnerHorse": "Enjoy Beaufort* (S)",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 2,
+      "v2aTopHorse": "Treasure Tile (S)",
+      "v2aTopExtraDistance": 20,
+      "v2aTopRelativeBand": "MIDDLE",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-07-18",
+      "raceDayName": "Sørlandet",
+      "leg": 1,
+      "bands": [
+        0,
+        20,
+        40,
+        60
+      ],
+      "winnerStartNumber": 8,
+      "winnerHorse": "Noah B.R.",
+      "winnerExtraDistance": 40,
+      "winnerRelativeBand": "MIDDLE",
+      "v2aTopStartNumber": 10,
+      "v2aTopHorse": "Excalibur Gene (S)",
+      "v2aTopExtraDistance": 60,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-07-18",
+      "raceDayName": "Sørlandet",
+      "leg": 7,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 2,
+      "winnerHorse": "New First Lady",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 10,
+      "v2aTopHorse": "Normaal (NL)",
+      "v2aTopExtraDistance": 20,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-07-25",
+      "raceDayName": "Biri",
+      "leg": 2,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 5,
+      "winnerHorse": "Annelin S.K.",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 11,
+      "v2aTopHorse": "Theoprinsen",
+      "v2aTopExtraDistance": 20,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-07-25",
+      "raceDayName": "Biri",
+      "leg": 5,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 9,
+      "winnerHorse": "Alm Nordstjernen",
+      "winnerExtraDistance": 20,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 3,
+      "v2aTopHorse": "Teknovinn S.K.",
+      "v2aTopExtraDistance": 0,
+      "v2aTopRelativeBand": "FRONT",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-08-01",
+      "raceDayName": "Momarken",
+      "leg": 7,
+      "bands": [
+        0,
+        20,
+        40,
+        60
+      ],
+      "winnerStartNumber": 14,
+      "winnerHorse": "Fighter Kronos (S)",
+      "winnerExtraDistance": 60,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 13,
+      "v2aTopHorse": "Kentucky Field",
+      "v2aTopExtraDistance": 40,
+      "v2aTopRelativeBand": "MIDDLE",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-08-08",
+      "raceDayName": "Bergen",
+      "leg": 1,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 3,
+      "winnerHorse": "Stjerne Vind",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 4,
+      "v2aTopHorse": "Rappmira Are",
+      "v2aTopExtraDistance": 0,
+      "v2aTopRelativeBand": "FRONT",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-08-08",
+      "raceDayName": "Bergen",
+      "leg": 2,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 5,
+      "winnerHorse": "Normaal (NL)",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 5,
+      "v2aTopHorse": "Normaal (NL)",
+      "v2aTopExtraDistance": 0,
+      "v2aTopRelativeBand": "FRONT",
+      "v2aCorrect": true
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "leg": 1,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "winnerStartNumber": 8,
+      "winnerHorse": "Linselusa",
+      "winnerExtraDistance": 40,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 1,
+      "v2aTopHorse": "Annelin S.K.",
+      "v2aTopExtraDistance": 0,
+      "v2aTopRelativeBand": "FRONT",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "leg": 2,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "winnerStartNumber": 3,
+      "winnerHorse": "Ultima Royal",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 2,
+      "v2aTopHorse": "Kelvin Key",
+      "v2aTopExtraDistance": 0,
+      "v2aTopRelativeBand": "FRONT",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "leg": 7,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 11,
+      "winnerHorse": "Åsvinn S.K.",
+      "winnerExtraDistance": 20,
+      "winnerRelativeBand": "BACK",
+      "v2aTopStartNumber": 14,
+      "v2aTopHorse": "Alma Prins",
+      "v2aTopExtraDistance": 20,
+      "v2aTopRelativeBand": "BACK",
+      "v2aCorrect": false
+    },
+    {
+      "date": "2026-08-22",
+      "raceDayName": "Jarlsberg",
+      "leg": 2,
+      "bands": [
+        0,
+        20
+      ],
+      "winnerStartNumber": 7,
+      "winnerHorse": "Lekker",
+      "winnerExtraDistance": 0,
+      "winnerRelativeBand": "FRONT",
+      "v2aTopStartNumber": 10,
+      "v2aTopHorse": "Annelin S.K.",
+      "v2aTopExtraDistance": 0,
+      "v2aTopRelativeBand": "FRONT",
+      "v2aCorrect": false
+    }
+  ],
+  "guardrails": {
+    "developmentOnly": true,
+    "validationUsed": false,
+    "marketUsed": false,
+    "modelsModified": false,
+    "diagnosticOnly": true
+  }
+}

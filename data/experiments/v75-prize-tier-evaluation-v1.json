@@ -1,0 +1,5218 @@
+{
+  "schemaVersion": "1.0",
+  "evaluation": "v75-prize-tier-evaluation-v1",
+  "prizeTiers": [
+    5,
+    6,
+    7
+  ],
+  "dates": [
+    "2026-01-06",
+    "2026-01-10",
+    "2026-01-17",
+    "2026-01-24",
+    "2026-01-31",
+    "2026-02-07",
+    "2026-02-14",
+    "2026-02-21",
+    "2026-02-28",
+    "2026-03-07",
+    "2026-03-21"
+  ],
+  "results": {
+    "64": {
+      "meetings": 11,
+      "meetingsWith5Plus": 2,
+      "meetingsWith6Plus": 0,
+      "meetingsWith7": 0,
+      "rowsWith5Correct": 3,
+      "rowsWith6Correct": 0,
+      "rowsWith7Correct": 0,
+      "totalPrizeRows": 3,
+      "totalPlayedRows": 700,
+      "maxCorrectDistribution": {
+        "2": 5,
+        "3": 1,
+        "4": 3,
+        "5": 2
+      }
+    },
+    "128": {
+      "meetings": 11,
+      "meetingsWith5Plus": 3,
+      "meetingsWith6Plus": 0,
+      "meetingsWith7": 0,
+      "rowsWith5Correct": 10,
+      "rowsWith6Correct": 0,
+      "rowsWith7Correct": 0,
+      "totalPrizeRows": 10,
+      "totalPlayedRows": 1388,
+      "maxCorrectDistribution": {
+        "2": 5,
+        "3": 1,
+        "4": 2,
+        "5": 3
+      }
+    },
+    "256": {
+      "meetings": 11,
+      "meetingsWith5Plus": 3,
+      "meetingsWith6Plus": 0,
+      "meetingsWith7": 0,
+      "rowsWith5Correct": 11,
+      "rowsWith6Correct": 0,
+      "rowsWith7Correct": 0,
+      "totalPrizeRows": 11,
+      "totalPlayedRows": 2778,
+      "maxCorrectDistribution": {
+        "2": 3,
+        "3": 3,
+        "4": 2,
+        "5": 3
+      }
+    },
+    "512": {
+      "meetings": 11,
+      "meetingsWith5Plus": 5,
+      "meetingsWith6Plus": 1,
+      "meetingsWith7": 0,
+      "rowsWith5Correct": 41,
+      "rowsWith6Correct": 2,
+      "rowsWith7Correct": 0,
+      "totalPrizeRows": 43,
+      "totalPlayedRows": 5508,
+      "maxCorrectDistribution": {
+        "2": 2,
+        "3": 4,
+        "5": 4,
+        "6": 1
+      }
+    },
+    "1024": {
+      "meetings": 11,
+      "meetingsWith5Plus": 5,
+      "meetingsWith6Plus": 3,
+      "meetingsWith7": 0,
+      "rowsWith5Correct": 130,
+      "rowsWith6Correct": 8,
+      "rowsWith7Correct": 0,
+      "totalPrizeRows": 138,
+      "totalPlayedRows": 11096,
+      "maxCorrectDistribution": {
+        "2": 2,
+        "3": 4,
+        "5": 2,
+        "6": 3
+      }
+    },
+    "2048": {
+      "meetings": 11,
+      "meetingsWith5Plus": 5,
+      "meetingsWith6Plus": 3,
+      "meetingsWith7": 0,
+      "rowsWith5Correct": 149,
+      "rowsWith6Correct": 8,
+      "rowsWith7Correct": 0,
+      "totalPrizeRows": 157,
+      "totalPlayedRows": 21960,
+      "maxCorrectDistribution": {
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 3
+      }
+    },
+    "4096": {
+      "meetings": 11,
+      "meetingsWith5Plus": 5,
+      "meetingsWith6Plus": 3,
+      "meetingsWith7": 0,
+      "rowsWith5Correct": 214,
+      "rowsWith6Correct": 10,
+      "rowsWith7Correct": 0,
+      "totalPrizeRows": 224,
+      "totalPlayedRows": 44241,
+      "maxCorrectDistribution": {
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "6": 3
+      }
+    }
+  },
+  "perMeeting": [
+    {
+      "date": "2026-01-06",
+      "raceDayName": "Varig Orkla",
+      "budgets": {
+        "64": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 56,
+            "2": 8,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 8,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 108,
+            "2": 18,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 7,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 2,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 126
+        },
+        "256": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 108,
+            "2": 126,
+            "3": 18,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 7,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 2,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 252
+        },
+        "512": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 216,
+            "2": 252,
+            "3": 36,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 7,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 2,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 504
+        },
+        "1024": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 648,
+            "2": 324,
+            "3": 36,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 7,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 2,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 1008
+        },
+        "2048": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 1323,
+            "2": 630,
+            "3": 63,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 8,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 2,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 2016
+        },
+        "4096": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 1323,
+            "1": 1953,
+            "2": 693,
+            "3": 63,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 6,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 8,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 2,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 4032
+        }
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "raceDayName": "Forus",
+      "budgets": {
+        "64": {
+          "maxCorrect": 5,
+          "rowsWith5": 1,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 1,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 24,
+            "3": 26,
+            "4": 9,
+            "5": 1,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 3,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 5,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 60
+        },
+        "128": {
+          "maxCorrect": 5,
+          "rowsWith5": 4,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 4,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 36,
+            "3": 60,
+            "4": 28,
+            "5": 4,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 128
+        },
+        "256": {
+          "maxCorrect": 5,
+          "rowsWith5": 4,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 4,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 96,
+            "3": 104,
+            "4": 36,
+            "5": 4,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 3,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 5,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 240
+        },
+        "512": {
+          "maxCorrect": 5,
+          "rowsWith5": 5,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 5,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 240,
+            "3": 200,
+            "4": 55,
+            "5": 5,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 5,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 5,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 5,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 500
+        },
+        "1024": {
+          "maxCorrect": 6,
+          "rowsWith5": 60,
+          "rowsWith6": 5,
+          "rowsWith7": 0,
+          "totalPrizeRows": 65,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 240,
+            "3": 440,
+            "4": 255,
+            "5": 60,
+            "6": 5,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 5,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 5,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 5,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 1000
+        },
+        "2048": {
+          "maxCorrect": 6,
+          "rowsWith5": 65,
+          "rowsWith6": 5,
+          "rowsWith7": 0,
+          "totalPrizeRows": 70,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 240,
+            "2": 680,
+            "3": 695,
+            "4": 315,
+            "5": 65,
+            "6": 5,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 5,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 5,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 5,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 2000
+        },
+        "4096": {
+          "maxCorrect": 6,
+          "rowsWith5": 96,
+          "rowsWith6": 6,
+          "rowsWith7": 0,
+          "totalPrizeRows": 102,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 540,
+            "2": 1458,
+            "3": 1380,
+            "4": 552,
+            "5": 96,
+            "6": 6,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 7,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 6,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 6,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 4032
+        }
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "raceDayName": "Bjerke",
+      "budgets": {
+        "64": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 48,
+            "2": 16,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 96,
+            "2": 32,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 8,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 128
+        },
+        "256": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 192,
+            "2": 64,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 8,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 4,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 256
+        },
+        "512": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 384,
+            "2": 128,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 8,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 512
+        },
+        "1024": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 768,
+            "2": 256,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 8,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 4,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 1024
+        },
+        "2048": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 1500,
+            "2": 500,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 5,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 10,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 5,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 2000
+        },
+        "4096": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 2304,
+            "2": 1536,
+            "3": 256,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 8,
+              "winner": 12,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 4,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 4096
+        }
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "raceDayName": "Varig Orkla",
+      "budgets": {
+        "64": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 24,
+            "1": 32,
+            "2": 8,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 48,
+            "1": 64,
+            "2": 16,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 128
+        },
+        "256": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 96,
+            "1": 128,
+            "2": 32,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 256
+        },
+        "512": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 180,
+            "1": 240,
+            "2": 60,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 5,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 480
+        },
+        "1024": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 375,
+            "1": 500,
+            "2": 125,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 5,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 5,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 5,
+              "winner": 5,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 1000
+        },
+        "2048": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 750,
+            "1": 1000,
+            "2": 250,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 5,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 5,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 5,
+              "winner": 5,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 2000
+        },
+        "4096": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 1260,
+            "1": 1890,
+            "2": 700,
+            "3": 70,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 5,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 7,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 7,
+              "winner": 5,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 3920
+        }
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "raceDayName": "Jarlsberg",
+      "budgets": {
+        "64": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 12,
+            "2": 28,
+            "3": 20,
+            "4": 4,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 5,
+          "rowsWith5": 2,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 2,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 16,
+            "2": 44,
+            "3": 42,
+            "4": 16,
+            "5": 2,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 5,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 120
+        },
+        "256": {
+          "maxCorrect": 5,
+          "rowsWith5": 2,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 2,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 48,
+            "2": 104,
+            "3": 76,
+            "4": 22,
+            "5": 2,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 7,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 252
+        },
+        "512": {
+          "maxCorrect": 6,
+          "rowsWith5": 22,
+          "rowsWith6": 2,
+          "rowsWith7": 0,
+          "totalPrizeRows": 24,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 48,
+            "2": 148,
+            "3": 170,
+            "4": 90,
+            "5": 22,
+            "6": 2,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 5,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 480
+        },
+        "1024": {
+          "maxCorrect": 6,
+          "rowsWith5": 28,
+          "rowsWith6": 2,
+          "rowsWith7": 0,
+          "totalPrizeRows": 30,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 144,
+            "2": 360,
+            "3": 332,
+            "4": 142,
+            "5": 28,
+            "6": 2,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 7,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 1008
+        },
+        "2048": {
+          "maxCorrect": 6,
+          "rowsWith5": 32,
+          "rowsWith6": 2,
+          "rowsWith7": 0,
+          "totalPrizeRows": 34,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 400,
+            "2": 760,
+            "3": 556,
+            "4": 194,
+            "5": 32,
+            "6": 2,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 6,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 1944
+        },
+        "4096": {
+          "maxCorrect": 6,
+          "rowsWith5": 54,
+          "rowsWith6": 3,
+          "rowsWith7": 0,
+          "totalPrizeRows": 57,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 864,
+            "2": 1584,
+            "3": 1104,
+            "4": 360,
+            "5": 54,
+            "6": 3,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 7,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 3,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 7,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 3,
+              "winner": 10,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 3969
+        }
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "raceDayName": "Bjerke",
+      "budgets": {
+        "64": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 8,
+            "2": 24,
+            "3": 24,
+            "4": 8,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 12,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 8,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 24,
+            "2": 54,
+            "3": 36,
+            "4": 6,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 12,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 8,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 5,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 120
+        },
+        "256": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 72,
+            "2": 120,
+            "3": 54,
+            "4": 6,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 12,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 8,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 252
+        },
+        "512": {
+          "maxCorrect": 5,
+          "rowsWith5": 6,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 6,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 72,
+            "2": 192,
+            "3": 174,
+            "4": 60,
+            "5": 6,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 12,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 8,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 504
+        },
+        "1024": {
+          "maxCorrect": 5,
+          "rowsWith5": 6,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 6,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 180,
+            "2": 426,
+            "3": 318,
+            "4": 78,
+            "5": 6,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 12,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 8,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 1008
+        },
+        "2048": {
+          "maxCorrect": 5,
+          "rowsWith5": 6,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 6,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 540,
+            "2": 918,
+            "3": 462,
+            "4": 90,
+            "5": 6,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 8,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 2016
+        },
+        "4096": {
+          "maxCorrect": 5,
+          "rowsWith5": 12,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 12,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 1080,
+            "2": 1836,
+            "3": 924,
+            "4": 180,
+            "5": 12,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 8,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 4032
+        }
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "raceDayName": "Sørlandet",
+      "budgets": {
+        "64": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 6,
+            "1": 20,
+            "2": 24,
+            "3": 12,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 9,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 18,
+            "1": 48,
+            "2": 44,
+            "3": 16,
+            "4": 2,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 9,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 128
+        },
+        "256": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 36,
+            "1": 96,
+            "2": 88,
+            "3": 32,
+            "4": 4,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 9,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 256
+        },
+        "512": {
+          "maxCorrect": 5,
+          "rowsWith5": 1,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 1,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 60,
+            "1": 172,
+            "2": 177,
+            "3": 79,
+            "4": 15,
+            "5": 1,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 7,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 9,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 504
+        },
+        "1024": {
+          "maxCorrect": 6,
+          "rowsWith5": 16,
+          "rowsWith6": 1,
+          "rowsWith7": 0,
+          "totalPrizeRows": 17,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 60,
+            "1": 232,
+            "2": 349,
+            "3": 256,
+            "4": 94,
+            "5": 16,
+            "6": 1,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 7,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 3,
+              "winner": 9,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 7,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 1008
+        },
+        "2048": {
+          "maxCorrect": 6,
+          "rowsWith5": 18,
+          "rowsWith6": 1,
+          "rowsWith7": 0,
+          "totalPrizeRows": 19,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 180,
+            "1": 576,
+            "2": 703,
+            "3": 414,
+            "4": 124,
+            "5": 18,
+            "6": 1,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 7,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 9,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 7,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 2016
+        },
+        "4096": {
+          "maxCorrect": 6,
+          "rowsWith5": 24,
+          "rowsWith6": 1,
+          "rowsWith7": 0,
+          "totalPrizeRows": 25,
+          "hasPrizeTier": true,
+          "has6Plus": true,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 396,
+            "1": 1224,
+            "2": 1417,
+            "3": 768,
+            "4": 202,
+            "5": 24,
+            "6": 1,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 12,
+              "winner": 5,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 7,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 9,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 7,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 4032
+        }
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "raceDayName": "Bergen",
+      "budgets": {
+        "64": {
+          "maxCorrect": 5,
+          "rowsWith5": 2,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 2,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 18,
+            "3": 30,
+            "4": 14,
+            "5": 2,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 9,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 4,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 5,
+          "rowsWith5": 4,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 4,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 36,
+            "3": 60,
+            "4": 28,
+            "5": 4,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 9,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 4,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 128
+        },
+        "256": {
+          "maxCorrect": 5,
+          "rowsWith5": 5,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 5,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 80,
+            "3": 120,
+            "4": 45,
+            "5": 5,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 5,
+              "winner": 9,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 5,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 5,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 250
+        },
+        "512": {
+          "maxCorrect": 5,
+          "rowsWith5": 7,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 7,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 175,
+            "3": 245,
+            "4": 77,
+            "5": 7,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 7,
+              "winner": 9,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 6,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 504
+        },
+        "1024": {
+          "maxCorrect": 5,
+          "rowsWith5": 20,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 20,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 320,
+            "3": 480,
+            "4": 180,
+            "5": 20,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 5,
+              "winner": 9,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 5,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 5,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 6,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 1000
+        },
+        "2048": {
+          "maxCorrect": 5,
+          "rowsWith5": 28,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 28,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 700,
+            "3": 980,
+            "4": 308,
+            "5": 28,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 7,
+              "winner": 9,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 6,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 6,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 2016
+        },
+        "4096": {
+          "maxCorrect": 5,
+          "rowsWith5": 28,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 28,
+          "hasPrizeTier": true,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 700,
+            "2": 1680,
+            "3": 1288,
+            "4": 336,
+            "5": 28,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 7,
+              "winner": 9,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 6,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 6,
+              "winner": 7,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 6,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 4032
+        }
+      }
+    },
+    {
+      "date": "2026-02-28",
+      "raceDayName": "Bjerke",
+      "budgets": {
+        "64": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 16,
+            "1": 32,
+            "2": 16,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 6,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 72,
+            "1": 48,
+            "2": 6,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 6,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 126
+        },
+        "256": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 144,
+            "1": 96,
+            "2": 12,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 1,
+              "winner": 11,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 6,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 252
+        },
+        "512": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 144,
+            "1": 240,
+            "2": 108,
+            "3": 12,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 7,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 6,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 504
+        },
+        "1024": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 312,
+            "1": 492,
+            "2": 192,
+            "3": 12,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 14,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 6,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            }
+          ],
+          "actualRows": 1008
+        },
+        "2048": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 312,
+            "1": 804,
+            "2": 684,
+            "3": 204,
+            "4": 12,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 14,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 6,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 2016
+        },
+        "4096": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 624,
+            "1": 1608,
+            "2": 1368,
+            "3": 408,
+            "4": 24,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 11,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 6,
+              "winner": 3,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 3,
+              "winner": 3,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 14,
+              "winner": 4,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 6,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 4032
+        }
+      }
+    },
+    {
+      "date": "2026-03-07",
+      "raceDayName": "Forus",
+      "budgets": {
+        "64": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 36,
+            "1": 24,
+            "2": 4,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 1,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 2,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 72,
+            "1": 48,
+            "2": 8,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 10,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 128
+        },
+        "256": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 108,
+            "1": 108,
+            "2": 36,
+            "3": 4,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 256
+        },
+        "512": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 216,
+            "1": 216,
+            "2": 66,
+            "3": 6,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 3,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 7,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 504
+        },
+        "1024": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 540,
+            "1": 378,
+            "2": 84,
+            "3": 6,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 7,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 6,
+              "winner": 12,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 1008
+        },
+        "2048": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 810,
+            "1": 837,
+            "2": 315,
+            "3": 51,
+            "4": 3,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 6,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 7,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 12,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 2016
+        },
+        "4096": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 1890,
+            "1": 1593,
+            "2": 483,
+            "3": 63,
+            "4": 3,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 10,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 3,
+              "k": 8,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 4,
+              "k": 7,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 6,
+              "k": 1,
+              "winner": 7,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 6,
+              "winner": 12,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 4032
+        }
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "raceDayName": "Momarken",
+      "budgets": {
+        "64": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 0,
+            "2": 32,
+            "3": 32,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 1,
+              "winner": 3,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 64
+        },
+        "128": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 32,
+            "2": 64,
+            "3": 32,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 2,
+              "winner": 3,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 128
+        },
+        "256": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 96,
+            "2": 128,
+            "3": 32,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 2,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 256
+        },
+        "512": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 192,
+            "2": 256,
+            "3": 64,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 2,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 512
+        },
+        "1024": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 384,
+            "2": 512,
+            "3": 128,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 4,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 2,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 1024
+        },
+        "2048": {
+          "maxCorrect": 3,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 960,
+            "2": 800,
+            "3": 160,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 5,
+              "winner": 1,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 4,
+              "winner": 3,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 1920
+        },
+        "4096": {
+          "maxCorrect": 4,
+          "rowsWith5": 0,
+          "rowsWith6": 0,
+          "rowsWith7": 0,
+          "totalPrizeRows": 0,
+          "hasPrizeTier": false,
+          "has6Plus": false,
+          "has7": false,
+          "correctRowDistribution": {
+            "0": 0,
+            "1": 1920,
+            "2": 1664,
+            "3": 416,
+            "4": 32,
+            "5": 0,
+            "6": 0,
+            "7": 0
+          },
+          "legs": [
+            {
+              "leg": 1,
+              "k": 6,
+              "winner": 1,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 2,
+              "k": 3,
+              "winner": 8,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 3,
+              "k": 2,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 4,
+              "k": 4,
+              "winner": 5,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 5,
+              "k": 1,
+              "winner": 2,
+              "winnerIncluded": true
+            },
+            {
+              "leg": 6,
+              "k": 4,
+              "winner": 4,
+              "winnerIncluded": false
+            },
+            {
+              "leg": 7,
+              "k": 7,
+              "winner": 3,
+              "winnerIncluded": true
+            }
+          ],
+          "actualRows": 4032
+        }
+      }
+    }
+  ],
+  "note": "Prize-row counts are combinatorial row counts only. Monetary payout is not evaluated here."
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "entries": 918,
+  "historyRows": 4579,
+  "currentEquipmentPresent": 918,
+  "currentEquipmentPaths": {
+    "equipment.shoes": 917,
+    "equipment.previousStartShoes": 764,
+    "equipment.sulky": 918,
+    "equipment.previousStartSulky": 918
+  },
+  "historicalEquipmentPaths": {
+    "history.shoes": 3888,
+    "history.sulky": 3809
+  },
+  "currentValueCounts": {
+    "equipment.shoes": {
+      "None": 234,
+      "Both": 494,
+      "Hind": 137,
+      "Fore": 52
+    },
+    "equipment.previousStartShoes": {
+      "Both": 454,
+      "Hind": 111,
+      "None": 171,
+      "Fore": 28
+    },
+    "equipment.sulky": {
+      "StandardSulky": 587,
+      "AmericanSulky": 330,
+      "NoSulky": 1
+    },
+    "equipment.previousStartSulky": {
+      "StandardSulky": 494,
+      "AmericanSulky": 253,
+      "NoSulky": 171
+    }
+  },
+  "historicalValueCounts": {
+    "history.shoes": {
+      "Both": 2527,
+      "None": 732,
+      "Fore": 161,
+      "Hind": 468
+    },
+    "history.sulky": {
+      "Sulky": 2618,
+      "AmericanSulky": 1191
+    }
+  },
+  "guardrails": {
+    "outcomesRead": false,
+    "marketRead": false,
+    "validationUsed": false,
+    "modelChanged": false
+  }
+}

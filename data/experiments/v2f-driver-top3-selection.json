@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "candidateFamily": "v2f-cross-horse-driver-strength",
+  "selectedCandidate": "v2f-driver-top3",
+  "selectionStatus": "SELECTED_BEFORE_VALIDATION",
+  "championBaseline": "v2a-speed",
+  "developmentResult": {
+    "races": 84,
+    "top1": 22,
+    "top2": 36,
+    "top3": 47,
+    "top5": 62,
+    "averageWinnerRank": 3.738095238095238
+  },
+  "developmentBaseline": {
+    "races": 84,
+    "top1": 20,
+    "top2": 33,
+    "top3": 45,
+    "top5": 63,
+    "averageWinnerRank": 3.761904761904762
+  },
+  "raceComparison": {
+    "equal": 65,
+    "improved": 12,
+    "worse": 7
+  },
+  "meetingTop3Comparison": {
+    "equal": 10,
+    "better": 2
+  },
+  "frozenDesign": {
+    "baseWeight": 0.63,
+    "speedWeight": 0.27,
+    "driverTop3Weight": 0.1,
+    "priorStrength": 10.0,
+    "minimumOtherHorseValidFinishes": 3,
+    "sameHorseRowsExcluded": true,
+    "driverIdentity": "normalized driver name"
+  },
+  "retuneAfterValidation": false
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0",
+  "model": "candidate-v2a-speed",
+  "beta": 2.872,
+  "scope": "independent-robustness",
+  "dates": [
+    "2026-03-28",
+    "2026-04-11",
+    "2026-04-18",
+    "2026-04-25",
+    "2026-05-02",
+    "2026-05-09",
+    "2026-05-16",
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06"
+  ],
+  "thresholds": {
+    "0.5": {
+      "meanSelectedHorses": 2.8714285714285714,
+      "minSelectedHorses": 1,
+      "maxSelectedHorses": 5,
+      "winnerCoverage": 0.6142857142857143,
+      "meanActualProbabilityMass": 0.5615434326542676,
+      "fullMeetingHits": 1,
+      "meetings": 10,
+      "meanRows": 1691.7
+    },
+    "0.6": {
+      "meanSelectedHorses": 3.757142857142857,
+      "minSelectedHorses": 1,
+      "maxSelectedHorses": 6,
+      "winnerCoverage": 0.6857142857142857,
+      "meanActualProbabilityMass": 0.6497321759660161,
+      "fullMeetingHits": 1,
+      "meetings": 10,
+      "meanRows": 11146
+    },
+    "0.7": {
+      "meanSelectedHorses": 4.828571428571428,
+      "minSelectedHorses": 2,
+      "maxSelectedHorses": 7,
+      "winnerCoverage": 0.7714285714285715,
+      "meanActualProbabilityMass": 0.7367566078369086,
+      "fullMeetingHits": 2,
+      "meetings": 10,
+      "meanRows": 62918.8
+    },
+    "0.8": {
+      "meanSelectedHorses": 6.257142857142857,
+      "minSelectedHorses": 3,
+      "maxSelectedHorses": 9,
+      "winnerCoverage": 0.8857142857142857,
+      "meanActualProbabilityMass": 0.8284311295165492,
+      "fullMeetingHits": 4,
+      "meetings": 10,
+      "meanRows": 388683.6
+    },
+    "0.9": {
+      "meanSelectedHorses": 8.185714285714285,
+      "minSelectedHorses": 4,
+      "maxSelectedHorses": 12,
+      "winnerCoverage": 0.9571428571428572,
+      "meanActualProbabilityMass": 0.9222574648926167,
+      "fullMeetingHits": 7,
+      "meetings": 10,
+      "meanRows": 2505523.2
+    }
+  },
+  "bankerDiagnostics": {
+    "0.25": {
+      "qualifyingRaces": 43,
+      "wins": 13,
+      "observedWinRate": 0.3023255813953488
+    },
+    "0.3": {
+      "qualifyingRaces": 26,
+      "wins": 10,
+      "observedWinRate": 0.38461538461538464
+    },
+    "0.35": {
+      "qualifyingRaces": 12,
+      "wins": 3,
+      "observedWinRate": 0.25
+    },
+    "0.4": {
+      "qualifyingRaces": 7,
+      "wins": 3,
+      "observedWinRate": 0.42857142857142855
+    }
+  }
+}

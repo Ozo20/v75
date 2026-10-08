@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "entries": 918,
+  "stats": {
+    "currentShoesKnown": 917,
+    "currentSulkyKnown": 917,
+    "currentFullSetupKnown": 917,
+    "sameShoesAtLeast1": 803,
+    "sameSulkyAtLeast1": 822,
+    "sameSetupAtLeast1": 714,
+    "sameSulkyAtLeast2": 731,
+    "sameSulkyAtLeast3": 610,
+    "sulkySpeedEffectAvailable": 722,
+    "shoeChangeComparable": 764,
+    "shoeChanged": 208,
+    "sulkyChangeComparable": 746,
+    "sameShoesAtLeast2": 689,
+    "sameSetupAtLeast2": 553,
+    "sameShoesAtLeast3": 560,
+    "sameSetupAtLeast3": 410,
+    "shoeSpeedEffectAvailable": 684,
+    "setupSpeedEffectAvailable": 547,
+    "sulkyChanged": 141
+  },
+  "currentShoes": {
+    "None": 234,
+    "Both": 494,
+    "Hind": 137,
+    "Fore": 52
+  },
+  "currentSulky": {
+    "StandardSulky": 587,
+    "AmericanSulky": 330
+  },
+  "shoeRepeatDistribution": {
+    "1": 114,
+    "5": 241,
+    "3": 159,
+    "2": 129,
+    "0": 115,
+    "4": 160
+  },
+  "sulkyRepeatDistribution": {
+    "5": 281,
+    "3": 150,
+    "4": 179,
+    "1": 91,
+    "2": 121,
+    "0": 96
+  },
+  "setupRepeatDistribution": {
+    "1": 161,
+    "3": 146,
+    "2": 143,
+    "0": 204,
+    "5": 136,
+    "4": 128
+  },
+  "shoeTransitions": {
+    "Both->None": 54,
+    "Both->Both": 351,
+    "Hind->Both": 26,
+    "None->None": 123,
+    "Hind->None": 15,
+    "Hind->Hind": 70,
+    "Fore->Fore": 12,
+    "Both->Hind": 22,
+    "Both->Fore": 27,
+    "None->Both": 31,
+    "None->Fore": 4,
+    "Fore->Both": 14,
+    "Fore->None": 1,
+    "None->Hind": 14
+  },
+  "sulkyTransitions": {
+    "StandardSulky->StandardSulky": 412,
+    "AmericanSulky->StandardSulky": 59,
+    "AmericanSulky->AmericanSulky": 193,
+    "StandardSulky->AmericanSulky": 82
+  },
+  "speedEffectAvailability": {
+    "shoes": 684,
+    "sulky": 722,
+    "fullSetup": 547
+  },
+  "semantics": {
+    "NoSulky": "UNKNOWN_OR_MISSING",
+    "historicalSulky": "Sulky => StandardSulky",
+    "previousStartSource": "latest history row"
+  },
+  "guardrails": {
+    "developmentOnly": true,
+    "outcomesRead": false,
+    "marketRead": false,
+    "validationUsed": false,
+    "modelChanged": false
+  }
+}

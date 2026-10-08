@@ -1,0 +1,333 @@
+{
+  "schemaVersion": "3.0",
+  "systemModel": "v75-system-risk-profiles-v3",
+  "objective": "maximize-estimated-all7-coverage",
+  "budgetNok": 400.0,
+  "rowPriceNok": 0.5,
+  "maxRows": 800,
+  "minBankerProbability": 0.35,
+  "topProbabilitiesByLeg": {
+    "1": 0.24588866367880258,
+    "2": 0.27001481448384157,
+    "3": 0.36778667129600634,
+    "4": 0.22990920038358717,
+    "5": 0.3181428472224941,
+    "6": 0.31079293152537263,
+    "7": 0.2530765180073305
+  },
+  "profiles": [
+    {
+      "profile": "MAX_P7",
+      "maxRows": 800,
+      "actualRows": 768,
+      "actualCostNok": 384.0,
+      "unusedBudgetNok": 16.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.0010952608362845954,
+          "1": 0.014325596589893897,
+          "2": 0.07484911316240662,
+          "3": 0.20333231844660088,
+          "4": 0.3097685127911138,
+          "5": 0.2630948053200493,
+          "6": 0.11419011982421139,
+          "7": 0.019344273029439474
+        },
+        "atLeast5": 0.3966291981737002,
+        "atLeast6": 0.13353439285365087,
+        "all7": 0.019344273029439474,
+        "expectedCoveredWinners": 4.149119486170556,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.01934427302943948,
+      "minimumSelections": {},
+      "legs": [
+        {
+          "leg": 1,
+          "k": 2,
+          "probabilityMass": 0.431719352813355,
+          "selectedStartNumbers": [
+            7,
+            8
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 4,
+          "probabilityMass": 0.8135417461963999,
+          "selectedStartNumbers": [
+            6,
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "NO_WEAK_BANKER",
+      "maxRows": 800,
+      "actualRows": 768,
+      "actualCostNok": 384.0,
+      "unusedBudgetNok": 16.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.002193089966284536,
+          "1": 0.02244276644565189,
+          "2": 0.09598473327057502,
+          "3": 0.22224475601521548,
+          "4": 0.30062147517826615,
+          "5": 0.23734327198577646,
+          "6": 0.10119649536711613,
+          "7": 0.017973411771114455
+        },
+        "atLeast5": 0.35651317912400704,
+        "atLeast6": 0.11916990713823059,
+        "all7": 0.017973411771114455,
+        "expectedCoveredWinners": 4.003341616274893,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.01797341177111445,
+      "minimumSelections": {
+        "1": 2,
+        "2": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2
+      },
+      "legs": [
+        {
+          "leg": 1,
+          "k": 2,
+          "probabilityMass": 0.431719352813355,
+          "selectedStartNumbers": [
+            7,
+            8
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 2,
+          "probabilityMass": 0.4427300835366156,
+          "selectedStartNumbers": [
+            2,
+            10
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 2,
+          "probabilityMass": 0.5431766399866148,
+          "selectedStartNumbers": [
+            6,
+            7
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "profile": "NO_BANKER",
+      "maxRows": 800,
+      "actualRows": 768,
+      "actualCostNok": 384.0,
+      "unusedBudgetNok": 16.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.002193089966284536,
+          "1": 0.02244276644565189,
+          "2": 0.09598473327057502,
+          "3": 0.22224475601521548,
+          "4": 0.30062147517826615,
+          "5": 0.23734327198577646,
+          "6": 0.10119649536711613,
+          "7": 0.017973411771114455
+        },
+        "atLeast5": 0.35651317912400704,
+        "atLeast6": 0.11916990713823059,
+        "all7": 0.017973411771114455,
+        "expectedCoveredWinners": 4.003341616274893,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.01797341177111445,
+      "minimumSelections": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 2
+      },
+      "legs": [
+        {
+          "leg": 1,
+          "k": 2,
+          "probabilityMass": 0.431719352813355,
+          "selectedStartNumbers": [
+            7,
+            8
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 2,
+          "probabilityMass": 0.4427300835366156,
+          "selectedStartNumbers": [
+            2,
+            10
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 2,
+          "probabilityMass": 0.5431766399866148,
+          "selectedStartNumbers": [
+            6,
+            7
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "semantics": {
+    "MAX_P7": "No banker restriction; pure mathematical optimum.",
+    "NO_WEAK_BANKER": "A leg cannot be banked if the model probability for its top horse is below the configured threshold.",
+    "NO_BANKER": "At least two horses are selected in every leg with two or more eligible horses."
+  },
+  "raceDate": "2026-03-21",
+  "raceDayName": "Momarken",
+  "raceDayKey": "MO_NR_2026-03-21",
+  "horseModel": "candidate-v2a-speed"
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "pre-race-driver-identity-inspection",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22",
+    "2026-08-29",
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-19"
+  ],
+  "historyRows": 6307,
+  "rowsWithDriver": 6307,
+  "rowsWithDriverToken": 6307,
+  "canonicalDriverCount": 344,
+  "driverTokenCount": 343,
+  "ambiguousCanonicalNames": {},
+  "ambiguousTokens": {
+    "To Gud": {
+      "tormod gudmestad": 9,
+      "torstein gudmestad": 2
+    }
+  },
+  "duplicateFormRowKeys": 1075,
+  "conflictsBeforeCanonicalization": 4,
+  "conflictsAfterCanonicalization": 0,
+  "resolvedExamples": [
+    {
+      "formRowKey": "AX_DNT#2026-07-17T00:00:00#9#14#Goo Bj",
+      "rawDrivers": [
+        "Björn Goop",
+        "Bjørn Goop"
+      ],
+      "canonicalDriver": "bjorn goop",
+      "driverToken": "Goo Bj"
+    },
+    {
+      "formRowKey": "ÅR_DNT#2026-07-11T00:00:00#6#4#Goo Bj",
+      "rawDrivers": [
+        "Björn Goop",
+        "Bjørn Goop"
+      ],
+      "canonicalDriver": "bjorn goop",
+      "driverToken": "Goo Bj"
+    },
+    {
+      "formRowKey": "E_DNT#2026-07-15T00:00:00#11#2#Dju ME",
+      "rawDrivers": [
+        "Mats E Djuse",
+        "Mats E. Djuse"
+      ],
+      "canonicalDriver": "mats e djuse",
+      "driverToken": "Dju ME"
+    },
+    {
+      "formRowKey": "ÅR_DNT#2026-07-11T00:00:00#6#12#Dju MA",
+      "rawDrivers": [
+        "Magnus A Djuse",
+        "Magnus A. Djuse"
+      ],
+      "canonicalDriver": "magnus a djuse",
+      "driverToken": "Dju MA"
+    }
+  ],
+  "currentDriverResolution": {
+    "entries": 1220,
+    "uniqueHistoricalToken": 1211,
+    "noHistoricalToken": 9,
+    "ambiguousHistoricalToken": 0
+  },
+  "canonicalNormalizationSupported": true,
+  "guardrails": {
+    "outcomesRead": false,
+    "marketRead": false,
+    "frozenCandidateModified": false,
+    "validationOutcomesConsumed": false
+  }
+}

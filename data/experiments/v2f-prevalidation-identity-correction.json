@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "status": "PRE_VALIDATION_IDENTITY_CORRECTION",
+  "oldCandidateFingerprint": "2ce49e4daeb88483c3d040bbce958506e08424ce294f0e6789c0783b141f3d3d",
+  "oldCandidateValidationStatus": "NOT_EVALUATED",
+  "issue": "Driver-name normalization did not reconcile punctuation/diacritic variants such as Magnus A Djuse / Magnus A. Djuse and Bjørn Goop / Björn Goop.",
+  "correction": "Use conservative full-name canonicalization with Scandinavian/transliteration, Unicode diacritic removal and punctuation normalization.",
+  "formRowDriverTokenPolicy": "DIAGNOSTIC_ONLY_NOT_IDENTITY",
+  "reason": "Observed token 'To Gud' maps to both Tormod Gudmestad and Torstein Gudmestad.",
+  "validationOutcomesConsumed": false,
+  "requiredNextStep": "Re-evaluate development with identical model weights and hyperparameters before freezing a replacement candidate."
+}

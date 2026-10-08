@@ -1,0 +1,333 @@
+{
+  "scope": "independent-robustness",
+  "dates": [
+    "2026-03-28",
+    "2026-04-11",
+    "2026-04-18",
+    "2026-04-25",
+    "2026-05-02",
+    "2026-05-09",
+    "2026-05-16",
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06"
+  ],
+  "results": {
+    "safe-v1": {
+      "races": 70,
+      "top1": 16,
+      "top2": 32,
+      "top3": 41,
+      "top5": 54,
+      "averageWinnerRank": 3.757142857142857
+    },
+    "v2a-speed": {
+      "races": 70,
+      "top1": 18,
+      "top2": 35,
+      "top3": 47,
+      "top5": 58,
+      "averageWinnerRank": 3.4285714285714284
+    },
+    "v2b-context": {
+      "races": 70,
+      "top1": 21,
+      "top2": 35,
+      "top3": 45,
+      "top5": 54,
+      "averageWinnerRank": 3.4571428571428573
+    }
+  },
+  "perMeeting": [
+    {
+      "date": "2026-03-28",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 0,
+          "top2": 2,
+          "top3": 2,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 2,
+          "top3": 2,
+          "top5": 4,
+          "averageWinnerRank": 4.857142857142857
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 5,
+          "averageWinnerRank": 4.285714285714286
+        }
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 6,
+          "averageWinnerRank": 3.857142857142857
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 3.4285714285714284
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 4,
+          "top5": 6,
+          "averageWinnerRank": 3.5714285714285716
+        }
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 0,
+          "top2": 2,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 6.142857142857143
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 3,
+          "top3": 5,
+          "top5": 5,
+          "averageWinnerRank": 5.142857142857143
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 0,
+          "top2": 2,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 5.571428571428571
+        }
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 4,
+          "top5": 6,
+          "averageWinnerRank": 3.2857142857142856
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 6,
+          "top5": 6,
+          "averageWinnerRank": 2.7142857142857144
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 5,
+          "top5": 5,
+          "averageWinnerRank": 3.142857142857143
+        }
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 4,
+          "top5": 4,
+          "averageWinnerRank": 3.5714285714285716
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 4,
+          "top5": 7,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 4,
+          "top5": 4,
+          "averageWinnerRank": 3.4285714285714284
+        }
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 2,
+          "top5": 5,
+          "averageWinnerRank": 4.285714285714286
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 3,
+          "top5": 6,
+          "averageWinnerRank": 3.857142857142857
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 6,
+          "averageWinnerRank": 3.7142857142857144
+        }
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 3,
+          "top2": 5,
+          "top3": 7,
+          "top5": 7,
+          "averageWinnerRank": 1.8571428571428572
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 4,
+          "top2": 7,
+          "top3": 7,
+          "top5": 7,
+          "averageWinnerRank": 1.4285714285714286
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 6,
+          "top2": 7,
+          "top3": 7,
+          "top5": 7,
+          "averageWinnerRank": 1.1428571428571428
+        }
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 6,
+          "top5": 6,
+          "averageWinnerRank": 3
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 5,
+          "top5": 5,
+          "averageWinnerRank": 4
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 2,
+          "top2": 5,
+          "top3": 5,
+          "top5": 5,
+          "averageWinnerRank": 3.2857142857142856
+        }
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 3,
+          "top2": 6,
+          "top3": 6,
+          "top5": 6,
+          "averageWinnerRank": 2.4285714285714284
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 3,
+          "top2": 5,
+          "top3": 6,
+          "top5": 7,
+          "averageWinnerRank": 2.142857142857143
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 3,
+          "top2": 5,
+          "top3": 6,
+          "top5": 6,
+          "averageWinnerRank": 2.2857142857142856
+        }
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "models": {
+        "safe-v1": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 4,
+          "top5": 6,
+          "averageWinnerRank": 4
+        },
+        "v2a-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 2,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.857142857142857
+        },
+        "v2b-context": {
+          "races": 7,
+          "top1": 1,
+          "top2": 1,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 4.142857142857143
+        }
+      }
+    }
+  ]
+}

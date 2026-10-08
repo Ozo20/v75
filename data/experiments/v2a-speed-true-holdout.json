@@ -1,0 +1,95 @@
+{
+  "scope": "true-out-of-time-holdout",
+  "dates": [
+    "2026-09-26",
+    "2026-10-03"
+  ],
+  "baseline": {
+    "races": 14,
+    "top1": 5,
+    "top2": 7,
+    "top3": 9,
+    "top5": 11,
+    "averageWinnerRank": 3.7142857142857144
+  },
+  "candidate": {
+    "races": 14,
+    "top1": 6,
+    "top2": 8,
+    "top3": 8,
+    "top5": 11,
+    "averageWinnerRank": 3.642857142857143
+  },
+  "market": {
+    "races": 14,
+    "top1": 7,
+    "top2": 9,
+    "top3": 10,
+    "top5": 13,
+    "averageWinnerRank": 2.4285714285714284
+  },
+  "perMeeting": {
+    "baseline": [
+      {
+        "date": "2026-09-26",
+        "raceDayName": "Biri",
+        "ranks": [
+          3,
+          2,
+          3,
+          1,
+          7,
+          10,
+          2
+        ]
+      },
+      {
+        "date": "2026-10-03",
+        "raceDayName": "Bjerke",
+        "ranks": [
+          4,
+          1,
+          1,
+          5,
+          1,
+          11,
+          1
+        ]
+      }
+    ],
+    "candidate": [
+      {
+        "date": "2026-09-26",
+        "raceDayName": "Biri",
+        "ranks": [
+          1,
+          2,
+          5,
+          1,
+          7,
+          9,
+          4
+        ]
+      },
+      {
+        "date": "2026-10-03",
+        "raceDayName": "Bjerke",
+        "ranks": [
+          2,
+          1,
+          1,
+          5,
+          1,
+          11,
+          1
+        ]
+      }
+    ]
+  },
+  "criteria": {
+    "top3Pass": false,
+    "averageRankPass": true,
+    "top5Pass": true
+  },
+  "verdict": "MIXED"
+}

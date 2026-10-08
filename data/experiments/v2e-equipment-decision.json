@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0",
+  "candidateFamily": "v2e-horse-equipment",
+  "status": "NOT_PROMOTED",
+  "championRemains": "v2a-speed",
+  "reason": "Equipment effects had strong data coverage but no variant showed sufficiently broad development improvement to justify consuming the locked validation set.",
+  "developmentResults": {
+    "v2a-speed": {
+      "races": 84,
+      "top1": 20,
+      "top2": 33,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.761904761904762
+    },
+    "v2e-shoe-speed": {
+      "races": 84,
+      "top1": 20,
+      "top2": 33,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.857142857142857
+    },
+    "v2e-sulky-speed": {
+      "races": 84,
+      "top1": 20,
+      "top2": 35,
+      "top3": 46,
+      "top5": 64,
+      "averageWinnerRank": 3.7738095238095237
+    },
+    "v2e-setup-speed": {
+      "races": 84,
+      "top1": 21,
+      "top2": 34,
+      "top3": 46,
+      "top5": 62,
+      "averageWinnerRank": 3.7738095238095237
+    }
+  },
+  "raceComparisonsVsV2A": {
+    "v2e-shoe-speed": {
+      "equal": 67,
+      "improved": 5,
+      "worse": 12
+    },
+    "v2e-sulky-speed": {
+      "equal": 63,
+      "improved": 11,
+      "worse": 10
+    },
+    "v2e-setup-speed": {
+      "equal": 66,
+      "improved": 9,
+      "worse": 9
+    }
+  },
+  "meetingTop3ComparisonsVsV2A": {
+    "v2e-shoe-speed": {
+      "equal": 12
+    },
+    "v2e-sulky-speed": {
+      "equal": 9,
+      "better": 2,
+      "worse": 1
+    },
+    "v2e-setup-speed": {
+      "equal": 11,
+      "better": 1
+    }
+  },
+  "interpretation": {
+    "shoeSpeedPromoted": false,
+    "sulkySpeedPromoted": false,
+    "setupSpeedPromoted": false,
+    "equipmentSemanticsRetained": true,
+    "validationConsumed": false,
+    "retuneDevelopment": false,
+    "bestObservedVariant": "v2e-sulky-speed",
+    "futureRevisitAllowed": true
+  }
+}

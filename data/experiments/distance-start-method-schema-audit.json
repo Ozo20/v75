@@ -1,0 +1,1111 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "entries": 918,
+  "historicalRows": 4579,
+  "currentPaths": {
+    "leg.race.distance": {
+      "count": 84,
+      "topValues": [
+        [
+          "2100",
+          26
+        ],
+        [
+          "2140",
+          11
+        ],
+        [
+          "1609",
+          10
+        ],
+        [
+          "2040",
+          9
+        ],
+        [
+          "2300",
+          8
+        ],
+        [
+          "1600",
+          5
+        ],
+        [
+          "2820",
+          3
+        ],
+        [
+          "1800",
+          2
+        ],
+        [
+          "2609",
+          2
+        ],
+        [
+          "2640",
+          2
+        ],
+        [
+          "2600",
+          2
+        ],
+        [
+          "1640",
+          2
+        ],
+        [
+          "3010",
+          1
+        ],
+        [
+          "1720",
+          1
+        ]
+      ]
+    },
+    "leg.race.startMethod": {
+      "count": 84,
+      "topValues": [
+        [
+          "Auto",
+          62
+        ],
+        [
+          "Volt",
+          22
+        ]
+      ]
+    },
+    "entry.start.extraDistance": {
+      "count": 918,
+      "topValues": [
+        [
+          "0",
+          763
+        ],
+        [
+          "20",
+          101
+        ],
+        [
+          "40",
+          45
+        ],
+        [
+          "60",
+          9
+        ]
+      ]
+    },
+    "entry.career.recordVoltRaw": {
+      "count": 918,
+      "topValues": [
+        [
+          "15,5m",
+          16
+        ],
+        [
+          "15,0m",
+          13
+        ],
+        [
+          "14,1m",
+          11
+        ],
+        [
+          "14,9m",
+          11
+        ],
+        [
+          "15,7m",
+          10
+        ],
+        [
+          "15,1m",
+          10
+        ],
+        [
+          "27,0m",
+          10
+        ],
+        [
+          "15,0l",
+          10
+        ],
+        [
+          "25,5k",
+          9
+        ],
+        [
+          "24,7m",
+          9
+        ],
+        [
+          "28,3m",
+          9
+        ],
+        [
+          "26,1m",
+          9
+        ],
+        [
+          "16,6m",
+          9
+        ],
+        [
+          "15,4m",
+          9
+        ],
+        [
+          "14,3m",
+          9
+        ],
+        [
+          "24,6m",
+          8
+        ],
+        [
+          "15,3m",
+          8
+        ],
+        [
+          "17,3m",
+          8
+        ],
+        [
+          "27,3m",
+          8
+        ],
+        [
+          "15,2m",
+          7
+        ],
+        [
+          "23,6m",
+          7
+        ],
+        [
+          "16,0m",
+          7
+        ],
+        [
+          "15,8m",
+          7
+        ],
+        [
+          "16,7m",
+          7
+        ],
+        [
+          "26,8m",
+          7
+        ],
+        [
+          "26,4m",
+          7
+        ],
+        [
+          "14,7m",
+          7
+        ],
+        [
+          "17,2m",
+          7
+        ],
+        [
+          "15,6m",
+          7
+        ],
+        [
+          "22,0k",
+          6
+        ],
+        [
+          "13,3m",
+          6
+        ],
+        [
+          "24,8m",
+          6
+        ],
+        [
+          "24,7k",
+          6
+        ],
+        [
+          "22,4k",
+          6
+        ],
+        [
+          "14,4m",
+          6
+        ],
+        [
+          "16,9m",
+          6
+        ],
+        [
+          "18,2m",
+          6
+        ],
+        [
+          "14,8m",
+          6
+        ],
+        [
+          "16,2m",
+          6
+        ],
+        [
+          "17,1m",
+          6
+        ],
+        [
+          "16,3m",
+          6
+        ],
+        [
+          "16,1m",
+          6
+        ],
+        [
+          "28,7m",
+          6
+        ],
+        [
+          "22,8m",
+          6
+        ],
+        [
+          "26,3m",
+          5
+        ],
+        [
+          "23,3m",
+          5
+        ],
+        [
+          "23,7m",
+          5
+        ],
+        [
+          "16,4m",
+          5
+        ],
+        [
+          "16,8m",
+          5
+        ],
+        [
+          "30,3m",
+          5
+        ]
+      ]
+    },
+    "entry.career.recordAutoRaw": {
+      "count": 918,
+      "topValues": [
+        [
+          "11,3ak",
+          17
+        ],
+        [
+          "12,3ak",
+          15
+        ],
+        [
+          "12,8ak",
+          13
+        ],
+        [
+          "12,2ak",
+          12
+        ],
+        [
+          "22,9ak",
+          12
+        ],
+        [
+          "11,9ak",
+          12
+        ],
+        [
+          "12,7ak",
+          12
+        ],
+        [
+          "13,2ak",
+          12
+        ],
+        [
+          "23,9ak",
+          11
+        ],
+        [
+          "22,5ak",
+          10
+        ],
+        [
+          "23,0ak",
+          10
+        ],
+        [
+          "14,3am",
+          10
+        ],
+        [
+          "13,1ak",
+          10
+        ],
+        [
+          "25,4ak",
+          10
+        ],
+        [
+          "24,4ak",
+          9
+        ],
+        [
+          "11,6ak",
+          9
+        ],
+        [
+          "11,5ak",
+          9
+        ],
+        [
+          "23,3ak",
+          9
+        ],
+        [
+          "13,0am",
+          9
+        ],
+        [
+          "12,5ak",
+          9
+        ],
+        [
+          "13,6ak",
+          9
+        ],
+        [
+          "12,1ak",
+          9
+        ],
+        [
+          "21,6ak",
+          8
+        ],
+        [
+          "11,7ak",
+          8
+        ],
+        [
+          "13,1am",
+          8
+        ],
+        [
+          "13,0ak",
+          8
+        ],
+        [
+          "13,5am",
+          8
+        ],
+        [
+          "11,8ak",
+          8
+        ],
+        [
+          "12,0ak",
+          8
+        ],
+        [
+          "15,0am",
+          8
+        ],
+        [
+          "13,4am",
+          8
+        ],
+        [
+          "13,9am",
+          8
+        ],
+        [
+          "22,4ak",
+          7
+        ],
+        [
+          "22,7ak",
+          7
+        ],
+        [
+          "13,4ak",
+          7
+        ],
+        [
+          "11,2ak",
+          7
+        ],
+        [
+          "25,8ak",
+          7
+        ],
+        [
+          "13,3ak",
+          7
+        ],
+        [
+          "15,4am",
+          7
+        ],
+        [
+          "23,7ak",
+          6
+        ],
+        [
+          "21,8ak",
+          6
+        ],
+        [
+          "13,8ak",
+          6
+        ],
+        [
+          "15,3am",
+          6
+        ],
+        [
+          "24,8ak",
+          6
+        ],
+        [
+          "20,5ak",
+          6
+        ],
+        [
+          "10,7ak",
+          6
+        ],
+        [
+          "10,4ak",
+          6
+        ],
+        [
+          "26,3ak",
+          5
+        ],
+        [
+          "24,5ak",
+          5
+        ],
+        [
+          "23,7am",
+          5
+        ]
+      ]
+    }
+  },
+  "historyPaths": {
+    "history.distance": {
+      "count": 4579,
+      "topValues": [
+        [
+          "2100",
+          1132
+        ],
+        [
+          "2140",
+          639
+        ],
+        [
+          "1609",
+          480
+        ],
+        [
+          "2040",
+          373
+        ],
+        [
+          "2160",
+          239
+        ],
+        [
+          "1800",
+          181
+        ],
+        [
+          "2300",
+          172
+        ],
+        [
+          "1640",
+          171
+        ],
+        [
+          "2120",
+          153
+        ],
+        [
+          "1600",
+          148
+        ],
+        [
+          "2060",
+          111
+        ],
+        [
+          "2180",
+          99
+        ],
+        [
+          "1700",
+          83
+        ],
+        [
+          "2080",
+          72
+        ],
+        [
+          "2640",
+          56
+        ],
+        [
+          "2600",
+          53
+        ],
+        [
+          "2320",
+          50
+        ],
+        [
+          "2609",
+          30
+        ],
+        [
+          "1620",
+          28
+        ],
+        [
+          "2660",
+          28
+        ],
+        [
+          "1660",
+          22
+        ],
+        [
+          "2360",
+          20
+        ],
+        [
+          "2340",
+          20
+        ],
+        [
+          "3180",
+          19
+        ],
+        [
+          "1720",
+          18
+        ],
+        [
+          "1740",
+          17
+        ],
+        [
+          "2680",
+          15
+        ],
+        [
+          "2840",
+          15
+        ],
+        [
+          "3140",
+          13
+        ],
+        [
+          "2820",
+          13
+        ],
+        [
+          "2610",
+          12
+        ],
+        [
+          "1680",
+          8
+        ],
+        [
+          "1760",
+          8
+        ],
+        [
+          "2620",
+          7
+        ],
+        [
+          "2000",
+          5
+        ],
+        [
+          "2700",
+          5
+        ],
+        [
+          "2520",
+          5
+        ],
+        [
+          "2570",
+          5
+        ],
+        [
+          "2590",
+          5
+        ],
+        [
+          "3160",
+          5
+        ],
+        [
+          "2860",
+          5
+        ],
+        [
+          "3320",
+          4
+        ],
+        [
+          "2900",
+          4
+        ],
+        [
+          "3280",
+          4
+        ],
+        [
+          "2850",
+          3
+        ],
+        [
+          "2200",
+          3
+        ],
+        [
+          "3120",
+          3
+        ],
+        [
+          "1780",
+          2
+        ],
+        [
+          "2540",
+          2
+        ],
+        [
+          "640",
+          2
+        ]
+      ]
+    }
+  },
+  "sampleCurrentEntries": [
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Bellamile",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "25,7m",
+        "career.recordAutoRaw": "26,3ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Moi Oda",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "25,5k",
+        "career.recordAutoRaw": "26,3ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Søyset Norah",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "26,3m",
+        "career.recordAutoRaw": "27,7ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Hassel Linda",
+      "fields": {
+        "start.extraDistance": 20,
+        "career.recordVoltRaw": "25,0m",
+        "career.recordAutoRaw": "24,4ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Ry Tora",
+      "fields": {
+        "start.extraDistance": 20,
+        "career.recordVoltRaw": "25,5k",
+        "career.recordAutoRaw": "25,5am"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Rokne Bliss",
+      "fields": {
+        "start.extraDistance": 20,
+        "career.recordVoltRaw": "24,7m",
+        "career.recordAutoRaw": "24,5ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Sjøli Fryd",
+      "fields": {
+        "start.extraDistance": 20,
+        "career.recordVoltRaw": "23,6k",
+        "career.recordAutoRaw": "22,4ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Jerkeld Odina",
+      "fields": {
+        "start.extraDistance": 20,
+        "career.recordVoltRaw": "24,9k",
+        "career.recordAutoRaw": "24,4ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Brenne Viktoria",
+      "fields": {
+        "start.extraDistance": 40,
+        "career.recordVoltRaw": "24,4m",
+        "career.recordAutoRaw": "26,0ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Årdals Frøya",
+      "fields": {
+        "start.extraDistance": 40,
+        "career.recordVoltRaw": "25,0m",
+        "career.recordAutoRaw": "22,5ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Rina C.K.",
+      "fields": {
+        "start.extraDistance": 40,
+        "career.recordVoltRaw": "23,3m",
+        "career.recordAutoRaw": "23,0ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Frekke Frida",
+      "fields": {
+        "start.extraDistance": 40,
+        "career.recordVoltRaw": "22,6k",
+        "career.recordAutoRaw": "22,7ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Voje Lotta",
+      "fields": {
+        "start.extraDistance": 40,
+        "career.recordVoltRaw": "22,0k",
+        "career.recordAutoRaw": "21,6ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "horse": "Hafell Bris",
+      "fields": {
+        "start.extraDistance": 40,
+        "career.recordVoltRaw": "23,5k",
+        "career.recordAutoRaw": "23,1ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 2,
+      "horse": "Excalibur Gene (S)",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "15,0m",
+        "career.recordAutoRaw": "11,7ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 2,
+      "horse": "Epicure (S)",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "14,7k",
+        "career.recordAutoRaw": "10,0ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 2,
+      "horse": "Clubber Lang",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "15,2m",
+        "career.recordAutoRaw": "12,2ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 2,
+      "horse": "The Way I Talk Ås* (S)",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "15,0m",
+        "career.recordAutoRaw": "10,1ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 2,
+      "horse": "Maharasha (S)",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "14,1m",
+        "career.recordAutoRaw": "10,9ak"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 2,
+      "horse": "Monalisa B.R.",
+      "fields": {
+        "start.extraDistance": 0,
+        "career.recordVoltRaw": "13,3m",
+        "career.recordAutoRaw": "11,6ak"
+      }
+    }
+  ],
+  "sampleHistoryRows": [
+    {
+      "date": "2026-06-13",
+      "horse": "Bellamile",
+      "raceDate": "2026-03-23T00:00:00",
+      "fields": {
+        "distance": 1609
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Bellamile",
+      "raceDate": "2026-04-03T00:00:00",
+      "fields": {
+        "distance": 2140
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Bellamile",
+      "raceDate": "2026-04-18T00:00:00",
+      "fields": {
+        "distance": 2140
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Bellamile",
+      "raceDate": "2026-05-07T00:00:00",
+      "fields": {
+        "distance": 2140
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Bellamile",
+      "raceDate": "2026-05-23T00:00:00",
+      "fields": {
+        "distance": 1620
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Moi Oda",
+      "raceDate": "2026-04-03T00:00:00",
+      "fields": {
+        "distance": 2140
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Moi Oda",
+      "raceDate": "2026-04-18T00:00:00",
+      "fields": {
+        "distance": 2160
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Moi Oda",
+      "raceDate": "2026-05-06T00:00:00",
+      "fields": {
+        "distance": 2100
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Moi Oda",
+      "raceDate": "2026-05-23T00:00:00",
+      "fields": {
+        "distance": 1620
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Moi Oda",
+      "raceDate": "2026-05-28T00:00:00",
+      "fields": {
+        "distance": 2140
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Søyset Norah",
+      "raceDate": "2026-04-20T00:00:00",
+      "fields": {
+        "distance": 1740
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Søyset Norah",
+      "raceDate": "2026-05-05T00:00:00",
+      "fields": {
+        "distance": 2640
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Søyset Norah",
+      "raceDate": "2026-05-18T00:00:00",
+      "fields": {
+        "distance": 1800
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Søyset Norah",
+      "raceDate": "2026-05-27T00:00:00",
+      "fields": {
+        "distance": 2140
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Søyset Norah",
+      "raceDate": "2026-06-02T00:00:00",
+      "fields": {
+        "distance": 2160
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Hassel Linda",
+      "raceDate": "2026-03-17T00:00:00",
+      "fields": {
+        "distance": 2140
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Hassel Linda",
+      "raceDate": "2026-04-07T00:00:00",
+      "fields": {
+        "distance": 2100
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Hassel Linda",
+      "raceDate": "2026-04-18T00:00:00",
+      "fields": {
+        "distance": 2160
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Hassel Linda",
+      "raceDate": "2026-04-28T00:00:00",
+      "fields": {
+        "distance": 1609
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "horse": "Hassel Linda",
+      "raceDate": "2026-06-03T00:00:00",
+      "fields": {
+        "distance": 2100
+      }
+    }
+  ],
+  "guardrails": {
+    "developmentOnly": true,
+    "outcomesRead": false,
+    "marketRead": false,
+    "validationUsed": false,
+    "modelsModified": false
+  }
+}

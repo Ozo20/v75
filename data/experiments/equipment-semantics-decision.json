@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0",
+  "status": "ACCEPTED_FOR_FEATURE_FEASIBILITY",
+  "shoes": {
+    "currentSource": "equipment.shoes",
+    "historySource": "history[].shoes",
+    "allowedValues": [
+      "Both",
+      "None",
+      "Fore",
+      "Hind"
+    ],
+    "previousSnapshotVsHistoryMatchRate": 0.995
+  },
+  "sulky": {
+    "currentSource": "equipment.sulky",
+    "historySource": "history[].sulky",
+    "canonicalization": {
+      "Sulky": "StandardSulky",
+      "StandardSulky": "StandardSulky",
+      "AmericanSulky": "AmericanSulky",
+      "NoSulky": null
+    },
+    "interpretNoSulkyAs": "UNKNOWN_OR_MISSING",
+    "previousSnapshotVsHistoryMatchRateWhenComparable": 0.997
+  },
+  "previousStartSourceForFeatures": "latest history row sorted by raceDate",
+  "reason": "previousStartShoes and previousStartSulky agree almost perfectly with latest history when comparable; NoSulky mostly corresponds to missing historical sulky.",
+  "guardrails": {
+    "outcomesUsed": false,
+    "marketUsed": false,
+    "modelChanged": false
+  }
+}

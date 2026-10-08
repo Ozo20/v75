@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": "hybrid-selector-v1",
+  "decisionDate": "2026-10-07",
+  "decision": "FROZEN_PROSPECTIVE_CHALLENGER",
+  "selector": {
+    "name": "CONSERVATIVE_ONE_SWAP_V1",
+    "status": "FROZEN",
+    "purpose": "Combine the frozen V2A model ticket with independently recorded Stalltips while preserving ticket row structure."
+  },
+  "frozenComponents": {
+    "candidateV2aSpeed": {
+      "path": "src/v75/candidate_v2a_speed.py",
+      "sha256": "464306a193db1499edce2255806219b12ab0687ff547935ba2cd29741e31c674"
+    },
+    "liveTicketBuilderV1": {
+      "path": "scripts/build_live_v75_ticket_v1.py",
+      "sha256": "7030ee6068297da58d24571428aadd1f4cca76b45bfc39f5873d44aab11b82d7"
+    },
+    "systemOptimizerV1": {
+      "path": "src/v75/system_optimizer_v1.py",
+      "sha256": "3b01e0ff1699381aab2537ca11a56339403fa08cbe186cd17474b19b3d3c9439"
+    },
+    "hybridInputV1": {
+      "path": "scripts/build_hybrid_input_v1.py",
+      "sha256": "06c8b05b8f92e075fd775c73d1599b400d417c11446a6a484abffd37a304efcc"
+    },
+    "stalltipsClassifierV1": {
+      "path": "scripts/apply_stalltips_to_hybrid_v1.py",
+      "sha256": "be6c86efd681f693d0541eacc053abf5e3006583a3d40b976b39b60c0470f338"
+    },
+    "hybridSelectorV1": {
+      "path": "scripts/build_hybrid_ticket_v1.py",
+      "sha256": "b3e1f8b01056c05ef62c2b0a3bf1bd58406cf40b3c1fe89f0a2bb7c8ca19b364"
+    }
+  },
+  "frozenRules": [
+    "Start from the frozen MAX_P7 V2A ticket.",
+    "CONSENSUS selections are protected and cannot be removed.",
+    "For a non-banker leg, at most one STALLTIPS_ONLY horse may replace one MODEL_ONLY horse.",
+    "The incoming STALLTIPS_ONLY horse is the one with the highest V2A probability.",
+    "The outgoing MODEL_ONLY horse is the one with the lowest V2A probability.",
+    "A k=1 model banker is never automatically replaced.",
+    "If Stalltips disagrees with a model banker, the disagreement is flagged for review only.",
+    "The number of selections per leg is preserved.",
+    "The total row count and ticket cost are preserved.",
+    "No hybrid P7 probability is reported without calibrated Stalltips per-horse probabilities."
+  ],
+  "validation": {
+    "syntheticClassificationContract": {
+      "status": "PASS",
+      "allFourClassificationStates": true,
+      "outcomesUsed": false
+    },
+    "syntheticOneSwapContract": {
+      "status": "PASS",
+      "rowStructurePreserved": true,
+      "consensusProtected": true,
+      "maximumOneSwapPerNonBankerLeg": true
+    },
+    "syntheticBankerDisagreementContract": {
+      "status": "PASS",
+      "modelBankerRetained": true,
+      "flagOnly": true,
+      "automaticBankerSwap": false,
+      "rowStructurePreserved": true
+    }
+  },
+  "methodology": {
+    "historicalHybridPerformanceUsedToChooseRules": false,
+    "selectorTunedAgainstKnownWinners": false,
+    "nextEvidence": "PROSPECTIVE_V75_MEETINGS",
+    "doNotRetuneFromSingleMeeting": true
+  },
+  "prospectiveComparison": {
+    "tickets": [
+      "V2A_MAX_P7",
+      "STALLTIPS",
+      "HYBRID_SELECTOR_V1"
+    ],
+    "primaryMeasures": [
+      "actualWinnersCovered",
+      "fivePlusCovered",
+      "sixPlusCovered",
+      "sevenOfSevenCovered"
+    ],
+    "secondaryMeasures": [
+      "perLegWinnerCoverage",
+      "swapOutcome",
+      "bankerOutcome"
+    ]
+  },
+  "notes": [
+    "Stalltips must be captured before the first relevant race starts.",
+    "Synthetic fixtures are contract tests only and are not performance evidence.",
+    "V2A remains the frozen horse-model champion.",
+    "Hybrid Selector v1 is a challenger policy pending prospective evidence."
+  ]
+}

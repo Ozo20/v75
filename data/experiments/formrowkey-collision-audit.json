@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "pre-race-identity-inspection",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22",
+    "2026-08-29",
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-19"
+  ],
+  "historicalRows": 6307,
+  "rowsWithFormRowKey": 6307,
+  "duplicateKeys": 1075,
+  "conflictingKeys": 4,
+  "crossHorseCollisions": 0,
+  "sameHorseConflictingKeys": 4,
+  "targetFailureKey": "ÅR_DNT#2026-07-11T00:00:00#6#12#Dju MA",
+  "targetFailureObservations": [
+    {
+      "snapshotDay": "2026-08-22",
+      "horseId": "578001020170105",
+      "horseName": "Hauk Viktor",
+      "driver": "magnus a djuse",
+      "driverRaw": "Magnus A Djuse",
+      "raceDate": "2026-07-11T00:00:00",
+      "trackCode": "ÅR",
+      "raceNumber": 6,
+      "startNumber": 12,
+      "placeRaw": "2"
+    },
+    {
+      "snapshotDay": "2026-09-05",
+      "horseId": "578001020170105",
+      "horseName": "Hauk Viktor",
+      "driver": "magnus a djuse",
+      "driverRaw": "Magnus A Djuse",
+      "raceDate": "2026-07-11T00:00:00",
+      "trackCode": "ÅR",
+      "raceNumber": 6,
+      "startNumber": 12,
+      "placeRaw": "2"
+    },
+    {
+      "snapshotDay": "2026-09-19",
+      "horseId": "578001020170105",
+      "horseName": "Hauk Viktor",
+      "driver": "magnus a. djuse",
+      "driverRaw": "Magnus A. Djuse",
+      "raceDate": "2026-07-11T00:00:00",
+      "trackCode": "ÅR",
+      "raceNumber": 6,
+      "startNumber": 12,
+      "placeRaw": "2"
+    }
+  ],
+  "compositeHorseIdFormRowKeySupported": false,
+  "conflicts": [
+    {
+      "formRowKey": "AX_DNT#2026-07-17T00:00:00#9#14#Goo Bj",
+      "crossHorseCollision": false,
+      "sameHorseConflict": true,
+      "horseIds": [
+        "578001020195026"
+      ],
+      "observations": [
+        {
+          "snapshotDay": "2026-07-25",
+          "horseId": "578001020195026",
+          "horseName": "Caramel Volo",
+          "driver": "bjørn goop",
+          "driverRaw": "Bjørn Goop",
+          "raceDate": "2026-07-17T00:00:00",
+          "trackCode": "AX",
+          "raceNumber": 9,
+          "startNumber": 14,
+          "placeRaw": "8"
+        },
+        {
+          "snapshotDay": "2026-08-01",
+          "horseId": "578001020195026",
+          "horseName": "Caramel Volo",
+          "driver": "bjørn goop",
+          "driverRaw": "Bjørn Goop",
+          "raceDate": "2026-07-17T00:00:00",
+          "trackCode": "AX",
+          "raceNumber": 9,
+          "startNumber": 14,
+          "placeRaw": "8"
+        },
+        {
+          "snapshotDay": "2026-08-29",
+          "horseId": "578001020195026",
+          "horseName": "Caramel Volo",
+          "driver": "bjørn goop",
+          "driverRaw": "Bjørn Goop",
+          "raceDate": "2026-07-17T00:00:00",
+          "trackCode": "AX",
+          "raceNumber": 9,
+          "startNumber": 14,
+          "placeRaw": "8"
+        },
+        {
+          "snapshotDay": "2026-09-05",
+          "horseId": "578001020195026",
+          "horseName": "Caramel Volo",
+          "driver": "bjørn goop",
+          "driverRaw": "Bjørn Goop",
+          "raceDate": "2026-07-17T00:00:00",
+          "trackCode": "AX",
+          "raceNumber": 9,
+          "startNumber": 14,
+          "placeRaw": "8"
+        },
+        {
+          "snapshotDay": "2026-09-19",
+          "horseId": "578001020195026",
+          "horseName": "Caramel Volo",
+          "driver": "björn goop",
+          "driverRaw": "Björn Goop",
+          "raceDate": "2026-07-17T00:00:00",
+          "trackCode": "AX",
+          "raceNumber": 9,
+          "startNumber": 14,
+          "placeRaw": "8"
+        }
+      ]
+    },
+    {
+      "formRowKey": "ÅR_DNT#2026-07-11T00:00:00#6#4#Goo Bj",
+      "crossHorseCollision": false,
+      "sameHorseConflict": true,
+      "horseIds": [
+        "578001020170461"
+      ],
+      "observations": [
+        {
+          "snapshotDay": "2026-08-08",
+          "horseId": "578001020170461",
+          "horseName": "Kolli Yx Odin",
+          "driver": "bjørn goop",
+          "driverRaw": "Bjørn Goop",
+          "raceDate": "2026-07-11T00:00:00",
+          "trackCode": "ÅR",
+          "raceNumber": 6,
+          "startNumber": 4,
+          "placeRaw": "4"
+        },
+        {
+          "snapshotDay": "2026-09-19",
+          "horseId": "578001020170461",
+          "horseName": "Kolli Yx Odin",
+          "driver": "björn goop",
+          "driverRaw": "Björn Goop",
+          "raceDate": "2026-07-11T00:00:00",
+          "trackCode": "ÅR",
+          "raceNumber": 6,
+          "startNumber": 4,
+          "placeRaw": "4"
+        }
+      ]
+    },
+    {
+      "formRowKey": "E_DNT#2026-07-15T00:00:00#11#2#Dju ME",
+      "crossHorseCollision": false,
+      "sameHorseConflict": true,
+      "horseIds": [
+        "578001020215173"
+      ],
+      "observations": [
+        {
+          "snapshotDay": "2026-08-08",
+          "horseId": "578001020215173",
+          "horseName": "Clodrique",
+          "driver": "mats e djuse",
+          "driverRaw": "Mats E Djuse",
+          "raceDate": "2026-07-15T00:00:00",
+          "trackCode": "E",
+          "raceNumber": 11,
+          "startNumber": 2,
+          "placeRaw": "5"
+        },
+        {
+          "snapshotDay": "2026-09-19",
+          "horseId": "578001020215173",
+          "horseName": "Clodrique",
+          "driver": "mats e. djuse",
+          "driverRaw": "Mats E. Djuse",
+          "raceDate": "2026-07-15T00:00:00",
+          "trackCode": "E",
+          "raceNumber": 11,
+          "startNumber": 2,
+          "placeRaw": "5"
+        }
+      ]
+    },
+    {
+      "formRowKey": "ÅR_DNT#2026-07-11T00:00:00#6#12#Dju MA",
+      "crossHorseCollision": false,
+      "sameHorseConflict": true,
+      "horseIds": [
+        "578001020170105"
+      ],
+      "observations": [
+        {
+          "snapshotDay": "2026-08-22",
+          "horseId": "578001020170105",
+          "horseName": "Hauk Viktor",
+          "driver": "magnus a djuse",
+          "driverRaw": "Magnus A Djuse",
+          "raceDate": "2026-07-11T00:00:00",
+          "trackCode": "ÅR",
+          "raceNumber": 6,
+          "startNumber": 12,
+          "placeRaw": "2"
+        },
+        {
+          "snapshotDay": "2026-09-05",
+          "horseId": "578001020170105",
+          "horseName": "Hauk Viktor",
+          "driver": "magnus a djuse",
+          "driverRaw": "Magnus A Djuse",
+          "raceDate": "2026-07-11T00:00:00",
+          "trackCode": "ÅR",
+          "raceNumber": 6,
+          "startNumber": 12,
+          "placeRaw": "2"
+        },
+        {
+          "snapshotDay": "2026-09-19",
+          "horseId": "578001020170105",
+          "horseName": "Hauk Viktor",
+          "driver": "magnus a. djuse",
+          "driverRaw": "Magnus A. Djuse",
+          "raceDate": "2026-07-11T00:00:00",
+          "trackCode": "ÅR",
+          "raceNumber": 6,
+          "startNumber": 12,
+          "placeRaw": "2"
+        }
+      ]
+    }
+  ],
+  "guardrails": {
+    "outcomesRead": false,
+    "marketRead": false,
+    "candidateModified": false,
+    "validationOutcomesConsumed": false
+  }
+}

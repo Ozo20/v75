@@ -1,0 +1,1002 @@
+{
+  "schemaVersion": "2.0",
+  "view": "budget-advisor-ticket",
+  "raceDate": "2026-03-21",
+  "raceDayName": "Momarken",
+  "raceDayKey": "MO_NR_2026-03-21",
+  "horseModel": "candidate-v2a-speed",
+  "rowPriceNok": 0.5,
+  "selectedBudgetNok": 400.0,
+  "frontier": [
+    {
+      "budgetNok": 100.0,
+      "rowPriceNok": 0.5,
+      "maxRowsFromBudget": 200,
+      "actualRows": 192,
+      "actualCostNok": 96.0,
+      "unusedBudgetNok": 4.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.005047217428384681,
+          "1": 0.041736836109899166,
+          "2": 0.14393852121615794,
+          "3": 0.26788953340637156,
+          "4": 0.28993035345216667,
+          "5": 0.18195178052555422,
+          "6": 0.06108518854837992,
+          "7": 0.008420569313085949
+        },
+        "atLeast5": 0.2514575383870201,
+        "atLeast6": 0.06950575786146587,
+        "all7": 0.008420569313085949,
+        "expectedCoveredWinners": 3.6282179116796485,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.008420569313085944,
+      "legs": [
+        {
+          "leg": 1,
+          "k": 2,
+          "probabilityMass": 0.431719352813355,
+          "selectedStartNumbers": [
+            7,
+            8
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 2,
+          "probabilityMass": 0.4760276382268745,
+          "selectedStartNumbers": [
+            8,
+            3
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 3,
+          "probabilityMass": 0.5898410105075268,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 2,
+          "probabilityMass": 0.5431766399866148,
+          "selectedStartNumbers": [
+            6,
+            7
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ],
+      "marginalFromPrevious": null
+    },
+    {
+      "budgetNok": 200.0,
+      "rowPriceNok": 0.5,
+      "maxRowsFromBudget": 400,
+      "actualRows": 384,
+      "actualCostNok": 192.0,
+      "unusedBudgetNok": 8.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.0026833927976694294,
+          "1": 0.026580401274309783,
+          "2": 0.10913910383665225,
+          "3": 0.24002169214338848,
+          "4": 0.3040208232479835,
+          "5": 0.2204956908905414,
+          "6": 0.08414332352783556,
+          "7": 0.0129155722816196
+        },
+        "atLeast5": 0.3175545866999966,
+        "atLeast6": 0.09705889580945516,
+        "all7": 0.0129155722816196,
+        "expectedCoveredWinners": 3.8787543799607715,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.012915572281619594,
+      "legs": [
+        {
+          "leg": 1,
+          "k": 2,
+          "probabilityMass": 0.431719352813355,
+          "selectedStartNumbers": [
+            7,
+            8
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 2,
+          "probabilityMass": 0.5431766399866148,
+          "selectedStartNumbers": [
+            6,
+            7
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ],
+      "marginalFromPrevious": {
+        "additionalBudgetNok": 100.0,
+        "additionalActualCostNok": 96.0,
+        "deltaAtLeast5": 0.06609704831297647,
+        "deltaAtLeast6": 0.02755313794798929,
+        "deltaAll7": 0.0044950029685336505,
+        "deltaAll7Per100NokActualCost": 0.00468229475888922
+      }
+    },
+    {
+      "budgetNok": 300.0,
+      "rowPriceNok": 0.5,
+      "maxRowsFromBudget": 600,
+      "actualRows": 576,
+      "actualCostNok": 288.0,
+      "unusedBudgetNok": 12.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.0018315227784248998,
+          "1": 0.020006954636255743,
+          "2": 0.09074603844547846,
+          "3": 0.22034160368908995,
+          "4": 0.30710386956955527,
+          "5": 0.24334574951993973,
+          "6": 0.10026035004804408,
+          "7": 0.01636391131321195
+        },
+        "atLeast5": 0.35997001088119573,
+        "atLeast6": 0.11662426136125603,
+        "all7": 0.01636391131321195,
+        "expectedCoveredWinners": 4.02377754795315,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.016363911313211955,
+      "legs": [
+        {
+          "leg": 1,
+          "k": 2,
+          "probabilityMass": 0.431719352813355,
+          "selectedStartNumbers": [
+            7,
+            8
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 3,
+          "probabilityMass": 0.6881998079789936,
+          "selectedStartNumbers": [
+            6,
+            7,
+            2
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ],
+      "marginalFromPrevious": {
+        "additionalBudgetNok": 100.0,
+        "additionalActualCostNok": 96.0,
+        "deltaAtLeast5": 0.042415424181199146,
+        "deltaAtLeast6": 0.01956536555180087,
+        "deltaAll7": 0.003448339031592352,
+        "deltaAll7Per100NokActualCost": 0.0035920198245753664
+      }
+    },
+    {
+      "budgetNok": 400.0,
+      "rowPriceNok": 0.5,
+      "maxRowsFromBudget": 800,
+      "actualRows": 768,
+      "actualCostNok": 384.0,
+      "unusedBudgetNok": 16.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.0010952608362845954,
+          "1": 0.014325596589893897,
+          "2": 0.07484911316240662,
+          "3": 0.20333231844660088,
+          "4": 0.3097685127911138,
+          "5": 0.2630948053200493,
+          "6": 0.11419011982421139,
+          "7": 0.019344273029439474
+        },
+        "atLeast5": 0.3966291981737002,
+        "atLeast6": 0.13353439285365087,
+        "all7": 0.019344273029439474,
+        "expectedCoveredWinners": 4.149119486170556,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.01934427302943948,
+      "legs": [
+        {
+          "leg": 1,
+          "k": 2,
+          "probabilityMass": 0.431719352813355,
+          "selectedStartNumbers": [
+            7,
+            8
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 4,
+          "probabilityMass": 0.8135417461963999,
+          "selectedStartNumbers": [
+            6,
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ],
+      "marginalFromPrevious": {
+        "additionalBudgetNok": 100.0,
+        "additionalActualCostNok": 96.0,
+        "deltaAtLeast5": 0.03665918729250445,
+        "deltaAtLeast6": 0.016910131492394842,
+        "deltaAll7": 0.0029803617162275226,
+        "deltaAll7Per100NokActualCost": 0.003104543454403669
+      }
+    },
+    {
+      "budgetNok": 500.0,
+      "rowPriceNok": 0.5,
+      "maxRowsFromBudget": 1000,
+      "actualRows": 960,
+      "actualCostNok": 480.0,
+      "unusedBudgetNok": 20.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.0012710685216048793,
+          "1": 0.015075853222524653,
+          "2": 0.07442671260310293,
+          "3": 0.19750631311163896,
+          "4": 0.30263545219943144,
+          "5": 0.265509126982804,
+          "6": 0.12171191751337662,
+          "7": 0.021863555845516535
+        },
+        "atLeast5": 0.40908460034169714,
+        "atLeast6": 0.14357547335889315,
+        "all7": 0.021863555845516535,
+        "expectedCoveredWinners": 4.177852057474269,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.02186355584551654,
+      "legs": [
+        {
+          "leg": 1,
+          "k": 5,
+          "probabilityMass": 0.7308170303268523,
+          "selectedStartNumbers": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 2,
+          "probabilityMass": 0.5431766399866148,
+          "selectedStartNumbers": [
+            6,
+            7
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ],
+      "marginalFromPrevious": {
+        "additionalBudgetNok": 100.0,
+        "additionalActualCostNok": 96.0,
+        "deltaAtLeast5": 0.012455402167996954,
+        "deltaAtLeast6": 0.010041080505242272,
+        "deltaAll7": 0.0025192828160770613,
+        "deltaAll7Per100NokActualCost": 0.0026242529334136056
+      }
+    },
+    {
+      "budgetNok": 600.0,
+      "rowPriceNok": 0.5,
+      "maxRowsFromBudget": 1200,
+      "actualRows": 1200,
+      "actualCostNok": 600.0,
+      "unusedBudgetNok": 0.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.0010277342793435509,
+          "1": 0.012807833450415862,
+          "2": 0.06655769480230858,
+          "3": 0.18606354942576836,
+          "4": 0.30013333876037385,
+          "5": 0.2764703142310118,
+          "6": 0.1323583862345507,
+          "7": 0.024581148816227305
+        },
+        "atLeast5": 0.4334098492817898,
+        "atLeast6": 0.156939535050778,
+        "all7": 0.024581148816227305,
+        "expectedCoveredWinners": 4.253217156649788,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.02458114881622731,
+      "legs": [
+        {
+          "leg": 1,
+          "k": 5,
+          "probabilityMass": 0.7308170303268523,
+          "selectedStartNumbers": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 2,
+          "probabilityMass": 0.5431766399866148,
+          "selectedStartNumbers": [
+            6,
+            7
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 5,
+          "probabilityMass": 0.6816917538238426,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7,
+            11
+          ]
+        }
+      ],
+      "marginalFromPrevious": {
+        "additionalBudgetNok": 100.0,
+        "additionalActualCostNok": 120.0,
+        "deltaAtLeast5": 0.024325248940092692,
+        "deltaAtLeast6": 0.013364061691884865,
+        "deltaAll7": 0.00271759297071077,
+        "deltaAll7Per100NokActualCost": 0.0022646608089256417
+      }
+    },
+    {
+      "budgetNok": 800.0,
+      "rowPriceNok": 0.5,
+      "maxRowsFromBudget": 1600,
+      "actualRows": 1600,
+      "actualCostNok": 800.0,
+      "unusedBudgetNok": 0.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.000560062304918038,
+          "1": 0.008399096046286832,
+          "2": 0.05126425507204937,
+          "3": 0.1644896944091116,
+          "4": 0.29725662882948173,
+          "5": 0.29838965171392906,
+          "6": 0.15079416813104127,
+          "7": 0.02884644349318222
+        },
+        "atLeast5": 0.4780302633381526,
+        "atLeast6": 0.17964061162422348,
+        "all7": 0.02884644349318222,
+        "expectedCoveredWinners": 4.392061576543815,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.02884644349318223,
+      "legs": [
+        {
+          "leg": 1,
+          "k": 5,
+          "probabilityMass": 0.7308170303268523,
+          "selectedStartNumbers": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 2,
+          "probabilityMass": 0.4760276382268745,
+          "selectedStartNumbers": [
+            8,
+            3
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 4,
+          "probabilityMass": 0.8135417461963999,
+          "selectedStartNumbers": [
+            6,
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 5,
+          "probabilityMass": 0.6816917538238426,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7,
+            11
+          ]
+        }
+      ],
+      "marginalFromPrevious": {
+        "additionalBudgetNok": 200.0,
+        "additionalActualCostNok": 200.0,
+        "deltaAtLeast5": 0.044620414056362745,
+        "deltaAtLeast6": 0.022701076573445472,
+        "deltaAll7": 0.004265294676954915,
+        "deltaAll7Per100NokActualCost": 0.0021326473384774575
+      }
+    },
+    {
+      "budgetNok": 1000.0,
+      "rowPriceNok": 0.5,
+      "maxRowsFromBudget": 2000,
+      "actualRows": 1920,
+      "actualCostNok": 960.0,
+      "unusedBudgetNok": 40.0,
+      "estimatedCoverage": {
+        "exact": {
+          "0": 0.0005188027534236101,
+          "1": 0.0078001331511334876,
+          "2": 0.04795170874634686,
+          "3": 0.15614278558833286,
+          "4": 0.28959857738432454,
+          "5": 0.3029831053666301,
+          "6": 0.1622587891638807,
+          "7": 0.03274609784592787
+        },
+        "atLeast5": 0.49798799237643865,
+        "atLeast6": 0.19500488700980856,
+        "all7": 0.03274609784592787,
+        "expectedCoveredWinners": 4.4482171636840535,
+        "assumption": "cross-leg-independence"
+      },
+      "estimatedAll7Coverage": 0.032746097845927885,
+      "legs": [
+        {
+          "leg": 1,
+          "k": 5,
+          "probabilityMass": 0.7308170303268523,
+          "selectedStartNumbers": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "leg": 2,
+          "k": 3,
+          "probabilityMass": 0.6075483245426322,
+          "selectedStartNumbers": [
+            8,
+            3,
+            10
+          ]
+        },
+        {
+          "leg": 3,
+          "k": 2,
+          "probabilityMass": 0.6629837682744599,
+          "selectedStartNumbers": [
+            1,
+            3
+          ]
+        },
+        {
+          "leg": 4,
+          "k": 4,
+          "probabilityMass": 0.708856792472892,
+          "selectedStartNumbers": [
+            1,
+            9,
+            8,
+            7
+          ]
+        },
+        {
+          "leg": 5,
+          "k": 1,
+          "probabilityMass": 0.3181428472224941,
+          "selectedStartNumbers": [
+            2
+          ]
+        },
+        {
+          "leg": 6,
+          "k": 4,
+          "probabilityMass": 0.8135417461963999,
+          "selectedStartNumbers": [
+            6,
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "leg": 7,
+          "k": 4,
+          "probabilityMass": 0.6063266546483232,
+          "selectedStartNumbers": [
+            3,
+            1,
+            2,
+            7
+          ]
+        }
+      ],
+      "marginalFromPrevious": {
+        "additionalBudgetNok": 200.0,
+        "additionalActualCostNok": 160.0,
+        "deltaAtLeast5": 0.019957729038286076,
+        "deltaAtLeast6": 0.015364275385585074,
+        "deltaAll7": 0.003899654352745651,
+        "deltaAll7Per100NokActualCost": 0.002437283970466032
+      }
+    }
+  ],
+  "ticket": {
+    "budgetNok": 400.0,
+    "actualCostNok": 384.0,
+    "unusedBudgetNok": 16.0,
+    "actualRows": 768,
+    "estimatedCoverage": {
+      "exact": {
+        "0": 0.0010952608362845954,
+        "1": 0.014325596589893897,
+        "2": 0.07484911316240662,
+        "3": 0.20333231844660088,
+        "4": 0.3097685127911138,
+        "5": 0.2630948053200493,
+        "6": 0.11419011982421139,
+        "7": 0.019344273029439474
+      },
+      "atLeast5": 0.3966291981737002,
+      "atLeast6": 0.13353439285365087,
+      "all7": 0.019344273029439474,
+      "expectedCoveredWinners": 4.149119486170556,
+      "assumption": "cross-leg-independence"
+    },
+    "legs": [
+      {
+        "leg": 1,
+        "k": 2,
+        "probabilityMass": 0.431719352813355,
+        "selections": [
+          {
+            "startNumber": 7,
+            "horseName": "Voje Lotta"
+          },
+          {
+            "startNumber": 8,
+            "horseName": "Bare Mattis"
+          }
+        ]
+      },
+      {
+        "leg": 2,
+        "k": 3,
+        "probabilityMass": 0.6075483245426322,
+        "selections": [
+          {
+            "startNumber": 8,
+            "horseName": "Nikita B.R."
+          },
+          {
+            "startNumber": 3,
+            "horseName": "Tasty Tile (S)"
+          },
+          {
+            "startNumber": 10,
+            "horseName": "Haley James"
+          }
+        ]
+      },
+      {
+        "leg": 3,
+        "k": 2,
+        "probabilityMass": 0.6629837682744599,
+        "selections": [
+          {
+            "startNumber": 1,
+            "horseName": "Brenne Brago"
+          },
+          {
+            "startNumber": 3,
+            "horseName": "Kagge Ty"
+          }
+        ]
+      },
+      {
+        "leg": 4,
+        "k": 4,
+        "probabilityMass": 0.708856792472892,
+        "selections": [
+          {
+            "startNumber": 1,
+            "horseName": "Leroy B.R."
+          },
+          {
+            "startNumber": 9,
+            "horseName": "Gaio Noark"
+          },
+          {
+            "startNumber": 8,
+            "horseName": "Patuzzo"
+          },
+          {
+            "startNumber": 7,
+            "horseName": "Chantecler"
+          }
+        ]
+      },
+      {
+        "leg": 5,
+        "k": 1,
+        "probabilityMass": 0.3181428472224941,
+        "selections": [
+          {
+            "startNumber": 2,
+            "horseName": "Gylden Karamell"
+          }
+        ]
+      },
+      {
+        "leg": 6,
+        "k": 4,
+        "probabilityMass": 0.8135417461963999,
+        "selections": [
+          {
+            "startNumber": 6,
+            "horseName": "Bunny"
+          },
+          {
+            "startNumber": 7,
+            "horseName": "Explosive Axe (IT)"
+          },
+          {
+            "startNumber": 2,
+            "horseName": "Kashmina B.R."
+          },
+          {
+            "startNumber": 1,
+            "horseName": "Gentletron"
+          }
+        ]
+      },
+      {
+        "leg": 7,
+        "k": 4,
+        "probabilityMass": 0.6063266546483232,
+        "selections": [
+          {
+            "startNumber": 3,
+            "horseName": "Førlands Snorre"
+          },
+          {
+            "startNumber": 1,
+            "horseName": "Silke Sjarmør"
+          },
+          {
+            "startNumber": 2,
+            "horseName": "Stas Bragd"
+          },
+          {
+            "startNumber": 7,
+            "horseName": "Harkar"
+          }
+        ]
+      }
+    ]
+  },
+  "probabilityWarning": "Model-estimated coverage. Absolute probabilities are provisional and are not guaranteed real-world odds."
+}

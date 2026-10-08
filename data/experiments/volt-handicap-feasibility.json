@@ -1,0 +1,390 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "entries": 918,
+  "voltEntries": 271,
+  "autoEntries": 647,
+  "voltRaces": 22,
+  "autoRaces": 62,
+  "voltMultiBandRaces": 22,
+  "voltSingleBandRaces": 0,
+  "extraDistanceCounts": {
+    "0": 116,
+    "20": 101,
+    "40": 45,
+    "60": 9
+  },
+  "raceBandPatterns": {
+    "0,20,40": 7,
+    "0,20": 11,
+    "20,40,60": 1,
+    "0,20,40,60": 3
+  },
+  "multiBandRaceDetails": [
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "baseDistance": 2140,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "entries": 14,
+      "countsByExtra": {
+        "0": 3,
+        "20": 5,
+        "40": 6
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 4,
+      "baseDistance": 2140,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 14,
+      "countsByExtra": {
+        "0": 11,
+        "20": 3
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "leg": 7,
+      "baseDistance": 2140,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 13,
+      "countsByExtra": {
+        "0": 9,
+        "20": 4
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "raceDayName": "Bjerke",
+      "leg": 1,
+      "baseDistance": 2140,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 10,
+      "countsByExtra": {
+        "0": 4,
+        "20": 6
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "leg": 1,
+      "baseDistance": 2300,
+      "bands": [
+        20,
+        40,
+        60
+      ],
+      "entries": 9,
+      "countsByExtra": {
+        "20": 2,
+        "40": 3,
+        "60": 4
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "leg": 3,
+      "baseDistance": 2820,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "entries": 12,
+      "countsByExtra": {
+        "0": 5,
+        "20": 5,
+        "40": 2
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "leg": 4,
+      "baseDistance": 2300,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 15,
+      "countsByExtra": {
+        "0": 6,
+        "20": 9
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "leg": 6,
+      "baseDistance": 2820,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "entries": 15,
+      "countsByExtra": {
+        "0": 10,
+        "20": 2,
+        "40": 3
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "leg": 1,
+      "baseDistance": 2040,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "entries": 9,
+      "countsByExtra": {
+        "0": 3,
+        "20": 3,
+        "40": 3
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "leg": 3,
+      "baseDistance": 2040,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "entries": 14,
+      "countsByExtra": {
+        "0": 3,
+        "20": 6,
+        "40": 5
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "leg": 7,
+      "baseDistance": 3010,
+      "bands": [
+        0,
+        20,
+        40,
+        60
+      ],
+      "entries": 14,
+      "countsByExtra": {
+        "0": 1,
+        "20": 5,
+        "40": 6,
+        "60": 2
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "raceDayName": "Sørlandet",
+      "leg": 1,
+      "baseDistance": 2640,
+      "bands": [
+        0,
+        20,
+        40,
+        60
+      ],
+      "entries": 9,
+      "countsByExtra": {
+        "0": 2,
+        "20": 3,
+        "40": 3,
+        "60": 1
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "raceDayName": "Sørlandet",
+      "leg": 7,
+      "baseDistance": 2140,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 9,
+      "countsByExtra": {
+        "0": 2,
+        "20": 7
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "raceDayName": "Biri",
+      "leg": 2,
+      "baseDistance": 2100,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 14,
+      "countsByExtra": {
+        "0": 5,
+        "20": 9
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "raceDayName": "Biri",
+      "leg": 5,
+      "baseDistance": 2100,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 14,
+      "countsByExtra": {
+        "0": 6,
+        "20": 8
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "raceDayName": "Momarken",
+      "leg": 7,
+      "baseDistance": 2640,
+      "bands": [
+        0,
+        20,
+        40,
+        60
+      ],
+      "entries": 14,
+      "countsByExtra": {
+        "0": 7,
+        "20": 1,
+        "40": 4,
+        "60": 2
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "raceDayName": "Bergen",
+      "leg": 1,
+      "baseDistance": 2100,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 12,
+      "countsByExtra": {
+        "0": 4,
+        "20": 8
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "raceDayName": "Bergen",
+      "leg": 2,
+      "baseDistance": 1600,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 8,
+      "countsByExtra": {
+        "0": 6,
+        "20": 2
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "leg": 1,
+      "baseDistance": 2300,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "entries": 8,
+      "countsByExtra": {
+        "0": 3,
+        "20": 2,
+        "40": 3
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "leg": 2,
+      "baseDistance": 2820,
+      "bands": [
+        0,
+        20,
+        40
+      ],
+      "entries": 14,
+      "countsByExtra": {
+        "0": 4,
+        "20": 3,
+        "40": 7
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "leg": 7,
+      "baseDistance": 1720,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 15,
+      "countsByExtra": {
+        "0": 10,
+        "20": 5
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "raceDayName": "Jarlsberg",
+      "leg": 2,
+      "baseDistance": 2100,
+      "bands": [
+        0,
+        20
+      ],
+      "entries": 15,
+      "countsByExtra": {
+        "0": 12,
+        "20": 3
+      }
+    }
+  ],
+  "guardrails": {
+    "developmentOnly": true,
+    "outcomesRead": false,
+    "marketRead": false,
+    "validationUsed": false,
+    "modelsModified": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "candidate": "candidate-v2a-speed",
+  "status": "NOT_PROMOTED",
+  "currentChampion": "baseline-safe-v1",
+  "reason": {
+    "development": "Improved Top-3, Top-5 and average winner rank.",
+    "validation": "Improved all reported ranking metrics.",
+    "trueHoldout": "Improved Top-1, Top-2 and average rank, but Top-3 fell from 9/14 to 8/14.",
+    "predeclaredVerdict": "MIXED"
+  },
+  "policy": {
+    "doNotRetuneV2AWeights": true,
+    "doNotReuse2026-09-26Or2026-10-03ForModelSelection": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "decisionType": "v75-system-risk-profile-policy",
+  "decisionDate": "2026-10-07",
+  "defaultPolicy": {
+    "name": "MAX_P7",
+    "status": "CHAMPION_POLICY",
+    "reason": "Remains the unconstrained mathematical optimum for estimated all-seven coverage."
+  },
+  "challengerPolicy": {
+    "name": "NO_WEAK_BANKER",
+    "status": "FROZEN_CHALLENGER_POLICY",
+    "minBankerProbability": 0.35,
+    "retuneThresholdOnConsumedData": false,
+    "reason": "Fixed 35% weak-banker rule improved actual covered-winner count in 2 of 11 historical meetings, was worse in 0, and equal in 9, while estimated mean P7 declined only slightly."
+  },
+  "rejectedPolicy": {
+    "name": "NO_BANKER",
+    "status": "NOT_PROMOTED",
+    "reason": "Removing all bankers reduced aggregate actual winner coverage and 5+ meeting coverage."
+  },
+  "historicalDiagnostic": {
+    "meetings": 11,
+    "MAX_P7": {
+      "meanCoveredWinners": 3.909090909090909,
+      "fivePlusMeetings": 5,
+      "sixPlusMeetings": 2,
+      "sevenMeetings": 0,
+      "meanEstimatedP7": 0.021016785468134132
+    },
+    "NO_WEAK_BANKER": {
+      "meanCoveredWinners": 4.090909090909091,
+      "fivePlusMeetings": 5,
+      "sixPlusMeetings": 2,
+      "sevenMeetings": 0,
+      "meanEstimatedP7": 0.020324122974730154
+    },
+    "pairwise": {
+      "challengerBetter": 2,
+      "championBetter": 0,
+      "equal": 9
+    }
+  },
+  "evaluationStatus": {
+    "historicalSetConsumedForPolicyAssessment": true,
+    "futureIndependentMeetingsRequired": true,
+    "absoluteProbabilityCalibrationProvisional": true,
+    "horseModelChanged": false,
+    "optimizerWeightsChanged": false
+  },
+  "liveUseGuidance": {
+    "showBothChampionAndChallenger": true,
+    "automaticChallengerPromotion": false,
+    "defaultSelection": "MAX_P7",
+    "userMayChooseChallenger": true
+  }
+}

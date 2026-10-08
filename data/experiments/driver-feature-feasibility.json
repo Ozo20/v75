@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+  ],
+  "entries": 918,
+  "historyRows": 4579,
+  "current": {
+    "horseRegistrationIdCoverage": 0.0,
+    "driverIdCoverage": 0.0,
+    "driverNameCoverage": 1.0,
+    "uniqueDriverIds": 0,
+    "uniqueDriverNames": 216
+  },
+  "history": {
+    "driverIdCoverage": 0.0,
+    "driverNameCoverage": 1.0,
+    "uniqueDriverIds": 0,
+    "uniqueDriverNames": 300
+  },
+  "pairDiagnostic": {
+    "identityBasis": "normalized-driver-name",
+    "atLeast1PriorRow": 918,
+    "atLeast2PriorRows": 721,
+    "atLeast3PriorRows": 626,
+    "coverageAtLeast1": 1.0
+  },
+  "identityConsistency": {
+    "currentIdsWithMultipleNames": 0,
+    "currentNamesWithMultipleIds": 0
+  },
+  "guardrails": {
+    "outcomesRead": false,
+    "marketRead": false,
+    "validationUsed": false,
+    "holdoutUsed": false
+  }
+}

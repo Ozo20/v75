@@ -1,0 +1,614 @@
+{
+  "schemaVersion": "1.0",
+  "experiment": "feature-v2d-horse-track",
+  "scope": "development-only",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+  ],
+  "featureDesign": {
+    "trackIdentity": "verified history trackCode via explicit race-day-prefix mapping",
+    "experience": {
+      "sameTrackLatestWeight": 0.5,
+      "sameTrackShareWeight": 0.5
+    },
+    "trackSpeedEffect": {
+      "minimumSameTrackStarts": 2,
+      "definition": "overall recent weighted clean km time minus same-track recent weighted clean km time",
+      "positiveMeaning": "historically faster on today's track",
+      "shrinkage": "sameTrackCount / (sameTrackCount + 2)",
+      "missingPolicy": "neutral field-relative value"
+    }
+  },
+  "featureStats": {
+    "entries": 918,
+    "sameTrackAtLeast1": 548,
+    "sameTrackLatest": 264,
+    "sameTrackAtLeast2": 367,
+    "trackSpeedEffectAvailable": 362,
+    "sameTrackAtLeast3": 253
+  },
+  "variants": {
+    "v2a-speed": {
+      "base": 0.7,
+      "speed": 0.3,
+      "trackExperience": 0.0,
+      "trackSpeedEffect": 0.0
+    },
+    "v2d-track-experience": {
+      "base": 0.63,
+      "speed": 0.27,
+      "trackExperience": 0.1,
+      "trackSpeedEffect": 0.0
+    },
+    "v2d-track-speed": {
+      "base": 0.63,
+      "speed": 0.27,
+      "trackExperience": 0.0,
+      "trackSpeedEffect": 0.1
+    },
+    "v2d-track-combined": {
+      "base": 0.63,
+      "speed": 0.27,
+      "trackExperience": 0.05,
+      "trackSpeedEffect": 0.05
+    }
+  },
+  "results": {
+    "v2a-speed": {
+      "races": 84,
+      "top1": 20,
+      "top2": 33,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.761904761904762
+    },
+    "v2d-track-experience": {
+      "races": 84,
+      "top1": 19,
+      "top2": 33,
+      "top3": 45,
+      "top5": 66,
+      "averageWinnerRank": 3.8214285714285716
+    },
+    "v2d-track-speed": {
+      "races": 84,
+      "top1": 18,
+      "top2": 35,
+      "top3": 45,
+      "top5": 63,
+      "averageWinnerRank": 3.8095238095238093
+    },
+    "v2d-track-combined": {
+      "races": 84,
+      "top1": 18,
+      "top2": 34,
+      "top3": 46,
+      "top5": 64,
+      "averageWinnerRank": 3.7976190476190474
+    }
+  },
+  "raceComparisonsVsV2A": {
+    "v2d-track-experience": {
+      "equal": 70,
+      "improved": 6,
+      "worse": 8
+    },
+    "v2d-track-speed": {
+      "equal": 72,
+      "worse": 8,
+      "improved": 4
+    },
+    "v2d-track-combined": {
+      "equal": 74,
+      "improved": 4,
+      "worse": 6
+    }
+  },
+  "meetingTop3ComparisonsVsV2A": {
+    "v2d-track-experience": {
+      "equal": 10,
+      "worse": 1,
+      "better": 1
+    },
+    "v2d-track-speed": {
+      "worse": 1,
+      "equal": 10,
+      "better": 1
+    },
+    "v2d-track-combined": {
+      "equal": 11,
+      "better": 1
+    }
+  },
+  "perMeeting": [
+    {
+      "date": "2026-06-13",
+      "raceDayName": "Bjerke",
+      "trackCode": "B",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 5,
+          "top3": 6,
+          "top5": 7,
+          "averageWinnerRank": 2.4285714285714284
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 1,
+          "top2": 6,
+          "top3": 6,
+          "top5": 7,
+          "averageWinnerRank": 2.2857142857142856
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 5,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.5714285714285716
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 1,
+          "top2": 6,
+          "top3": 6,
+          "top5": 7,
+          "averageWinnerRank": 2.2857142857142856
+        }
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "raceDayName": "Bjerke",
+      "trackCode": "B",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.7142857142857144
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.4285714285714284
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 4,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 4.142857142857143
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 1,
+          "top2": 4,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.857142857142857
+        }
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "trackCode": "OA",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 2,
+          "top5": 4,
+          "averageWinnerRank": 4.571428571428571
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 2,
+          "top5": 4,
+          "averageWinnerRank": 5.285714285714286
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 2,
+          "top5": 4,
+          "averageWinnerRank": 4.714285714285714
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 2,
+          "top5": 4,
+          "averageWinnerRank": 5
+        }
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "raceDayName": "Forus",
+      "trackCode": "F",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 4,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.5714285714285716
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 2,
+          "top2": 2,
+          "top3": 5,
+          "top5": 7,
+          "averageWinnerRank": 2.857142857142857
+        }
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "raceDayName": "Jarlsberg",
+      "trackCode": "J",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 5,
+          "averageWinnerRank": 3.857142857142857
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 5,
+          "averageWinnerRank": 4.142857142857143
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 5,
+          "averageWinnerRank": 3.857142857142857
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 2,
+          "top2": 3,
+          "top3": 3,
+          "top5": 5,
+          "averageWinnerRank": 4
+        }
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayName": "Harstad",
+      "trackCode": "HA",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 4,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 5.285714285714286
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 4,
+          "top5": 4,
+          "averageWinnerRank": 5
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 4,
+          "top5": 4,
+          "averageWinnerRank": 5.142857142857143
+        }
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "raceDayName": "Sørlandet",
+      "trackCode": "ST",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.7142857142857144
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.7142857142857144
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.7142857142857144
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 3,
+          "top2": 4,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.7142857142857144
+        }
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "raceDayName": "Biri",
+      "trackCode": "BI",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 7,
+          "averageWinnerRank": 3.2857142857142856
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 7,
+          "averageWinnerRank": 3.2857142857142856
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 7,
+          "averageWinnerRank": 3.2857142857142856
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 1,
+          "top2": 2,
+          "top3": 3,
+          "top5": 7,
+          "averageWinnerRank": 3.2857142857142856
+        }
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "raceDayName": "Momarken",
+      "trackCode": "M",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 4.857142857142857
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 3,
+          "top5": 5,
+          "averageWinnerRank": 4.428571428571429
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 4.857142857142857
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 0,
+          "top2": 1,
+          "top3": 3,
+          "top5": 4,
+          "averageWinnerRank": 4.714285714285714
+        }
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "raceDayName": "Bergen",
+      "trackCode": "BT",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 5,
+          "top2": 5,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 2.857142857142857
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 5,
+          "top2": 5,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 3
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 4,
+          "top2": 5,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 3.142857142857143
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 5,
+          "top2": 5,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 3
+        }
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "trackCode": "OA",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 0,
+          "top3": 1,
+          "top5": 3,
+          "averageWinnerRank": 5.285714285714286
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 0,
+          "top2": 0,
+          "top3": 1,
+          "top5": 4,
+          "averageWinnerRank": 5.571428571428571
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 0,
+          "top2": 0,
+          "top3": 2,
+          "top5": 3,
+          "averageWinnerRank": 5.285714285714286
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 0,
+          "top2": 0,
+          "top3": 1,
+          "top5": 3,
+          "averageWinnerRank": 5.285714285714286
+        }
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "raceDayName": "Jarlsberg",
+      "trackCode": "J",
+      "variants": {
+        "v2a-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 3,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.5714285714285716
+        },
+        "v2d-track-experience": {
+          "races": 7,
+          "top1": 0,
+          "top2": 2,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 3.5714285714285716
+        },
+        "v2d-track-speed": {
+          "races": 7,
+          "top1": 1,
+          "top2": 3,
+          "top3": 4,
+          "top5": 5,
+          "averageWinnerRank": 3.5714285714285716
+        },
+        "v2d-track-combined": {
+          "races": 7,
+          "top1": 0,
+          "top2": 3,
+          "top3": 5,
+          "top5": 6,
+          "averageWinnerRank": 3.4285714285714284
+        }
+      }
+    }
+  ],
+  "guardrails": {
+    "developmentOnly": true,
+    "validationUsed": false,
+    "oldHoldoutUsed": false,
+    "freshSystemSetUsed": false,
+    "marketUsed": false,
+    "annualStatisticsUsed": false,
+    "driverFeatureUsed": false,
+    "championModified": false
+  }
+}

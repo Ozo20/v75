@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0",
+  "model": "candidate-v2a-speed",
+  "calibration": "softmax-single-beta",
+  "rankingChanged": false,
+  "fitScope": "development-only",
+  "testScope": "independent-robustness",
+  "trainDates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+  ],
+  "testDates": [
+    "2026-03-28",
+    "2026-04-11",
+    "2026-04-18",
+    "2026-04-25",
+    "2026-05-02",
+    "2026-05-09",
+    "2026-05-16",
+    "2026-05-23",
+    "2026-05-30",
+    "2026-06-06"
+  ],
+  "beta": 2.872,
+  "development": {
+    "races": 84,
+    "beta": 2.872,
+    "meanLogLoss": 2.0949812517909594,
+    "meanRaceBrier": 0.8524156902878406,
+    "meanWinnerProbability": 0.15336728908107275,
+    "top1": {
+      "meanPredictedProbability": 0.27421429278539605,
+      "observedHitRate": 0.23809523809523808
+    },
+    "cumulativeCoverage": {
+      "1": {
+        "meanPredictedMass": 0.27421429278539605,
+        "observedCoverage": 0.23809523809523808,
+        "gap": 0.03611905469015797
+      },
+      "2": {
+        "meanPredictedMass": 0.4496828588183259,
+        "observedCoverage": 0.39285714285714285,
+        "gap": 0.056825715961183076
+      },
+      "3": {
+        "meanPredictedMass": 0.5789255662925179,
+        "observedCoverage": 0.5357142857142857,
+        "gap": 0.0432112805782322
+      },
+      "5": {
+        "meanPredictedMass": 0.7499205138549618,
+        "observedCoverage": 0.75,
+        "gap": -7.948614503816565e-05
+      }
+    }
+  },
+  "developmentUniform": {
+    "meanLogLoss": 2.3698165050581035,
+    "meanRaceBrier": 0.9041858604358604
+  },
+  "robustness": {
+    "races": 70,
+    "beta": 2.872,
+    "meanLogLoss": 2.0130428517778807,
+    "meanRaceBrier": 0.8323717107959755,
+    "meanWinnerProbability": 0.16640952736332565,
+    "top1": {
+      "meanPredictedProbability": 0.28911810969856694,
+      "observedHitRate": 0.2571428571428571
+    },
+    "cumulativeCoverage": {
+      "1": {
+        "meanPredictedMass": 0.28911810969856694,
+        "observedCoverage": 0.2571428571428571,
+        "gap": 0.03197525255570982
+      },
+      "2": {
+        "meanPredictedMass": 0.4582246198197955,
+        "observedCoverage": 0.5,
+        "gap": -0.04177538018020449
+      },
+      "3": {
+        "meanPredictedMass": 0.5796145415288122,
+        "observedCoverage": 0.6714285714285714,
+        "gap": -0.09181402989975918
+      },
+      "5": {
+        "meanPredictedMass": 0.7529934788023556,
+        "observedCoverage": 0.8285714285714286,
+        "gap": -0.07557794976907306
+      }
+    }
+  },
+  "robustnessUniform": {
+    "meanLogLoss": 2.348667077739144,
+    "meanRaceBrier": 0.9024320124320124
+  },
+  "guardrails": {
+    "validationDatesUsed": false,
+    "priorHoldoutDatesUsed": false,
+    "marketUsed": false,
+    "v2aWeightsChanged": false
+  }
+}

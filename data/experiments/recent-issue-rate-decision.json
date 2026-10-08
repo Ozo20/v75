@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "feature": "recentIssueRate",
+  "decision": "NO_PREDICTIVE_SIGNAL_FOR_PROMOTION",
+  "modelAction": "NO_CHALLENGER_CREATED",
+  "evaluation": {
+    "meetings": 36,
+    "races": 252,
+    "entries": 2644,
+    "meanWinnerIssueRate": 0.17449194763063378,
+    "meanFieldIssueRate": 0.18479446423298132,
+    "meanWinnerIssuePercentile": 0.4949349316908841,
+    "v2aTop1ByIssueBin": {
+      "0_STABLE": {
+        "predictions": 136,
+        "wins": 30,
+        "winRate": 0.22058823529411764,
+        "meanRecentIssueRate": 0.0
+      },
+      "1_LOW": {
+        "predictions": 45,
+        "wins": 13,
+        "winRate": 0.28888888888888886,
+        "meanRecentIssueRate": 0.11630170316301702
+      },
+      "2_MODERATE": {
+        "predictions": 28,
+        "wins": 11,
+        "winRate": 0.39285714285714285,
+        "meanRecentIssueRate": 0.2227215849843587
+      },
+      "3_HIGH": {
+        "predictions": 43,
+        "wins": 10,
+        "winRate": 0.23255813953488372,
+        "meanRecentIssueRate": 0.49244610422678664
+      }
+    }
+  },
+  "interpretation": "Actual winners are not systematically concentrated toward the stable end of their fields, and V2A Top1 win rate does not decrease monotonically with recentIssueRate.",
+  "guardrails": {
+    "doNotCreateGenericIssuePenalty": true,
+    "doNotCreateBankerPenaltyFromThisDiagnostic": true,
+    "datasetConsumed": true,
+    "v2aRemainsChampion": true
+  }
+}

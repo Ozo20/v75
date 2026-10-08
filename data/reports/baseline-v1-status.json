@@ -1,0 +1,14 @@
+{
+  "model": "baseline-v1",
+  "status": "UNSAFE_FOR_HISTORICAL_BENCHMARKING",
+  "reason": "horseAnnualStatistics.currentYear failed point-in-time validation",
+  "audit": {
+    "uniqueHorses": 818,
+    "repeatedHorses": 279,
+    "exactChecks": 425,
+    "exactMatches": 0,
+    "previousTargetIncludedPattern": 218,
+    "otherMismatches": 207
+  },
+  "action": "Do not use baseline-v1 performance as a valid historical benchmark. Preserve only for diagnostics."
+}

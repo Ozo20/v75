@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "development-only-read-only",
+  "dates": [
+    "2026-06-13",
+    "2026-06-16",
+    "2026-06-20",
+    "2026-06-27",
+    "2026-07-04",
+    "2026-07-11",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-08-01",
+    "2026-08-08",
+    "2026-08-15",
+    "2026-08-22"
+  ],
+  "meetings": [
+    {
+      "date": "2026-06-13",
+      "raceDayKey": "BJ_NR_2026-06-13",
+      "raceDayName": "Bjerke",
+      "derivedTrackCode": "BJ",
+      "entries": 80,
+      "entriesWithPriorSameTrack": 0
+    },
+    {
+      "date": "2026-06-16",
+      "raceDayKey": "BJ_NR_2026-06-16",
+      "raceDayName": "Bjerke",
+      "derivedTrackCode": "BJ",
+      "entries": 64,
+      "entriesWithPriorSameTrack": 0
+    },
+    {
+      "date": "2026-06-20",
+      "raceDayKey": "OR_NR_2026-06-20",
+      "raceDayName": "Varig Orkla",
+      "derivedTrackCode": "OR",
+      "entries": 80,
+      "entriesWithPriorSameTrack": 0
+    },
+    {
+      "date": "2026-06-27",
+      "raceDayKey": "FO_NR_2026-06-27",
+      "raceDayName": "Forus",
+      "derivedTrackCode": "FO",
+      "entries": 72,
+      "entriesWithPriorSameTrack": 0
+    },
+    {
+      "date": "2026-07-04",
+      "raceDayKey": "JA_NR_2026-07-04",
+      "raceDayName": "Jarlsberg",
+      "derivedTrackCode": "JA",
+      "entries": 70,
+      "entriesWithPriorSameTrack": 0
+    },
+    {
+      "date": "2026-07-11",
+      "raceDayKey": "HA_NR_2026-07-11",
+      "raceDayName": "Harstad",
+      "derivedTrackCode": "HA",
+      "entries": 80,
+      "entriesWithPriorSameTrack": 66
+    },
+    {
+      "date": "2026-07-18",
+      "raceDayKey": "ST_NR_2026-07-18",
+      "raceDayName": "Sørlandet",
+      "derivedTrackCode": "ST",
+      "entries": 73,
+      "entriesWithPriorSameTrack": 28
+    },
+    {
+      "date": "2026-07-25",
+      "raceDayKey": "BI_NR_2026-07-25",
+      "raceDayName": "Biri",
+      "derivedTrackCode": "BI",
+      "entries": 87,
+      "entriesWithPriorSameTrack": 35
+    },
+    {
+      "date": "2026-08-01",
+      "raceDayKey": "MO_NR_2026-08-01",
+      "raceDayName": "Momarken",
+      "derivedTrackCode": "MO",
+      "entries": 82,
+      "entriesWithPriorSameTrack": 0
+    },
+    {
+      "date": "2026-08-08",
+      "raceDayKey": "BT_NR_2026-08-08",
+      "raceDayName": "Bergen",
+      "derivedTrackCode": "BT",
+      "entries": 71,
+      "entriesWithPriorSameTrack": 40
+    },
+    {
+      "date": "2026-08-15",
+      "raceDayKey": "OR_NR_2026-08-15",
+      "raceDayName": "Varig Orkla",
+      "derivedTrackCode": "OR",
+      "entries": 81,
+      "entriesWithPriorSameTrack": 0
+    },
+    {
+      "date": "2026-08-22",
+      "raceDayKey": "JA_NR_2026-08-22",
+      "raceDayName": "Jarlsberg",
+      "derivedTrackCode": "JA",
+      "entries": 78,
+      "entriesWithPriorSameTrack": 0
+    }
+  ],
+  "entries": 918,
+  "historyRows": 4579,
+  "historyTrackCoverage": 1.0,
+  "horseTrackCoverage": {
+    "sameTrackLatest": 82,
+    "sameTrackLatestRate": 0.08932461873638345,
+    "atLeast1": 169,
+    "atLeast1Rate": 0.1840958605664488,
+    "atLeast2": 113,
+    "atLeast2Rate": 0.12309368191721133,
+    "atLeast3": 94,
+    "atLeast3Rate": 0.10239651416122005
+  },
+  "repeatDistribution": {
+    "0": 749,
+    "4": 28,
+    "2": 19,
+    "3": 19,
+    "5": 47,
+    "1": 56
+  },
+  "guardrails": {
+    "currentTrackDerivedFromRaceDayKey": true,
+    "historicalTrackSource": "history[].trackCode",
+    "outcomesRead": false,
+    "marketRead": false,
+    "validationUsed": false,
+    "championModified": false
+  }
+}
