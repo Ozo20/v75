@@ -109,6 +109,10 @@ with tempfile.TemporaryDirectory() as temp:
         records.append(
             {
                 "index": index,
+                "capturedAt": (
+                    "2026-10-08T16:00:"
+                    f"{index:02d}+02:00"
+                ),
                 "url": (
                     "https://www.rikstoto.no/"
                     "api/lyntoto/draft?"
@@ -147,6 +151,38 @@ with tempfile.TemporaryDirectory() as temp:
         analysis[
             "selectedGroup"
         ][
+            "sampleCount"
+        ]
+        == 3
+    )
+
+    observation = analysis[
+        "observation"
+    ]
+
+    assert (
+        observation[
+            "firstCapturedAt"
+        ]
+        == "2026-10-08T16:00:01+02:00"
+    )
+
+    assert (
+        observation[
+            "lastCapturedAt"
+        ]
+        == "2026-10-08T16:00:03+02:00"
+    )
+
+    assert (
+        observation[
+            "durationSeconds"
+        ]
+        == 2.0
+    )
+
+    assert (
+        observation[
             "sampleCount"
         ]
         == 3

@@ -7,6 +7,7 @@ import statistics
 import zipfile
 from collections import Counter
 from dataclasses import dataclass
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urlparse
@@ -466,6 +467,54 @@ def analyze_capture(
         selected
     )
 
+    capture_times = []
+
+    for record, _, _ in selected:
+        raw_captured_at = record.get(
+            "capturedAt"
+        )
+
+        if not isinstance(
+            raw_captured_at,
+            str,
+        ):
+            raise ValueError(
+                "Selected Stalltips draft "
+                "has no capturedAt timestamp"
+            )
+
+        try:
+            captured_at = datetime.fromisoformat(
+                raw_captured_at
+            )
+        except ValueError as exc:
+            raise ValueError(
+                "Invalid capturedAt timestamp: "
+                f"{raw_captured_at}"
+            ) from exc
+
+        if captured_at.tzinfo is None:
+            raise ValueError(
+                "capturedAt must be timezone-aware"
+            )
+
+        capture_times.append(
+            captured_at
+        )
+
+    first_captured_at = min(
+        capture_times
+    )
+
+    last_captured_at = max(
+        capture_times
+    )
+
+    observation_duration_seconds = (
+        last_captured_at
+        - first_captured_at
+    ).total_seconds()
+
     bet_data = selected[
         0
     ][1]
@@ -786,6 +835,20 @@ def analyze_capture(
                     rejected,
                 "groupCount":
                     len(groups),
+            },
+        "observation":
+            {
+                "firstCapturedAt":
+                    first_captured_at.isoformat(),
+                "lastCapturedAt":
+                    last_captured_at.isoformat(),
+                "durationSeconds":
+                    round(
+                        observation_duration_seconds,
+                        3,
+                    ),
+                "sampleCount":
+                    sample_count,
             },
         "selectedGroup":
             {
