@@ -510,6 +510,46 @@ def analyze_capture(
         capture_times
     )
 
+    timing_source = "RECORD_CALLBACK_LEGACY_APPROXIMATE"
+
+    manifest_started_at = manifest.get(
+        "captureStartedAt"
+    )
+
+    manifest_ended_at = manifest.get(
+        "captureEndedAt"
+    )
+
+    if (
+        isinstance(manifest_started_at, str)
+        and isinstance(manifest_ended_at, str)
+    ):
+        session_started_at = datetime.fromisoformat(
+            manifest_started_at
+        )
+
+        session_ended_at = datetime.fromisoformat(
+            manifest_ended_at
+        )
+
+        if (
+            session_started_at.tzinfo is None
+            or session_ended_at.tzinfo is None
+        ):
+            raise ValueError(
+                "Capture session timestamps must "
+                "be timezone-aware"
+            )
+
+        if session_ended_at < session_started_at:
+            raise ValueError(
+                "captureEndedAt precedes captureStartedAt"
+            )
+
+        first_captured_at = session_started_at
+        last_captured_at = session_ended_at
+        timing_source = "CAPTURE_SESSION_WINDOW"
+
     observation_duration_seconds = (
         last_captured_at
         - first_captured_at
@@ -847,6 +887,8 @@ def analyze_capture(
                         observation_duration_seconds,
                         3,
                     ),
+                "timingSource":
+                    timing_source,
                 "sampleCount":
                     sample_count,
             },

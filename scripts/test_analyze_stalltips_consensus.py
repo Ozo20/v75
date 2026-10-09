@@ -134,6 +134,10 @@ with tempfile.TemporaryDirectory() as temp:
     (root / "manifest.json").write_text(
         json.dumps(
             {
+                "captureStartedAt":
+                    "2026-10-08T15:59:55+02:00",
+                "captureEndedAt":
+                    "2026-10-08T16:01:05+02:00",
                 "captureCount": 3,
                 "records": records,
             }
@@ -164,21 +168,21 @@ with tempfile.TemporaryDirectory() as temp:
         observation[
             "firstCapturedAt"
         ]
-        == "2026-10-08T16:00:01+02:00"
+        == "2026-10-08T15:59:55+02:00"
     )
 
     assert (
         observation[
             "lastCapturedAt"
         ]
-        == "2026-10-08T16:00:03+02:00"
+        == "2026-10-08T16:01:05+02:00"
     )
 
     assert (
         observation[
             "durationSeconds"
         ]
-        == 2.0
+        == 70.0
     )
 
     assert (
@@ -186,6 +190,13 @@ with tempfile.TemporaryDirectory() as temp:
             "sampleCount"
         ]
         == 3
+    )
+
+    assert (
+        observation[
+            "timingSource"
+        ]
+        == "CAPTURE_SESSION_WINDOW"
     )
 
     assert (
