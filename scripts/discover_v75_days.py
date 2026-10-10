@@ -63,6 +63,55 @@ def race_number(race_key: str) -> int:
     )
 
 
+def extract_race_days(
+    payload: Any,
+) -> list[dict[str, Any]]:
+    root = unwrap(payload)
+
+    if not isinstance(root, list):
+        raise RuntimeError(
+            "Unexpected race-day response"
+        )
+
+    race_days: list[
+        dict[str, Any]
+    ] = []
+
+    for item in root:
+        if not isinstance(
+            item,
+            dict,
+        ):
+            continue
+
+        nested = item.get(
+            "raceDays"
+        )
+
+        if isinstance(
+            nested,
+            list,
+        ):
+            race_days.extend(
+                race_day
+                for race_day
+                in nested
+                if isinstance(
+                    race_day,
+                    dict,
+                )
+            )
+            continue
+
+        if (
+            item.get("raceDay")
+            or item.get("raceDayKey")
+        ):
+            race_days.append(item)
+
+    return race_days
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
 
@@ -118,9 +167,10 @@ def main() -> None:
             args.to_date,
         ):
             path = (
-                "/api/racedays/dates/"
+                "/api/results/racedays/"
                 f"{chunk_start.isoformat()}/"
-                f"{chunk_end.isoformat()}"
+                f"{chunk_end.isoformat()}/"
+                "list"
             )
 
             response = request.get(path)
@@ -136,17 +186,11 @@ def main() -> None:
                     f"{response.status} {path}"
                 )
 
-            race_days = unwrap(
-                response.json()
-            )
-
-            if not isinstance(
-                race_days,
-                list,
-            ):
-                raise RuntimeError(
-                    "Unexpected race-day response"
+            race_days = (
+                extract_race_days(
+                    response.json()
                 )
+            )
 
             for race_day in race_days:
                 if (
@@ -167,6 +211,9 @@ def main() -> None:
 
                 race_day_key = (
                     race_day.get(
+                        "raceDay"
+                    )
+                    or race_day.get(
                         "raceDayKey"
                     )
                 )
@@ -195,6 +242,23 @@ def main() -> None:
                         pool.get("races")
                         or []
                     )
+
+                    if not races:
+                        race_numbers = (
+                            pool.get(
+                                "raceNumbers"
+                            )
+                            or []
+                        )
+
+                        races = [
+                            (
+                                f"{race_day_key}#"
+                                f"{int(value)}"
+                            )
+                            for value
+                            in race_numbers
+                        ]
 
                     if not races:
                         continue
