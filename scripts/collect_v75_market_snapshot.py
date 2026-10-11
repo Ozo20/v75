@@ -8,6 +8,7 @@ import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from statistics import median
 from typing import Any
 from zoneinfo import ZoneInfo
 
@@ -148,6 +149,277 @@ def race_number(
     )
 
 
+def parse_race_start_time(
+    value: Any,
+) -> datetime | None:
+    if not isinstance(
+        value,
+        str,
+    ):
+        return None
+
+    candidate = value.strip()
+
+    if not candidate:
+        return None
+
+    if candidate.endswith("Z"):
+        candidate = (
+            candidate[:-1]
+            + "+00:00"
+        )
+
+    try:
+        parsed = (
+            datetime.fromisoformat(
+                candidate
+            )
+        )
+    except ValueError:
+        return None
+
+    if parsed.tzinfo is None:
+        return parsed.replace(
+            tzinfo=OSLO
+        )
+
+    return parsed.astimezone(
+        OSLO
+    )
+
+
+def first_race_start_time(
+    race_day: dict[str, Any],
+    pool: dict[str, Any],
+    first_race_number: int,
+) -> str | None:
+    # Prefer the exact physical race start.
+    # Fall back to pool.startTime only when
+    # Rikstoto exposes it directly.
+    for race in (
+        race_day.get("races")
+        or []
+    ):
+        if not isinstance(
+            race,
+            dict,
+        ):
+            continue
+
+        try:
+            number = int(
+                race.get(
+                    "raceNumber"
+                )
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            continue
+
+        if number != first_race_number:
+            continue
+
+        value = race.get(
+            "startTime"
+        )
+
+        if isinstance(
+            value,
+            str,
+        ) and value.strip():
+            return value
+
+    value = pool.get(
+        "startTime"
+    )
+
+    if isinstance(
+        value,
+        str,
+    ) and value.strip():
+        return value
+
+    return None
+
+
+def summarize_turnover(
+    market_result: Any,
+) -> dict[str, Any]:
+    if not isinstance(
+        market_result,
+        list,
+    ):
+        return {
+            "available":
+                False,
+            "qualityStatus":
+                "UNEXPECTED_MARKET_SHAPE",
+            "estimateNok":
+                None,
+            "legCount":
+                0,
+            "legs":
+                [],
+        }
+
+    legs: list[
+        dict[str, Any]
+    ] = []
+
+    for index, leg in enumerate(
+        market_result,
+        1,
+    ):
+        if not isinstance(
+            leg,
+            dict,
+        ):
+            continue
+
+        distribution = (
+            leg.get(
+                "investmentDistribution"
+            )
+            or []
+        )
+
+        if not isinstance(
+            distribution,
+            list,
+        ):
+            continue
+
+        values: list[float] = []
+
+        for horse in distribution:
+            if not isinstance(
+                horse,
+                dict,
+            ):
+                continue
+
+            value = horse.get(
+                "investment"
+            )
+
+            if isinstance(
+                value,
+                (int, float),
+            ) and not isinstance(
+                value,
+                bool,
+            ):
+                numeric = float(
+                    value
+                )
+
+                if numeric >= 0:
+                    values.append(
+                        numeric
+                    )
+
+        if not values:
+            continue
+
+        legs.append(
+            {
+                "leg":
+                    index,
+                "raceNumber":
+                    leg.get(
+                        "raceNumber"
+                    ),
+                "raceKey":
+                    leg.get(
+                        "raceKey"
+                    ),
+                "updatedTime":
+                    leg.get(
+                        "updatedTime"
+                    ),
+                "runnerCount":
+                    len(
+                        distribution
+                    ),
+                "investmentSumNok":
+                    sum(values),
+            }
+        )
+
+    totals = [
+        row[
+            "investmentSumNok"
+        ]
+        for row in legs
+        if row[
+            "investmentSumNok"
+        ] > 0
+    ]
+
+    if not totals:
+        return {
+            "available":
+                False,
+            "qualityStatus":
+                "NO_POSITIVE_INVESTMENT",
+            "estimateNok":
+                None,
+            "legCount":
+                len(legs),
+            "legs":
+                legs,
+        }
+
+    estimate = float(
+        median(totals)
+    )
+
+    minimum = min(totals)
+    maximum = max(totals)
+
+    spread_pct = (
+        100.0
+        * (
+            maximum
+            - minimum
+        )
+        / estimate
+        if estimate > 0
+        else None
+    )
+
+    return {
+        "available":
+            True,
+        "qualityStatus":
+            (
+                "COMPLETE_7_LEGS"
+                if len(totals) == 7
+                else "INCOMPLETE_LEGS"
+            ),
+        "estimateNok":
+            estimate,
+        "minLegSumNok":
+            minimum,
+        "maxLegSumNok":
+            maximum,
+        "crossLegSpreadPct":
+            spread_pct,
+        "legCount":
+            len(totals),
+        "semantics":
+            (
+                "Median across V75 legs of "
+                "sum(investment) over runners. "
+                "investment is interpreted as NOK."
+            ),
+        "legs":
+            legs,
+    }
+
+
 def discover_v75(
     from_date: date,
     to_date: date,
@@ -244,6 +516,18 @@ def discover_v75(
                 in races
             ]
 
+            first_number = min(
+                numbers
+            )
+
+            first_start_time = (
+                first_race_start_time(
+                    race_day,
+                    pool,
+                    first_number,
+                )
+            )
+
             meetings.append(
                 {
                     "raceDayKey":
@@ -273,7 +557,9 @@ def discover_v75(
                     "raceNumbers":
                         numbers,
                     "firstRaceNumber":
-                        min(numbers),
+                        first_number,
+                    "firstRaceStartTime":
+                        first_start_time,
                 }
             )
 
@@ -468,9 +754,9 @@ def main() -> None:
 
     summary: dict[str, Any] = {
         "schemaVersion":
-            "1.0",
+            "1.1",
         "collector":
-            "v75-market-snapshot-v1",
+            "v75-market-snapshot-v2",
         "capturedAt":
             captured_at.isoformat(),
         "guardrails": {
@@ -491,6 +777,8 @@ def main() -> None:
                 args.race_day_key,
             "firstRaceNumber":
                 args.first_race_number,
+            "firstRaceStartTime":
+                None,
         }
 
         summary["mode"] = (
@@ -658,6 +946,53 @@ def main() -> None:
         market_result
     )
 
+    turnover = summarize_turnover(
+        market_result
+    )
+
+    first_start_raw = meeting.get(
+        "firstRaceStartTime"
+    )
+
+    first_start = (
+        parse_race_start_time(
+            first_start_raw
+        )
+    )
+
+    minutes_to_start = (
+        (
+            first_start
+            - captured_at
+        ).total_seconds()
+        / 60.0
+        if first_start is not None
+        else None
+    )
+
+    summary["timing"] = {
+        "firstV75StartAt":
+            (
+                first_start.isoformat()
+                if first_start is not None
+                else None
+            ),
+        "sourceValue":
+            first_start_raw,
+        "minutesToStart":
+            minutes_to_start,
+        "status":
+            (
+                "KNOWN"
+                if first_start is not None
+                else "UNKNOWN"
+            ),
+    }
+
+    summary["turnover"] = (
+        turnover
+    )
+
     summary["market"] = {
         "endpoint":
             market_path,
@@ -721,6 +1056,39 @@ def main() -> None:
     print(
         "Percentage values:",
         len(percentages),
+    )
+    print(
+        "Turnover estimate:",
+        summary[
+            "turnover"
+        ][
+            "estimateNok"
+        ],
+        "NOK",
+    )
+    print(
+        "Turnover quality:",
+        summary[
+            "turnover"
+        ][
+            "qualityStatus"
+        ],
+    )
+    print(
+        "First V75 start:",
+        summary[
+            "timing"
+        ][
+            "firstV75StartAt"
+        ],
+    )
+    print(
+        "Minutes to start:",
+        summary[
+            "timing"
+        ][
+            "minutesToStart"
+        ],
     )
     print(
         f"Saved: {run_dir}"
