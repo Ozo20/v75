@@ -420,36 +420,13 @@ def summarize_turnover(
     }
 
 
-def discover_v75(
-    from_date: date,
-    to_date: date,
-) -> tuple[
-    bytes,
-    Any,
-    list[dict[str, Any]],
-]:
-    path = (
-        "/api/racedays/dates/"
-        f"{from_date.isoformat()}/"
-        f"{to_date.isoformat()}"
-    )
-
-    (
-        status,
-        raw,
-        payload,
-    ) = get_json_bytes(path)
-
-    if status != 200:
-        raise RuntimeError(
-            f"Discovery failed: "
-            f"HTTP {status}"
-        )
-
-    race_days = unwrap(payload)
+def extract_race_days(
+    payload: Any,
+) -> list[dict[str, Any]]:
+    root = unwrap(payload)
 
     if not isinstance(
-        race_days,
+        root,
         list,
     ):
         raise RuntimeError(
@@ -457,13 +434,84 @@ def discover_v75(
             "response shape"
         )
 
+    race_days: list[
+        dict[str, Any]
+    ] = []
+
+    for item in root:
+        if not isinstance(
+            item,
+            dict,
+        ):
+            continue
+
+        nested = item.get(
+            "raceDays"
+        )
+
+        if isinstance(
+            nested,
+            list,
+        ):
+            race_days.extend(
+                race_day
+                for race_day
+                in nested
+                if isinstance(
+                    race_day,
+                    dict,
+                )
+            )
+            continue
+
+        if (
+            item.get("raceDay")
+            or item.get(
+                "raceDayKey"
+            )
+        ):
+            race_days.append(
+                item
+            )
+
+    return race_days
+
+
+def normalize_v75_meetings(
+    payload: Any,
+) -> list[dict[str, Any]]:
+    race_days = (
+        extract_race_days(
+            payload
+        )
+    )
+
     meetings: list[
         dict[str, Any]
     ] = []
 
     for race_day in race_days:
+        if (
+            race_day.get(
+                "countryIsoCode"
+            )
+            != "NO"
+        ):
+            continue
+
+        if (
+            race_day.get(
+                "isDomestic"
+            )
+            is not True
+        ):
+            continue
+
         race_day_key = (
             race_day.get(
+                "raceDay"
+            )
+            or race_day.get(
                 "raceDayKey"
             )
         )
@@ -475,6 +523,12 @@ def discover_v75(
             race_day.get("pools")
             or []
         ):
+            if not isinstance(
+                pool,
+                dict,
+            ):
+                continue
+
             if (
                 pool.get("product")
                 != "V75"
@@ -486,35 +540,48 @@ def discover_v75(
                 or []
             )
 
+            if not races:
+                race_numbers = (
+                    pool.get(
+                        "raceNumbers"
+                    )
+                    or []
+                )
+
+                try:
+                    races = [
+                        (
+                            f"{race_day_key}#"
+                            f"{int(value)}"
+                        )
+                        for value
+                        in race_numbers
+                    ]
+                except (
+                    TypeError,
+                    ValueError,
+                ):
+                    continue
+
             if len(races) != 7:
                 continue
 
-            is_multi_track = (
-                pool.get(
-                    "isMultiTrack"
-                )
-                is True
-            )
-
-            single_track = (
-                not is_multi_track
-                and all(
-                    race_key.startswith(
-                        race_day_key
-                        + "#"
+            try:
+                numbers = [
+                    race_number(
+                        str(
+                            race_key
+                        )
                     )
                     for race_key
                     in races
-                )
-            )
-
-            numbers = [
-                race_number(
-                    race_key
-                )
-                for race_key
-                in races
-            ]
+                ]
+            except (
+                TypeError,
+                ValueError,
+                IndexError,
+            ):
+                continue
 
             first_number = min(
                 numbers
@@ -528,10 +595,35 @@ def discover_v75(
                 )
             )
 
+            is_multi_track = (
+                pool.get(
+                    "isMultiTrack"
+                )
+                is True
+            )
+
+            single_track = (
+                not is_multi_track
+                and all(
+                    str(
+                        race_key
+                    ).startswith(
+                        str(
+                            race_day_key
+                        )
+                        + "#"
+                    )
+                    for race_key
+                    in races
+                )
+            )
+
             meetings.append(
                 {
                     "raceDayKey":
-                        race_day_key,
+                        str(
+                            race_day_key
+                        ),
                     "raceDayName":
                         race_day.get(
                             "raceDayName"
@@ -571,6 +663,42 @@ def discover_v75(
                     "poolKey"
                 )
             ),
+        )
+    )
+
+    return meetings
+
+
+def discover_v75(
+    from_date: date,
+    to_date: date,
+) -> tuple[
+    bytes,
+    Any,
+    list[dict[str, Any]],
+]:
+    path = (
+        "/api/results/racedays/"
+        f"{from_date.isoformat()}/"
+        f"{to_date.isoformat()}/"
+        "list"
+    )
+
+    (
+        status,
+        raw,
+        payload,
+    ) = get_json_bytes(path)
+
+    if status != 200:
+        raise RuntimeError(
+            f"Discovery failed: "
+            f"HTTP {status}"
+        )
+
+    meetings = (
+        normalize_v75_meetings(
+            payload
         )
     )
 
@@ -754,13 +882,17 @@ def main() -> None:
 
     summary: dict[str, Any] = {
         "schemaVersion":
-            "1.1",
+            "1.2",
         "collector":
             "v75-market-snapshot-v2",
         "capturedAt":
             captured_at.isoformat(),
         "guardrails": {
-            "resultsEndpointUsed":
+            "scheduleDiscoveryUsed":
+                not direct,
+            "resultsNamespaceScheduleEndpointUsed":
+                not direct,
+            "outcomeEndpointUsed":
                 False,
             "outcomesUsed":
                 False,
