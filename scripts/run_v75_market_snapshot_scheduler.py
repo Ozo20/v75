@@ -209,7 +209,9 @@ def select_meeting(
     if future:
         return future[0][3]
 
-    return candidates[-1][3]
+    # Never reuse an already-started meeting as the upcoming target.
+    # Discovery with no future race must fail closed.
+    return None
 
 
 def same_day_single_track(
@@ -611,6 +613,28 @@ def execute_once(
     )
 
     if selected is None:
+        # Surface the distinction between an empty calendar, an
+        # expired race and a race with no verifiable V75-1 start.
+        single_track = [
+            item
+            for item in meetings
+            if item.get("singleTrack") is True
+        ]
+        start_times = [
+            meeting_start(item)
+            for item in single_track
+        ]
+        result["discovery"] = {
+            "singleTrackCandidateCount": len(single_track),
+            "missingStartTimeCount": sum(
+                value is None for value in start_times
+            ),
+            "alreadyStartedCount": sum(
+                value is not None and value < now_oslo
+                for value in start_times
+            ),
+        }
+
         decision = (
             scheduler
             .decide_snapshot_slot(
