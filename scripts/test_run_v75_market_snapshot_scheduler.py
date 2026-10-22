@@ -621,6 +621,40 @@ with tempfile.TemporaryDirectory() as tmp:
     )
 
 
+with tempfile.TemporaryDirectory() as tmp:
+    out = Path(tmp)
+    now = datetime(2026, 10, 10, 20, 0, tzinfo=OSLO)
+
+    assert module.select_meeting([past], now) is None
+    expired = module.execute_once(
+        output_root=out,
+        now=now,
+        discover_fn=lambda _a, _b: (b"{}", {}, [past]),
+        collector_runner=fake_collector,
+    )
+    assert expired["state"] == "NO_UPCOMING_V75"
+    assert expired["discovery"]["alreadyStartedCount"] == 1
+    assert expired["discovery"]["missingStartTimeCount"] == 0
+    print("PASS: past-only discovery does not select an expired target.")
+
+with tempfile.TemporaryDirectory() as tmp:
+    out = Path(tmp)
+    unknown_start = {
+        **future,
+        "firstRaceStartTime": None,
+    }
+    unresolved = module.execute_once(
+        output_root=out,
+        now=datetime(2026, 10, 10, 12, 0, tzinfo=OSLO),
+        discover_fn=lambda _a, _b: (b"{}", {}, [unknown_start]),
+        collector_runner=fake_collector,
+    )
+    assert unresolved["state"] == "NO_UPCOMING_V75"
+    assert unresolved["discovery"]["singleTrackCandidateCount"] == 1
+    assert unresolved["discovery"]["missingStartTimeCount"] == 1
+    print("PASS: missing V75-1 start time is reported, not guessed.")
+
+
 try:
     module.execute_once(
         output_root=
